@@ -5,7 +5,9 @@
 	"name": "Deep Delves",
 	"description": "A Village Friends add-on that revamps the underground: eight rare places to break into while caving or mining. A Delvers' Camp of working miners, a Deepwatch Post holding the cave road, a hermit's mushroom hollow, and the lost works of the Old Delvers: a buried mine, a drowned cistern, a crystal grotto, an ossuary and a sunken forge.",
 	"authors": ["minal"],
-	"contact": {},
+	"contact": {
+		"sources": "https://github.com/radhepa/CaveExpansion"
+	},
 	"license": "MIT",
 	"icon": "assets/deepdelves/icon.png",
 	"environment": "*",

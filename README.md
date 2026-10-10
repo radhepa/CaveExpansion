@@ -1,5 +1,7 @@
 # Deep Delves
 
+Source: https://github.com/radhepa/CaveExpansion (the mod's name is Deep Delves, mod id `deepdelves`).
+
 A Village Friends add-on for Minecraft 26.3 (Fabric) that revamps the underground. Somewhere in the rock,
 rarely, there are places: you break into them while strip-mining or stumble on them while caving.
 
