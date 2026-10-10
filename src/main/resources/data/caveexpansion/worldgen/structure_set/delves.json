@@ -1,0 +1,76 @@
+{
+  "structures": [
+    {
+      "structure": "caveexpansion:camp",
+      "weight": 3
+    },
+    {
+      "structure": "caveexpansion:seam",
+      "weight": 3
+    },
+    {
+      "structure": "caveexpansion:post",
+      "weight": 2
+    },
+    {
+      "structure": "caveexpansion:cistern",
+      "weight": 2
+    },
+    {
+      "structure": "caveexpansion:hermit",
+      "weight": 2
+    },
+    {
+      "structure": "caveexpansion:grotto",
+      "weight": 2
+    },
+    {
+      "structure": "caveexpansion:ossuary",
+      "weight": 2
+    },
+    {
+      "structure": "caveexpansion:forge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "caveexpansion:spread",
+    "spacing": 30,
+    "separation": 12,
+    "salt": 1046207133,
+    "avoid": [
+      {
+        "set": "minecraft:villages",
+        "chunks": 4
+      },
+      {
+        "set": "villagefriends:homesteads",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:dens",
+        "chunks": 3
+      },
+      {
+        "set": "plataclan:warrens",
+        "chunks": 5
+      },
+      {
+        "set": "minecraft:trial_chambers",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:ancient_cities",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:strongholds",
+        "chunks": 3
+      },
+      {
+        "set": "minecraft:ocean_monuments",
+        "chunks": 2
+      }
+    ]
+  }
+}

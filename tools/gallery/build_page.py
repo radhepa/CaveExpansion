@@ -1,4 +1,4 @@
-"""Builds the Deep Delves showcase page (one self-contained HTML file) from a game-test run's screenshots and
+"""Builds the Cave Expansion showcase page (one self-contained HTML file) from a game-test run's screenshots and
 report, the design previews and the dialogue.
 
     python tools/gallery/build_page.py <shots folder> <out.html>
@@ -19,8 +19,8 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 TEMPLATE = os.path.join(HERE, 'page.html')
-LINES = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'deepdelves', 'talk', 'lines.json')
-CATALOG = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'deepdelves', 'deepdelves', 'catalog.json')
+LINES = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'caveexpansion', 'talk', 'lines.json')
+CATALOG = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'caveexpansion', 'caveexpansion', 'catalog.json')
 PREVIEWS = os.path.join(ROOT, 'tools', 'delves', 'out')
 
 # Shallowest first: the page reads like a descent.
@@ -130,7 +130,7 @@ def main():
     for role, label in (('miner', 'A miner'), ('foreman', 'The foreman'), ('warden', 'A Deepwatch warden'), ('captain', 'The captain'), ('hermit', 'The hermit')):
         pool = [l for l in lines.get(f'{role}.chat', []) if '{' not in l]
         if pool: sample.append(f'<blockquote><p>{html.escape(rnd.choice(pool))}</p><cite>{label}</cite></blockquote>')
-    mods = ', '.join(m for m in report.get('mods', []) if m not in ('deepdelves', 'deepdelves-gametest'))
+    mods = ', '.join(m for m in report.get('mods', []) if m not in ('caveexpansion', 'caveexpansion-gametest'))
     page = open(TEMPLATE, encoding='utf-8').read()
     page = (page.replace('{{SECTIONS}}', ''.join(sections)).replace('{{BARS}}', bars)
             .replace('{{CELLS}}', str(census.get('cells', 81))).replace('{{FOUND}}', str(census.get('delves', '?')))

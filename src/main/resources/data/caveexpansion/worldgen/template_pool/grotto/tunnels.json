@@ -1,0 +1,32 @@
+{
+  "fallback": "caveexpansion:grotto/caps",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:grotto/passage",
+        "processors": "caveexpansion:grotto",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:grotto/turn",
+        "processors": "caveexpansion:grotto",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:grotto/cap",
+        "processors": "caveexpansion:grotto",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "fallback": "caveexpansion:post/road_ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/road",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/road_left",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/road_right",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/road_rise",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/road_fall",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:post/waypost",
+        "processors": "caveexpansion:post",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

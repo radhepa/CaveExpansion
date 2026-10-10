@@ -1,0 +1,20 @@
+{
+  "type": "caveexpansion:delve",
+  "biomes": "#caveexpansion:has_delve",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "start_pool": "caveexpansion:ossuary/start",
+  "size": 4,
+  "max_distance_from_center": {
+    "horizontal": 60,
+    "vertical": 20
+  },
+  "depth": {
+    "min_y": -52,
+    "max_y": -16
+  },
+  "cover": 12,
+  "seek_caves": true,
+  "clearance": 10
+}

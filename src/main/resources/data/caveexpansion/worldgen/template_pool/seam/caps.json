@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/cap",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/stope",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caveexpansion:block/prospecting_table"
+    },
+    "facing=east": {
+      "model": "caveexpansion:block/prospecting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caveexpansion:block/prospecting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caveexpansion:block/prospecting_table",
+      "y": 270
+    }
+  }
+}

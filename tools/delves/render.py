@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw
 from kit import CACHE, ROOT, parse
 
 TEX = os.path.join(CACHE, 'textures', 'block')
-MOD_TEX = os.path.join(ROOT, 'src', 'main', 'resources', 'assets', 'deepdelves', 'textures', 'block')
+MOD_TEX = os.path.join(ROOT, 'src', 'main', 'resources', 'assets', 'caveexpansion', 'textures', 'block')
 
 TINTS = {'grass_block_top': (124, 189, 107), 'short_grass': (124, 189, 107), 'tall_grass_top': (124, 189, 107),
          'tall_grass_bottom': (124, 189, 107), 'fern': (124, 189, 107), 'oak_leaves': (89, 174, 48),

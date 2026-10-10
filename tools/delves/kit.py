@@ -1,4 +1,4 @@
-"""Building blocks for the Deep Delves structures: block templates written as native, compressed
+"""Building blocks for the Cave Expansion structures: block templates written as native, compressed
 Minecraft 26.3 structure files (standard library only), plus checks that every block and property
 exists in vanilla's own blockstate files (or is one of the few mod blocks listed below).
 
@@ -22,7 +22,7 @@ import struct
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 RES = os.path.join(ROOT, 'src', 'main', 'resources')
-NS = 'deepdelves'
+NS = 'caveexpansion'
 DATA_VERSION = 5023  # Minecraft 26.3, as in vanilla's own templates
 CACHE = os.path.join(HERE, '.cache', 'assets', 'minecraft')
 
@@ -30,8 +30,8 @@ FACINGS = {'north', 'south', 'east', 'west'}
 HAUNTS = ('restless_miner', 'drowned', 'crypt_keeper', 'cinder')
 # Our own blocks (and the two Village Friends workstations the Deepwatch guards train at), with their properties.
 MOD_BLOCKS = {
-    'deepdelves:haunt': {'kind': set(HAUNTS)},
-    'deepdelves:prospecting_table': {'facing': FACINGS},
+    'caveexpansion:haunt': {'kind': set(HAUNTS)},
+    'caveexpansion:prospecting_table': {'facing': FACINGS},
     'villagefriends:training_dummy': {'facing': FACINGS},
     'villagefriends:archery_target': {'facing': FACINGS},
 }
@@ -41,7 +41,7 @@ HIDDEN_PROPERTIES = {'waterlogged', 'powered', 'persistent', 'distance', 'occupi
                      'attached', 'conditional', 'lit', 'hanging', 'open', 'bottom', 'in_wall', 'inverted'}
 
 # "Soft" natural blocks: placed only where the world is already solid (never fill a cave). The build's
-# deepdelves:natural processor gets exactly this list.
+# caveexpansion:natural processor gets exactly this list.
 NATURAL = sorted({
     'minecraft:stone', 'minecraft:deepslate', 'minecraft:tuff', 'minecraft:andesite', 'minecraft:diorite',
     'minecraft:granite', 'minecraft:calcite', 'minecraft:amethyst_block', 'minecraft:budding_amethyst',
@@ -58,8 +58,8 @@ NATURAL = sorted({
 
 # Who can live in a delve. role -> (profession, level). Wardens and the captain are Village Friends guards.
 ROLES = {
-    'miner': ('deepdelves:miner', 2),
-    'foreman': ('deepdelves:miner', 4),
+    'miner': ('caveexpansion:miner', 2),
+    'foreman': ('caveexpansion:miner', 4),
     'warden_knight': ('villagefriends:knight', 2),
     'warden_archer': ('villagefriends:archer', 2),
     'captain': ('villagefriends:knight', 4),
@@ -221,7 +221,7 @@ HORIZONTAL = {'north': (0, -1), 'south': (0, 1), 'west': (-1, 0), 'east': (1, 0)
 OPPOSITE = {'north': 'south', 'south': 'north', 'east': 'west', 'west': 'east', 'up': 'down', 'down': 'up'}
 LEFT = {'north': 'west', 'west': 'south', 'south': 'east', 'east': 'north'}
 RIGHT = {v: k for k, v in LEFT.items()}
-ANCHOR = 'deepdelves:anchor'
+ANCHOR = 'caveexpansion:anchor'
 
 
 class Template:
@@ -393,7 +393,7 @@ class Template:
         (restless_miner, drowned, crypt_keeper or cinder; see DESIGN.md) and the marker is gone. Leave 2 blocks of
         air above it."""
         assert kind in HAUNTS, kind
-        self.set(x, y, z, f'deepdelves:haunt[kind={kind}]', {'id': 'deepdelves:haunt'})
+        self.set(x, y, z, f'caveexpansion:haunt[kind={kind}]', {'id': 'caveexpansion:haunt'})
         self.notes.setdefault('haunts', []).append(kind)
 
     def bed(self, x, y, z, facing, color='red'):

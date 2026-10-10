@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/collapse",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/outfall",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-# Deep Delves: design
+# Cave Expansion: design
 
-Deep Delves is an add-on for the Village Friends modpack (Minecraft 26.3, Fabric). It revamps the underground
+Cave Expansion is an add-on for the Village Friends modpack (Minecraft 26.3, Fabric). It revamps the underground
 with **eight rare places** you stumble on while caving or strip-mining. Three are lived in (Village Friends
 residents: miners, the Deepwatch garrison, a hermit); five are abandoned, with guardians, lore and loot.
 
@@ -39,23 +39,23 @@ underground), the RPG add-on, Not-So-Vanilla Mobs, Turning Seasons, End Friends 
   stories of "silver folk". Our delves never stand near a Plata den or warren (see Placement).
 
 ## Rarity and placement
-- One structure set, `deepdelves:delves`: one delve per 30 x 30 chunk cell (about one in every 480 x 480
+- One structure set, `caveexpansion:delves`: one delve per 30 x 30 chunk cell (about one in every 480 x 480
   blocks), separation 12; which of the eight is weighted (camp 3, seam 3, the others 2, forge 1).
-- `config/deepdelves.json` `"rarity"`: multiplies the spacing (2.0 = half as many per side, 0.5 = more).
-- The placement (`deepdelves:spread`) keeps clear of: villages 4 chunks, Village Friends homesteads 2,
+- `config/caveexpansion.json` `"rarity"`: multiplies the spacing (2.0 = half as many per side, 0.5 = more).
+- The placement (`caveexpansion:spread`) keeps clear of: villages 4 chunks, Village Friends homesteads 2,
   Plata dens 3, Plata warrens 5, trial chambers 4, ancient cities 4, strongholds 3, ocean monuments 2. A set
   from a mod that isn't installed is skipped.
-- `deepdelves:delve` (the structure type) picks the delve's height inside its depth range so that it **touches
+- `caveexpansion:delve` (the structure type) picks the delve's height inside its depth range so that it **touches
   a cave** (it samples the noise caves around it) and has no water or lava in its core, then checks that every
   piece keeps at least `cover` blocks of ground above it (an exposed branch is dropped; an exposed core means no
   delve here). Never in the Deep Dark.
 - Lived-in delves stop monsters spawning inside their pieces (and are lit anyway).
 
 ## What's in the code
-- `deepdelves:delve` structure type, `deepdelves:spread` placement, `deepdelves:natural` processor.
+- `caveexpansion:delve` structure type, `caveexpansion:spread` placement, `caveexpansion:natural` processor.
 - Blocks: `prospecting_table` (the miner's workstation), `haunt` (invisible guardian marker).
-- Profession `deepdelves:miner` (trades in `data/deepdelves/villager_trade/miner`).
-- Residents: Village Friends residents with the homestead "dweller" attachment (roles `deepdelves_miner`,
+- Profession `caveexpansion:miner` (trades in `data/caveexpansion/villager_trade/miner`).
+- Residents: Village Friends residents with the homestead "dweller" attachment (roles `caveexpansion_miner`,
   `_foreman`, `_warden`, `_captain`, `_hermit`): no village, own day, tethered to their delve, own dialogue,
   rumours about other delves, gear (copper helmet and pick for miners).
 - Haunts: `restless_miner` (Not-So-Vanilla Mobs Lost Miners when installed, else zombies in miners' gear),
@@ -79,7 +79,7 @@ Look at your previews (open the PNGs) and fix what looks wrong. `designs/_exampl
 
 ### The module
 ```python
-KEY = 'camp'                          # the structure id: deepdelves:camp
+KEY = 'camp'                          # the structure id: caveexpansion:camp
 NAME = "Delvers' Camp"
 FEATURES = ['...']                    # one line per notable thing (for the docs and the showcase)
 STRUCTURE = {
@@ -146,7 +146,7 @@ def pieces(): return [...]            # every Template; names are '<key>/<piece>
 - `resident(x, y, z, role, facing)`: a villager standing at (x, y, z) (feet; the block below must be solid).
   Roles: `miner`, `foreman`, `warden_knight`, `warden_archer`, `captain`, `hermit`. Give each a bed somewhere in
   the delve (vanilla beds, `red_bed[facing=..,part=foot|head]`), lived-in delves only.
-- Job sites: miners need `deepdelves:prospecting_table[facing=..]` (one per miner + foreman); wardens need
+- Job sites: miners need `caveexpansion:prospecting_table[facing=..]` (one per miner + foreman); wardens need
   `villagefriends:training_dummy[facing=..]` (knights) and `villagefriends:archery_target[facing=..]` (archers);
   the hermit needs a `brewing_stand`. Without one they lose the job.
 - **Light**: lived-in delves must be lit (lanterns, torches): `kit.dark_spots(t)` lists walkable cells under
@@ -235,7 +235,7 @@ the **masterwork vault** reached across the lava (a narrow bridge or stepping st
   middle (they stay within 20 blocks of it).
 - Their day (mixins into Village Friends' homestead hooks): no tavern, bell or market; work at their stations,
   eat and sleep in the delve; the garrison keeps a night watch.
-- Talk: Village Friends' own window; every line comes from `data/deepdelves/talk/lines.json` (compiled from
+- Talk: Village Friends' own window; every line comes from `data/caveexpansion/talk/lines.json` (compiled from
   `tools/talk/lines/*.txt`). Rumours name the nearest other delve, its direction and roughly how far.
 - Miner trades (levels 1-5): coal/copper/iron/gold/redstone/lapis/diamond for emeralds; torches, ladders,
   lanterns, rails, TNT, a copper helmet, pickaxes, and a **survey map** to the nearest other delve.

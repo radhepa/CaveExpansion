@@ -1,0 +1,146 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_damage",
+            "damage": {
+              "type": "minecraft:uniform",
+              "min": 0.25,
+              "max": 0.7
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:enchant_randomly",
+            "options": [
+              "minecraft:depth_strider",
+              "minecraft:aqua_affinity",
+              "minecraft:respiration",
+              "minecraft:frost_walker",
+              "minecraft:impaling",
+              "minecraft:loyalty"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "caveexpansion:chests/cistern/vault"
+}

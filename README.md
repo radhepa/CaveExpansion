@@ -1,6 +1,6 @@
-# Deep Delves
+# Cave Expansion
 
-Source: https://github.com/radhepa/CaveExpansion (the mod's name is Deep Delves, mod id `deepdelves`).
+Source: https://github.com/radhepa/CaveExpansion (mod id `caveexpansion`).
 
 A Village Friends add-on for Minecraft 26.3 (Fabric) that revamps the underground. Somewhere in the rock,
 rarely, there are places: you break into them while strip-mining or stumble on them while caving.
@@ -22,7 +22,7 @@ test world 47 of 81 cells grew one, about **one delve per 630 x 630 blocks**. Wh
 the Sunken Forge is the rarest (3 of those 47; the others 6 or 7 each). A delve always touches a
 cave somewhere, so cavers find them, and sits mostly in solid rock, so strip-miners break into them.
 
-Want them rarer or commoner? `config/deepdelves.json`:
+Want them rarer or commoner? `config/caveexpansion.json`:
 ```json
 { "rarity": 1.0, "rumors": true }
 ```
@@ -55,7 +55,7 @@ copper helmets), drowned, the Keeper of the Ossuary (a tall armoured skeleton) a
   only; residents get RPG conversation options like any Village Friends resident).
 
 ## Finding one to look at
-`/locate structure deepdelves:camp` (or `seam`, `post`, `cistern`, `hermit`, `grotto`, `ossuary`, `forge`).
+`/locate structure caveexpansion:camp` (or `seam`, `post`, `cistern`, `hermit`, `grotto`, `ossuary`, `forge`).
 
 ## Building
 Needs JDK 25 (`JAVA_HOME`) and a Village Friends jar to compile against (`libs/village-friends-<ver>.jar`, or the
@@ -65,6 +65,6 @@ VillageFriends launcher instance's mods folder, or `-PvillageFriendsJar=<path>`)
 python tools/delves/build.py      # structures, pools, loot, trades (from tools/delves/designs/)
 python tools/talk/talk.py         # dialogue (from tools/talk/lines/)
 gradlew build                     # jar in build/libs/
-gradlew runClientGameTest -PtestHeap=2g [-PdeepTests=camp,post] [-PcompatMods=<instance mods folder>]
+gradlew runClientGameTest -PtestHeap=2g [-PcaveTests=camp,post] [-PcompatMods=<instance mods folder>]
 ```
 Design notes and the building contract are in [DESIGN.md](DESIGN.md).

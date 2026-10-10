@@ -1,4 +1,4 @@
-"""Compile the delve residents' dialogue: tools/talk/lines/<role>.txt -> data/deepdelves/talk/lines.json.
+"""Compile the delve residents' dialogue: tools/talk/lines/<role>.txt -> data/caveexpansion/talk/lines.json.
 
   python tools/talk/talk.py            check and write
   python tools/talk/talk.py --check    check only
@@ -15,7 +15,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
-OUT = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'deepdelves', 'talk', 'lines.json')
+OUT = os.path.join(ROOT, 'src', 'main', 'resources', 'data', 'caveexpansion', 'talk', 'lines.json')
 
 ROLES = ['miner', 'foreman', 'warden', 'captain', 'hermit']
 # A role with a parent falls back to the parent's pools for anything it doesn't have.

@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:candle",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.25,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 10,
+              "max": 25
+            },
+            "options": "#minecraft:on_random_loot"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#caveexpansion:on_survey_maps",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "search_radius": 60,
+              "skip_existing_chunks": true
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.caveexpansion.survey_map"
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "caveexpansion:chests/seam/shack"
+}

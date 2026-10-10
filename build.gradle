@@ -2,7 +2,7 @@ plugins {
 	id 'net.fabricmc.fabric-loom' version "${loom_version}"
 }
 
-// Deep Delves is an add-on: it needs Village Friends to run (Village Friends never needs it).
+// Cave Expansion is an add-on: it needs Village Friends to run (Village Friends never needs it).
 // It compiles against a released Village Friends jar, found in this order:
 //   -PvillageFriendsJar=<path>, then libs/village-friends-*.jar, then the newest
 //   village-friends-*.jar in the VillageFriends launcher instance's mods folder.
@@ -25,7 +25,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"deepdelves" {
+		"caveexpansion" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
@@ -33,15 +33,15 @@ loom {
 
 	runs {
 		configureEach {
-			// ./gradlew runClientGameTest -PdeepTests=Camp,Post runs only the named client tests.
-			if (project.hasProperty('deepTests')) {
-				vmArg "-Ddeepdelves.tests=${project.property('deepTests')}"
+			// ./gradlew runClientGameTest -PcaveTests=Camp,Post runs only the named client tests.
+			if (project.hasProperty('caveTests')) {
+				vmArg "-Dcaveexpansion.tests=${project.property('caveTests')}"
 			}
 			if (project.hasProperty('testHeap')) {
 				vmArg "-Xmx${project.property('testHeap')}"
 			}
 		}
-		client { programArgs '--username', 'DelveTester' }
+		client { programArgs '--username', 'CaveTester' }
 	}
 }
 
@@ -49,7 +49,7 @@ fabricApi {
 	configureTests {
 		// Client game tests drive the real game and save screenshots: gradlew runClientGameTest
 		createSourceSet = true
-		modId = "deepdelves-gametest"
+		modId = "caveexpansion-gametest"
 		enableGameTests = false
 		enableClientGameTests = true
 		eula = true
@@ -68,7 +68,7 @@ tasks.named('runClientGameTest') {
 			copy {
 				from(project.property('compatMods')) {
 					include '*.jar'
-					exclude 'fabric-api*', 'village-friends-*', 'deep-delves*'
+					exclude 'fabric-api*', 'village-friends-*', 'cave-expansion*'
 				}
 				into mods
 			}
@@ -111,6 +111,6 @@ test {
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_deepdelves" }
+		rename { "${it}_caveexpansion" }
 	}
 }

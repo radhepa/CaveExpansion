@@ -1,0 +1,59 @@
+{
+  "fallback": "caveexpansion:forge/ends",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/passage",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/passage_slag",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/fork",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/stair",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/stores",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:forge/rubble",
+        "processors": "caveexpansion:forge",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

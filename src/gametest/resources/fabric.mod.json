@@ -1,13 +1,13 @@
 {
 	"schemaVersion": 1,
-	"id": "deepdelves-gametest",
+	"id": "caveexpansion-gametest",
 	"version": "1.0.0",
-	"name": "Deep Delves game tests",
+	"name": "Cave Expansion game tests",
 	"environment": "*",
 	"entrypoints": {
-		"fabric-client-gametest": ["dev.deepdelves.test.DelvesClientTest"]
+		"fabric-client-gametest": ["dev.caveexpansion.test.DelvesClientTest"]
 	},
 	"depends": {
-		"deepdelves": "*"
+		"caveexpansion": "*"
 	}
 }

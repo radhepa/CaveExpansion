@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "deepdelves",
+	"id": "caveexpansion",
 	"version": "${version}",
-	"name": "Deep Delves",
+	"name": "Cave Expansion",
 	"description": "A Village Friends add-on that revamps the underground: eight rare places to break into while caving or mining. A Delvers' Camp of working miners, a Deepwatch Post holding the cave road, a hermit's mushroom hollow, and the lost works of the Old Delvers: a buried mine, a drowned cistern, a crystal grotto, an ossuary and a sunken forge.",
 	"authors": ["minal"],
 	"contact": {
 		"sources": "https://github.com/radhepa/CaveExpansion"
 	},
 	"license": "MIT",
-	"icon": "assets/deepdelves/icon.png",
+	"icon": "assets/caveexpansion/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["dev.deepdelves.DeepDelves"],
-		"client": ["dev.deepdelves.client.DeepDelvesClient"]
+		"main": ["dev.caveexpansion.CaveExpansion"],
+		"client": ["dev.caveexpansion.client.CaveExpansionClient"]
 	},
 	"mixins": [
-		"deepdelves.mixins.json"
+		"caveexpansion.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",

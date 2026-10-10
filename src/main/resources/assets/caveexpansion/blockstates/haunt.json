@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "kind=restless_miner": {
+      "model": "caveexpansion:block/haunt"
+    },
+    "kind=drowned": {
+      "model": "caveexpansion:block/haunt"
+    },
+    "kind=crypt_keeper": {
+      "model": "caveexpansion:block/haunt"
+    },
+    "kind=cinder": {
+      "model": "caveexpansion:block/haunt"
+    }
+  }
+}

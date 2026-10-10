@@ -1,4 +1,4 @@
-<title>Deep Delves</title>
+<title>Cave Expansion</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -107,7 +107,7 @@ ul.pack { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 72c
 
     <section class="panel" id="rare">
       <h2>How rare they are</h2>
-      <p>In the test world the game made every placement cell in a block of {{CELLS}} cells around spawn (about 4,300 blocks square). <b>{{FOUND}}</b> of them grew a delve, about one per {{PER}} &times; {{PER}} blocks. A delve always touches a cave somewhere and sits mostly in solid rock, so cavers and strip-miners both find them. <code>config/deepdelves.json</code> sets <code>"rarity"</code>: 2.0 means half as many along each side.</p>
+      <p>In the test world the game made every placement cell in a block of {{CELLS}} cells around spawn (about 4,300 blocks square). <b>{{FOUND}}</b> of them grew a delve, about one per {{PER}} &times; {{PER}} blocks. A delve always touches a cave somewhere and sits mostly in solid rock, so cavers and strip-miners both find them. <code>config/caveexpansion.json</code> sets <code>"rarity"</code>: 2.0 means half as many along each side.</p>
       <div class="bars">{{BARS}}</div>
     </section>
 
@@ -132,9 +132,9 @@ ul.pack { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 72c
     <section class="panel" id="find">
       <h2>Find one</h2>
       <div class="cmds">
-        <div class="cmd"><code>/locate structure deepdelves:camp</code><button type="button">Copy</button></div>
-        <div class="cmd"><code>/locate structure deepdelves:post</code><button type="button">Copy</button></div>
-        <div class="cmd"><code>/locate structure deepdelves:forge</code><button type="button">Copy</button></div>
+        <div class="cmd"><code>/locate structure caveexpansion:camp</code><button type="button">Copy</button></div>
+        <div class="cmd"><code>/locate structure caveexpansion:post</code><button type="button">Copy</button></div>
+        <div class="cmd"><code>/locate structure caveexpansion:forge</code><button type="button">Copy</button></div>
       </div>
       <p>The others: <code>seam</code>, <code>cistern</code>, <code>hermit</code>, <code>grotto</code>, <code>ossuary</code>.</p>
     </section>

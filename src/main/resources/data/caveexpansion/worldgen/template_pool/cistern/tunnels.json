@@ -1,0 +1,50 @@
+{
+  "fallback": "caveexpansion:cistern/ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/conduit",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/steps_up",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/steps_down",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/bend_left",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:cistern/bend_right",
+        "processors": "caveexpansion:cistern",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

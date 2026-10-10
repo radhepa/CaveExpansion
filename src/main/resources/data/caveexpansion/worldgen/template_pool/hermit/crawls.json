@@ -1,0 +1,23 @@
+{
+  "fallback": "caveexpansion:hermit/crawl_ends",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:hermit/crawl",
+        "processors": "caveexpansion:hermit",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:hermit/crawl_bend",
+        "processors": "caveexpansion:hermit",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

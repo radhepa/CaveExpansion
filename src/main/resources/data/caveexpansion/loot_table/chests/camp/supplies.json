@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": 10
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 10
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ladder",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": 9
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 2,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_torch",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "caveexpansion:chests/camp/supplies"
+}

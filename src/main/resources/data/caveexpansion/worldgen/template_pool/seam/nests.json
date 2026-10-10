@@ -1,0 +1,14 @@
+{
+  "fallback": "caveexpansion:seam/caps",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/nest",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

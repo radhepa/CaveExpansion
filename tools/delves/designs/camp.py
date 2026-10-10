@@ -233,7 +233,7 @@ def hall_foreman(t, rng):
     t.chest(1, 1, HZ - 2, 'east', 'camp/foreman')
     t.set(2, 1, HZ - 2, 'bookshelf')
     t.set(2, 2, HZ - 2, 'lantern[hanging=false,waterlogged=false]')
-    t.set(3, 1, HZ - 2, 'deepdelves:prospecting_table[facing=north]')
+    t.set(3, 1, HZ - 2, 'caveexpansion:prospecting_table[facing=north]')
     t.set(5, 1, HZ - 2, 'barrel[facing=up,open=false]')
     t.set(1, 1, 14, 'spruce_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]')
     # survey board on the end wall
@@ -252,7 +252,7 @@ def hall_assay(t, rng):
         for y in (2, 3):
             t.set(x, y, HZ - 1, PLANK)
     for x in (9, 11, 13):
-        t.set(x, 1, HZ - 2, 'deepdelves:prospecting_table[facing=north]')
+        t.set(x, 1, HZ - 2, 'caveexpansion:prospecting_table[facing=north]')
     t.barrel(12, 1, HZ - 2, 'north', 'camp/supplies')
     t.set(8, 1, HZ - 2, 'barrel[facing=up,open=false]')
     t.set(8, 2, HZ - 2, 'lantern[hanging=false,waterlogged=false]')

@@ -1,0 +1,14 @@
+{
+  "fallback": "caveexpansion:camp/caps",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/shaft",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

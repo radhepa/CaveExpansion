@@ -1,9 +1,9 @@
-"""The Deep Delves mod icon: the Old Delvers' mark, a glowing lantern above two crossed pickaxes,
+"""The Cave Expansion mod icon: the Old Delvers' mark, a glowing lantern above two crossed pickaxes,
 on deepslate tiles framed in polished blackstone with a gold inlay, with a few ore flecks in the stone.
 
 Painted at 32x32 from palette-locked rasters (pixel.RAMPS), upscaled 4x with nearest-neighbour.
 
-    python tools/art/icon.py                  # writes src/main/resources/assets/deepdelves/icon.png
+    python tools/art/icon.py                  # writes src/main/resources/assets/caveexpansion/icon.png
     python tools/art/icon.py --check          # verifies the written icon matches this script
     python tools/art/icon.py --preview out.png  # the icon at 128, 64 and 32 px on light and dark grounds
 """
@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import pixel  # noqa: E402
 from pixel import RAMPS as R, raster, stamp, locked  # noqa: E402
 
-DEST = pixel.PROJECT / 'src/main/resources/assets/deepdelves/icon.png'
+DEST = pixel.PROJECT / 'src/main/resources/assets/caveexpansion/icon.png'
 SIZE, SCALE = 32, 4
 
 # Deepslate tiles, 16x8, repeated: a mortar, b-e brick tones (dark to light).

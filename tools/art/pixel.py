@@ -1,4 +1,4 @@
-"""Shared helpers for Deep Delves block art: palette-locked rasters, vanilla assets, cuboid models.
+"""Shared helpers for Cave Expansion block art: palette-locked rasters, vanilla assets, cuboid models.
 
 Every colour a texture may use comes from RAMPS, hand-picked ramps sampled from vanilla textures so
 our art sits next to vanilla blocks. Textures are ASCII rasters ('.' = transparent) mapped through a

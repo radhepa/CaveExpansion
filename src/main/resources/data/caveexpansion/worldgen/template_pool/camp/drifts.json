@@ -1,0 +1,59 @@
+{
+  "fallback": "caveexpansion:camp/caps",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/drift",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/stope",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/turn_r",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/turn_l",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/fork",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:camp/face",
+        "processors": "caveexpansion:camp",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

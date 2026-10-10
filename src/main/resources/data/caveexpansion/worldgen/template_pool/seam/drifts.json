@@ -1,0 +1,59 @@
+{
+  "fallback": "caveexpansion:seam/caps",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/drift",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/sag",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/turn_r",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/turn_l",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/fall",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:seam/stope",
+        "processors": "caveexpansion:seam",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "fallback": "caveexpansion:ossuary/ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/gallery",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/gallery_fallen",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/junction",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/steps",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/tomb",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "caveexpansion:ossuary/collapse",
+        "processors": "caveexpansion:ossuary",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

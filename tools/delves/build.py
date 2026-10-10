@@ -1,4 +1,4 @@
-"""Write everything the Deep Delves structures need in the data pack: the block templates of every design
+"""Write everything the Cave Expansion structures need in the data pack: the block templates of every design
 in designs/, their jigsaw pools, the processor lists, one structure per delve, the structure set (its own
 placement keeps clear of villages, homesteads, the Plata Clan's hideouts and vanilla's big underground
 structures), biome and structure tags, loot tables, the miner's trades and a catalog the game tests read.
@@ -35,7 +35,7 @@ BIOMES = ['bamboo_jungle', 'badlands', 'beach', 'birch_forest', 'cherry_grove', 
           'wooded_badlands']
 
 # The one structure set every delve belongs to: about one delve in each 30 x 30 chunk cell (480 blocks
-# square), rarer or commoner with "rarity" in config/deepdelves.json. Each set listed in AVOID is kept
+# square), rarer or commoner with "rarity" in config/caveexpansion.json. Each set listed in AVOID is kept
 # that many chunks away; a set from a mod that isn't installed is skipped.
 SPACING, SEPARATION, SALT = 30, 12, 1046207133
 AVOID = [('minecraft:villages', 4), ('villagefriends:homesteads', 2), ('plataclan:dens', 3), ('plataclan:warrens', 5),

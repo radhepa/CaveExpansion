@@ -1,4 +1,4 @@
-"""The Prospecting Table: job site of the Delvers' Guild miner (deepdelves:prospecting_table).
+"""The Prospecting Table: job site of the Delvers' Guild miner (caveexpansion:prospecting_table).
 
 A sturdy spruce work table with an iron-bound stone top. On top: a sieve tray of ore chunks, a hand lens,
 a small pick and a tiny miner's lantern. Under the top: sorting bins of coal, copper and raw iron, and an
@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import pixel  # noqa: E402
 from pixel import RAMPS, raster, stamp, locked  # noqa: E402
 
-NS = 'deepdelves'
+NS = 'caveexpansion'
 NAME = 'prospecting_table'
 ASSETS = pixel.PROJECT / f'src/main/resources/assets/{NS}'
 
