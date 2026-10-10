@@ -130,7 +130,7 @@ def main():
     for role, label in (('miner', 'A miner'), ('foreman', 'The foreman'), ('warden', 'A Deepwatch warden'), ('captain', 'The captain'), ('hermit', 'The hermit')):
         pool = [l for l in lines.get(f'{role}.chat', []) if '{' not in l]
         if pool: sample.append(f'<blockquote><p>{html.escape(rnd.choice(pool))}</p><cite>{label}</cite></blockquote>')
-    mods = ', '.join(m for m in report.get('mods', []) if m not in ('caveexpansion', 'caveexpansion-gametest'))
+    mods = ', '.join(m for m in report.get('mods', []) if not m.startswith(('caveexpansion', 'deepdelves')))
     page = open(TEMPLATE, encoding='utf-8').read()
     page = (page.replace('{{SECTIONS}}', ''.join(sections)).replace('{{BARS}}', bars)
             .replace('{{CELLS}}', str(census.get('cells', 81))).replace('{{FOUND}}', str(census.get('delves', '?')))
