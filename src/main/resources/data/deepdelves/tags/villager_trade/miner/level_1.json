@@ -1,0 +1,8 @@
+{
+  "values": [
+    "deepdelves:miner/coal",
+    "deepdelves:miner/ladders",
+    "deepdelves:miner/raw_copper",
+    "deepdelves:miner/torches"
+  ]
+}

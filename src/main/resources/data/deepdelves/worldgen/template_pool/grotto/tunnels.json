@@ -1,0 +1,32 @@
+{
+  "fallback": "deepdelves:grotto/caps",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:grotto/passage",
+        "processors": "deepdelves:grotto",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:grotto/turn",
+        "processors": "deepdelves:grotto",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:grotto/cap",
+        "processors": "deepdelves:grotto",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

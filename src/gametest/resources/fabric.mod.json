@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "deepdelves-gametest",
+	"version": "1.0.0",
+	"name": "Deep Delves game tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": ["dev.deepdelves.test.DelvesClientTest"]
+	},
+	"depends": {
+		"deepdelves": "*"
+	}
+}

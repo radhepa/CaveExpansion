@@ -1,0 +1,14 @@
+{
+  "fallback": "deepdelves:camp/caps",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/shaft",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

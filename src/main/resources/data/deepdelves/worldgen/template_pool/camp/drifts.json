@@ -1,0 +1,59 @@
+{
+  "fallback": "deepdelves:camp/caps",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/drift",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/stope",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/turn_r",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/turn_l",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/fork",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:camp/face",
+        "processors": "deepdelves:camp",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

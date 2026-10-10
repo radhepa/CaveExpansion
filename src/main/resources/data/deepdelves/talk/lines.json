@@ -1,0 +1,1253 @@
+{
+ "parents": {
+  "foreman": "miner",
+  "captain": "warden"
+ },
+ "pools": {
+  "captain.adventure": [
+   "Explore if you must. Go sideways, not down. Down is where the stair is, and you've no business there.",
+   "If you find the Hush, the black sculk places, turn back. I know what hunts there. I've no wish to meet it.",
+   "Take a friend if you can. Twelve of us went down together, and still it wasn't enough. One alone is less.",
+   "The Old Delvers left halls all through this rock. Read their carvings. They knew things we've forgotten.",
+   "Come back by the road when you're done. I like to write \"returned\" in the Log.",
+   "Mark your route, carry milk for the cave spiders, and never trust the silence in a big cave."
+  ],
+  "captain.chat": [
+   "I've kept the Deepwatch Log longer than any of my wardens have been on the watch.",
+   "The Log is older than the post. The first pages are in a hand nobody can read anymore.",
+   "My wardens are young. They should be. The road wears you out.",
+   "I don't ask for brave wardens. I ask for careful ones. Brave ones go down stairs.",
+   "The Deepgate was here before the walls. We only built the post to keep it company.",
+   "The lantern on our banner was carved over the Deepgate long before the Watch came. We borrowed it.",
+   "People think the hard part of a captaincy is giving orders. It's writing names on the barracks wall.",
+   "I read the old entries some nights. Same monsters, same road, same fear. It comforts me, oddly.",
+   "The Guild sends its thanks down the road in barrels of flour. I've never had kinder letters.",
+   "Lamp lit, road watched, gate shut. Three things. Do them every watch and the world above stays whole.",
+   "I don't mind the dark. It's honest about itself.",
+   "My wardens grumble about the stew. A post that grumbles is a post that's alive.",
+   "Sit with me a while. Most days nobody speaks to me except to report.",
+   "The lever beside the Deepgate has a lock on it. I carry the key. I'd rather carry anything else.",
+   "Every captain of this post has stood where I stand and looked at that door. Every one of us wondered."
+  ],
+  "captain.greet": [
+   "{player}. Welcome to {place}. Lamp lit, road watched, gate shut.",
+   "Ah, {player}. Come in. I'll put the Log aside.",
+   "Captain {name}, of the Deepwatch. You're welcome here while you keep the peace.",
+   "Below, we hold. Good to see you, {player}.",
+   "Good {time}. My wardens tell me you came up the road quietly. That speaks well of you.",
+   "{player}. Sit, if you like. The chair is hard, but it's dry.",
+   "Welcome. Forgive me, I was miles away. The Log does that.",
+   "Sit by the fire, {player}. The road is cold this deep.",
+   "Ah. I wondered whose step that was."
+  ],
+  "captain.greet.friend": [
+   "{player}. Good. I was hoping it would be you.",
+   "Come in, friend. I'll pour you something. The Log can wait.",
+   "You're always welcome at my fire, {player}. Always.",
+   "Ah, {player}. My wardens brighten when you come. So do I.",
+   "{player}. Still walking back up, every time. Keep doing that.",
+   "You're back on the road, {player}. I'm glad. I'll write it down."
+  ],
+  "captain.greet.stranger": [
+   "I'm {name}, captain of this post. Answer my wardens' questions, and then you're our guest.",
+   "A stranger. Stand in the light where I can see you. Thank you. Now, what's your road?",
+   "You may rest here, eat, warm yourself. You may not go past the Deepgate. Those are the terms.",
+   "My wardens challenged you? Good. They're meant to. Don't take it to heart.",
+   "Who walks the road? You don't know the answer. Then you're new. Welcome, and mind yourself.",
+   "Not many who find this post aren't lost. Which are you?"
+  ],
+  "captain.heart": [
+   "I count the five of us who came back. Then I count the seven who didn't. Every night.",
+   "Sometimes I think the Deepgate is waiting for me. Not angry. Patient.",
+   "If I fall, the key goes to whichever warden is steadiest. I've already chosen. I haven't told them.",
+   "I want my wardens to grow old above ground. That's all. That's the whole of my ambition.",
+   "You walk in and out of the dark as if it were nothing, {player}. I envy that.",
+   "Some days the weight of this post is nothing. Some days it's the whole mountain.",
+   "When my watch is truly over, I want to sit by a river and listen to water that isn't dripping."
+  ],
+  "captain.news": [
+   "The Log has had three quiet watches in a row. I've learned not to trust that.",
+   "The supply cart's due within the month. We're down to our last barrel of arrows and our last good joke.",
+   "One of my archers saw torchlight on the far road where no camp should be. I've sent word to the Guild.",
+   "The Deepgate's hinges were cold to the touch this morning. Colder than the stone. I've written it down.",
+   "Word from the other posts: all quiet along the ways down. For now.",
+   "My wardens turned back a band of rattlers at the bend last night. No one hurt. That's the news I like."
+  ],
+  "captain.night": [
+   "I don't sleep much. The Log is good company at night, and it doesn't snore.",
+   "At night I walk the wall and lay my hand on the Deepgate. Cold iron. Still shut. Good.",
+   "The dark watch was always mine, even as a young warden. I hear things better at night.",
+   "Go and sleep, {player}. The Watch is awake. That's what we're for."
+  ],
+  "captain.past": [
+   "Twelve of us went down the Long Stair, years ago. Five came back up. I was the youngest.",
+   "We were sent down to learn how deep it goes. We never learned. It goes on.",
+   "Our Log entry for that patrol is four words long. \"The stair goes on.\" I wrote them.",
+   "I won't tell you what's down there. Not because it's secret. Because I'd have to remember it properly.",
+   "I was a quarry hand up top, before the Watch. I liked the sky. I still think about it.",
+   "The captain before me was one of the five as well. Gone now. That leaves me.",
+   "I swore the oath young. \"I do not go down.\" I broke that line once, on orders. Never again, orders or no.",
+   "The night we came back up, the post had kept every brazier burning for us. They weren't sure we were still us.",
+   "I've buried more wardens than I've trained. No. That's not true. It only feels true.",
+   "When I took the captaincy, the old captain gave me the key and said one word: \"Don't.\" That was all."
+  ],
+  "captain.rumor": [
+   "The Log names {rumor_name}, {rumor_dist} to the {rumor_dir}. I've read that entry many times.",
+   "My patrols have walked as far as {rumor_name}, to the {rumor_dir}. No further, on my orders.",
+   "There's {rumor_name} to the {rumor_dir}. If you go, tell me what you find. The Log wants it.",
+   "An old captain marked {rumor_name} on the post's map, {rumor_dist} to the {rumor_dir}. A steady hand, that one.",
+   "If you must wander, go {rumor_dir}, toward {rumor_name}. At least it isn't down.",
+   "I sent two wardens toward {rumor_name}, out to the {rumor_dir}, last season. They still argue over what they saw.",
+   "The Guild carts pass {rumor_name} {rumor_dist} to the {rumor_dir}. The drivers never fail to mention it."
+  ],
+  "captain.work": [
+   "I read every line my wardens write in the Log. Every one. Then I add my own.",
+   "Each watch I try the Deepgate bar myself. My wardens check it too. I check their checking.",
+   "The rule is mine to keep: no one passes the Deepgate. Not lords, not Guild masters, not friends.",
+   "Drills, patrols, supplies, letters. Captaincy is mostly counting, {player}. Counting and listening.",
+   "I send a patrol down the road every third day. Out to the last torch, a little past, then home.",
+   "The key to the gate-lever hangs on a chain round my neck. It's lighter than it looks. Heavier than it feels.",
+   "When the Guild asks to dig near the post, I say no. When they ask why, I point at the Deepgate.",
+   "I teach my wardens to fear the right things. The dark you can't see into, and the bravery you can't take back.",
+   "Each season I send a runner to the Guild camps. \"Cave roads quiet,\" the message says. I make sure it's true first."
+  ],
+  "foreman.adventure": [
+   "Going down? Tell someone. Tell me. I'll write it in the Ledger and come looking if you don't come back.",
+   "A cracked roof that drips isn't your roof. Go round it.",
+   "Stay out of the Hush. Black stone, breathing moss, a quiet that hurts your ears. Something listens there. Give it nothing to hear.",
+   "Take water, take food, and take more torches than your pride says you need.",
+   "The Deepwatch are slow to trust, but they hold the deep roads. Be honest with them and they'll be fair.",
+   "The Old Delvers' halls are fine to look at. What they sealed, leave sealed.",
+   "Never dig straight down. I've carried up folk who did."
+  ],
+  "foreman.chat": [
+   "Every cart goes in the Ore Ledger. Every one. Ore that isn't written down didn't happen.",
+   "I've three delvers and one roof. I count all four every morning.",
+   "My lot are good. Loud, hungry, and good.",
+   "Folk think a foreman just shouts. I also worry. Quietly. Mostly at night.",
+   "The empty hook over the door? That's for the Buried Seam. Every Guild camp keeps one.",
+   "You judge a camp by its props, not its ore.",
+   "I don't like rich seams. Rich seams make folk greedy, and greedy folk rob pillars.",
+   "The Guild pays by the cart. I'd pay by the years kept, if I could.",
+   "The Ledger's got a column for ore and a column for close calls. The second one keeps me up.",
+   "I sound every roof myself. Tap, listen. Tap, listen. The crew tease me. The crew are alive.",
+   "Don't tell the others, but I like this camp. Best rock I've worked in years.",
+   "Torches are cheap. Delvers aren't. Spend torches.",
+   "Old Hesk was my foreman once. Told stories so tall you could prop a roof with them.",
+   "I keep the spare picks under my bunk. Picks go missing otherwise. So do pies.",
+   "Stay as long as you like. Pull your weight and keep your voice down after dark.",
+   "When I was young I wanted to find gold. Now I just want to find all of us at supper.",
+   "Grumble's older than two of my crew. Squeaks worse than all three."
+  ],
+  "foreman.greet": [
+   "{player}. Wipe your boots. Then we'll talk.",
+   "Light to you. Came in by the drift, I hope, and not through my wall.",
+   "Ah. You. Good. One less thing to worry about.",
+   "Welcome to {place}. Mind the roof, mind the rails, mind me.",
+   "Sit, {player}. You look like you've been arguing with granite.",
+   "{player}. I was doing the Ledger. Any excuse to stop is welcome.",
+   "Light behind you, light ahead. Good to see you whole.",
+   "Hm. Still breathing, I see. I'll mark that down.",
+   "Come in. Don't touch the props. Don't touch the Ledger. Touch the stew, if you must.",
+   "Quiet {time}. I don't trust it, but I'll take it."
+  ],
+  "foreman.greet.friend": [
+   "{player}. Good. The crew's been asking after you. So have I, a bit.",
+   "There's a seat by the forge for you. Don't let it go to your head.",
+   "Light to you, friend. And the roof over you.",
+   "I'd half started to worry. Then I remembered how stubborn you are.",
+   "{player}! Come in. You're the only one here who never asks me for more pay."
+  ],
+  "foreman.greet.stranger": [
+   "You broke into my camp. That wall was holding things up, you know.",
+   "Stop there. I'm {name}, foreman of {place}. And you are?",
+   "A stranger, this deep. Either you know what you're doing or you're about to learn.",
+   "Keep your hands where I can see them and your pick off my props.",
+   "Guild camp. Guild rules. First one: mind the roof. Second one: mind me.",
+   "If you're after ore, there's easier rock to rob. If you're lost, sit down and eat something."
+  ],
+  "foreman.heart": [
+   "I hang the empty hook myself, in every new camp. Then I stand under it a while.",
+   "I've a sister up top who keeps my room ready. Every shift she airs it out. Just in case.",
+   "My crew are my family down here. Don't tell them. They'll get ideas.",
+   "I miss Tamsin. Still. Tamsin would have liked you.",
+   "Some nights I count the crew sleeping. Three lots of breathing. Then I can sleep too.",
+   "If anything happens to my lot, it's on me. That's what foreman means.",
+   "I'd like to see the sea one day. Never have. Rock all my life, and the sky between shifts."
+  ],
+  "foreman.joke": [
+   "What's the difference between a foreman and a roof? The roof only comes down on you once.",
+   "My crew say I've a face like a rockfall. I say at least it holds together.",
+   "Grumble squeaks, the crew grumble, and somehow I'm the one they call Grumble behind my back.",
+   "How do you get three delvers out of bed? Say \"stew\". How do you get them to work? Say \"stew later\".",
+   "I told the Guildhall our camp was rich in stone. They didn't laugh either.",
+   "Hesk once sold a topsider a \"genuine diamond\". It was a glow berry. They ate it.",
+   "I keep the Ledger so tidy the ore's started lining up on its own."
+  ],
+  "foreman.news": [
+   "Ledger's looking good. Don't tell the crew; they'll want more stew.",
+   "The Guildhall wants more iron this shift. The Guildhall can come down and dig it.",
+   "A Deepwatch runner passed through. Says the cave roads are quiet. I've heard that before.",
+   "One of mine nearly lost a hand to a hisser at the face. Nearly. The Ledger says nearly.",
+   "We found Old Delver tile behind the new drift. I've walled it up. Some doors aren't ours to open.",
+   "Grumble's wheel is cracking. I've sent up for a new one. It'll come next shift. Or the one after.",
+   "The roof in the far drift groaned last night. I've doubled the props. Nobody works there till I say."
+  ],
+  "foreman.night": [
+   "Go to sleep, {player}. One of us should.",
+   "I walk the drifts last thing and tap a few props. Silly, maybe. It helps.",
+   "At night I hear the Seam. Not really. But I hear it.",
+   "Ledger's done. Crew's asleep. Roof's holding. That's a good night.",
+   "Lantern's low. I'll trim it. Light behind you, light ahead, even if you're only going to bed."
+  ],
+  "foreman.past": [
+   "I started as a cart-hauler. Pushed Grumble's grandmother up and down a drift for three shifts.",
+   "Tamsin taught me to sound a roof. Tap, listen, trust nothing. Tamsin went down with the Buried Seam.",
+   "The Buried Seam was rich. Too rich. They cut the ore out of the pillars, and the roof came down on all of them.",
+   "I was meant to be on that shift. Took a fever the week before. I've never forgiven that fever. Or thanked it enough.",
+   "Young Pell was on the Seam too. First shift. Pell's first lantern was never found. I think of it at the empty hook.",
+   "Eleven shifts as foreman. Never lost a delver. I mean to keep it so.",
+   "I shored up a Deepwatch post once. Stiff folk. Decent. Don't wait for them to laugh; you'll be waiting a while.",
+   "Hesk made me foreman. Said I worried enough for two. Turns out you need to worry enough for four.",
+   "Before this camp I worked a copper hole so wet we bailed more than we dug.",
+   "After the Seam I went to the Guildhall and stood on the long table till they wrote the pillar rule.",
+   "The hermit below was Guild once. A better delver than me. Stayed down one shift and never came up. Can't say I blame the choice."
+  ],
+  "foreman.rumor": [
+   "I've a note in the Ledger: {rumor_name}, {rumor_dir}, {rumor_dist}. Wasn't written for you. But there it is.",
+   "There's {rumor_name} out {rumor_dir}. Go if you must. Come back and tell me about it.",
+   "Hesk always talked of {rumor_name} to the {rumor_dir}. Hesk talked a lot. That one I believe.",
+   "The survey puts {rumor_name} {rumor_dir} of here, {rumor_dist} through rock. If you dig, prop as you go.",
+   "If you're set on wandering, wander {rumor_dir}. There's {rumor_name} that way. Light behind you, light ahead.",
+   "A runner left word of {rumor_name}, {rumor_dir}, maybe {rumor_dist}. I wrote it down. I write everything down.",
+   "Don't tell my lot, they'll all want to go: there's {rumor_name} {rumor_dir} of {place}.",
+   "I'll say it once: {rumor_name}, {rumor_dir}, about {rumor_dist}. Now you know. Mind the roof.",
+   "You've the look of someone who wants to go somewhere. Try heading {rumor_dir}. They say there's {rumor_name}.",
+   "I've marked {rumor_name} on the camp chart, {rumor_dir} of us. Never been. Never needed to."
+  ],
+  "foreman.work": [
+   "Props every three paces. I check them. Then I check them again. Then you can dig.",
+   "Never rob a pillar. I don't care if it's solid gold. Especially if it's solid gold.",
+   "If you hear the roof talk, you leave. You don't finish the swing. You leave.",
+   "The Ledger says we're ahead this shift. That means someone's cutting corners. I'll find out who.",
+   "Gravel overhead, water in the walls, warmth in the stone. Any one of those, you call me.",
+   "Rails at morning, lanterns at noon, heads at supper. That's the day.",
+   "Deepslate's slow work. Slow is fine. Slow comes home.",
+   "Nobody works the deep drifts alone. Not since the Seam. Not ever.",
+   "Ore in the bins, gold in my chest, close calls in the Ledger. I want to know about all three.",
+   "The ladder shaft's our way up. Keep it clear. If this camp ever has to run, it runs there.",
+   "A good shift is one where nothing interesting happens."
+  ],
+  "hermit.adventure": [
+   "Going exploring? Take more torches than you think, and twice as many as that.",
+   "If the stone underfoot turns black and soft and full of little lights, stop. That's the Hush. Turn round and tiptoe.",
+   "Something lives in the Hush that sees with its ears. Don't sneeze. Don't run. Don't even think loudly.",
+   "A night-sight brew is worth more than a lantern in a flooded cave. Take one of mine.",
+   "If you find the Buried Seam, don't go poking in the rubble. Let them sleep. Please.",
+   "Mind the roof. I mean it. Look up before you dig, every time.",
+   "The green caves, with the roots and berries? Safe as anything. Sit and eat a berry for me.",
+   "Follow water downhill and you'll find the deep. Follow it uphill and you'll find the way home.",
+   "The Old Delvers built down there, in black stone and gold. Lovely work. Lonely, now."
+  ],
+  "hermit.chat": [
+   "Mushrooms like the dark and a bit of damp, and they don't like being rushed. Very like me.",
+   "That's the Bishop, the big red one. Old Thatch is the brown. They've been arguing for twenty years.",
+   "The little mushrooms each have a name. Bramble, Wick, Tamsin, Pell... I named them for the shift.",
+   "Glow berries! Pick one if you like. They taste of a little sun, gone a bit sleepy.",
+   "The pond's fed by a drip from the roof. One drop at a time, since long before me. That's patience.",
+   "Mudge lives in the pond. Pink, frilly, smiling all the time. I've never seen anything so content.",
+   "I talk to the mushrooms. They don't talk back, exactly. But they listen better than most folk ever did.",
+   "Moss grows on anything that sits still long enough. I've had to shake it off my own boots.",
+   "Slow is a kind of light. You'll see more by going slow than any torch will show you.",
+   "Those roots hanging down come from a tree up top. An azalea, I think. It's been reaching for me for years.",
+   "Bats are good company. They come and go and they never ask how you are.",
+   "I don't miss much from up top. Bread. I miss bread. And people laughing in another room.",
+   "A cave is never truly silent. Water ticks, stone creaks, gravel whispers. You learn the words.",
+   "The Guild taught me to mind the roof. The hollow taught me to mind the rest.",
+   "I keep a lamp lit in the crawl, in case anyone ever needs to find their way in. And now someone has.",
+   "Spiders don't come in here. I think the mushrooms frighten them. Or the smell of my stew.",
+   "Mushroom stew, mushroom bread, mushroom tea. I am at least half mushroom by now, I think.",
+   "Never eat a mushroom you haven't been introduced to.",
+   "Clay from the pond bank makes good pots. Lopsided ones. Those are the ones I make.",
+   "Up top they think caves are empty. Caves are full! You only have to sit still long enough to see it.",
+   "I had a cat once, up top. Grey as slate. I wonder sometimes what became of it.",
+   "The stone's warmer here than anywhere else I found in the deep. Maybe that's why I stayed.",
+   "The Watch came by once, years ago, to see if I was a monster. I gave them soup. They decided no.",
+   "I hum the old Guild songs to the mushrooms. They grow better. Don't laugh. It works.",
+   "The glowing lumps up in the caps? Shroomlight. Warm as a hearth and twice as quiet.",
+   "Everything down here eats something else. Except the moss. The moss eats patience.",
+   "My hands still remember the pick. They itch when I hear stone crack.",
+   "I counted days by notches. Then I counted shifts. Then I stopped counting and started living.",
+   "That big leaf by the pond tips you off if you stand on it. Don't. It's Mudge's.",
+   "A good cave smells of wet stone and green things. A bad one smells of nothing at all. Leave the bad ones.",
+   "I sweep the hollow every morning. Mostly I move the dust from one side to the other. It's a kind of order.",
+   "Have you seen the purple caves, deep down, that ring like bells? I went once. Sat a whole day just listening.",
+   "Light behind you, light ahead. I say it every time I fetch water, even if it's ten steps.",
+   "Funny thing, being alone. You become very good company for yourself. Not always polite company."
+  ],
+  "hermit.chat.close": [
+   "You know, {player}, you're the first friend I've made since the roof came down. I'd forgotten how.",
+   "When I'm gone, somebody ought to look after the mushrooms. I'd like it to be you.",
+   "I've told you more than I've told anyone in thirty years. The mushrooms are jealous.",
+   "If you ever pass a Guild camp, look for the empty lantern hook. Hang nothing on it. Just nod to it, for me."
+  ],
+  "hermit.chat.new": [
+   "Don't be shy. I'm the strangest thing in this cave, and I'm quite harmless.",
+   "First time in a hollow? Touch whatever you like. Except the red one. The Bishop's ticklish.",
+   "You'll get used to the glow. And the smell. And me. Mostly in that order."
+  ],
+  "hermit.greet": [
+   "Oh! A visitor. Mind the mushrooms, they're shy.",
+   "Hello, surface-walker. Come in, come in. Wipe your feet on the moss.",
+   "{player}! The Bishop said you'd come. Well. It leaned that way.",
+   "Welcome to {place}. It isn't much, but it's warm and it glows.",
+   "Good {time}, I think. I lost track of the sun a long while ago.",
+   "Sit by the pond, {player}. Mudge likes company.",
+   "Hello, hello. Don't step on Old Thatch's roots.",
+   "Ah, footsteps. The stone told me someone was walking. It tells me most things.",
+   "{player}. Come in out of the dark. Well. Out of the darker dark.",
+   "A face! I'd nearly forgotten how they look. Mine's in the pond, but it's always the same one.",
+   "Hush now, little ones, it's only {player}. Go on, say hello.",
+   "Surface-walker! Have you brought any weather down with you? I miss weather.",
+   "Welcome, welcome. Mind the roof. Habit. The roof here is very well behaved.",
+   "Oh, good. I was arguing with the mushrooms, and they were winning.",
+   "I'm {name}, if anyone ever asks. Nobody down here says it, so I say it myself now and then.",
+   "Come in, {player}. The kettle's on. It's always on.",
+   "Stone gives, stone takes, and today it gave me you. Hello.",
+   "Don't mind the bats. They live here too. They pay their rent in droppings.",
+   "Light to you, {player}. Go on, say it back: \"And the roof over you.\" There. Like old times.",
+   "Hello, {player}. Light behind you, light ahead. You remembered both, I see."
+  ],
+  "hermit.greet.evening": [
+   "Evening already? I've only just finished my morning tea.",
+   "Good evening. The bats are going out. They'll be back by dawn with stories they won't tell.",
+   "Evening, {player}. Supper's mushroom. Breakfast was mushroom too. You see the pattern."
+  ],
+  "hermit.greet.friend": [
+   "{player}! My favourite surface-walker. Well, my only one. Still my favourite.",
+   "You came back! The mushrooms said you would. I didn't believe them. Sorry, mushrooms.",
+   "Come here, come here. I saved you the good berries.",
+   "Oh, I'm so glad. The hollow's been too quiet without your boots in it.",
+   "{player}. Sit in your spot. Yes, it's your spot now. The moss has your shape.",
+   "There's my friend. Tell me everything. The sky first.",
+   "Ah, there you are. I've been talking to Old Thatch about you. Old Thatch is tired of it."
+  ],
+  "hermit.greet.morning": [
+   "Morning? Is it? The berries glow the same either way.",
+   "Good morning, surface-walker. Up top the birds are singing. I'll take your word for it.",
+   "Morning, then. The Bishop spreads its gills a little in the morning. I swear it does."
+  ],
+  "hermit.greet.night": [
+   "You're up late, surface-walker. Or early. Down here it's all one.",
+   "Night, is it? Then whisper. The little ones are sleeping.",
+   "In, quick, it's the dark hours. Things walk the tunnels at night, even up this high."
+  ],
+  "hermit.greet.stranger": [
+   "Oh! Oh my. You came through the crawl? Nobody comes through the crawl.",
+   "A surface-walker, in my hollow. Well. Don't be frightened, I'm only old.",
+   "Who are you, then? You've sun on your face. I can tell. It's in the eyes.",
+   "Careful! You nearly trod on Bramble. Bramble's a mushroom. You'll meet everyone.",
+   "Hello, stranger. Lost, or looking? Both kinds are welcome here.",
+   "You're not the Watch, and you're not Guild. Are you a story? I've not had a new story in years.",
+   "Easy, easy. I've no weapon but a ladle. Sit, and tell me your name.",
+   "Light to you, stranger. You're meant to say \"and the roof over you\". No? Ah. A topsider."
+  ],
+  "hermit.heart": [
+   "Do you know why I talk to the mushrooms? So I don't forget how words go. Silly, I know.",
+   "I don't regret staying. I regret the oil. I'll always regret the oil.",
+   "If Tamsin could see me now, there'd be laughing first. Then sitting down to stay a while.",
+   "Sometimes I put out two cups without thinking. Then I drink both. Waste not.",
+   "I'm not lonely. Well. A little. Visitors help. You help.",
+   "The quiet down here is gentle. Up top, the quiet was always waiting for something.",
+   "I'd like to see the stars once more. Just once. Then I'd come back down and tell the mushrooms all about them.",
+   "Stone gives, stone takes. It took a great deal from me. Then it gave me this hollow. I think we're square now.",
+   "There's a little lantern on my shelf that isn't mine. I brought it back from the Seam. I think it was young Pell's.",
+   "When my time comes, I'd like to lie under the Bishop. Good shade. Good company."
+  ],
+  "hermit.held.book": [
+   "A book! I've only my own notes. Notes on the Deep. I've read them a hundred times.",
+   "What's in that {item}? Read me a page. Any page. I'm starved for words.",
+   "I write down what the stone says. Somebody should. Is that a book of stone things?"
+  ],
+  "hermit.held.bow": [
+   "A bow? Mind the bats. They're friends, not targets.",
+   "That {item} would be grand for the spiders out in the tunnels. Not in here, though.",
+   "I never could shoot. I'd close both eyes. Very sporting of me, the spiders thought."
+  ],
+  "hermit.held.diamond": [
+   "Diamonds. The Seam had those, in the pillars. That's what brought the roof down. Put it away, would you?",
+   "Oh, that's a deep one. You've been low, surface-walker. Lower than I'd go.",
+   "Pretty thing. Can't eat that {item}, though. Can't brew with it either."
+  ],
+  "hermit.held.emerald": [
+   "An emerald! The delvers would trade you a fortune in carrots for that.",
+   "Green as moss and twice as hard. I've no use for it, but it's lovely.",
+   "Keep that {item} safe. Up top it's coin. Down here it's just a nice stone."
+  ],
+  "hermit.held.flower": [
+   "A flower! From up top! Oh, may I hold it? Just a moment. It smells of sky.",
+   "Put that {item} in a stew and see what happens. Something always does.",
+   "I'll stand it in water by the pond. The mushrooms will be scandalised."
+  ],
+  "hermit.held.food": [
+   "Is that {item}? Oh, that smells of the surface. Of a kitchen with windows.",
+   "Real food! I don't suppose... no, you keep it. Well. Perhaps just a corner.",
+   "Is that from up top? It smells of sunshine. I've had nothing but mushrooms for a month."
+  ],
+  "hermit.held.gold": [
+   "Gold! I could use a nugget or two for a golden carrot. No? Fair enough.",
+   "That {item} would make a dozen night-sight brews, if I had the carrots.",
+   "Gold's pretty in the berry-light. Still heavier than it's worth, down here."
+  ],
+  "hermit.held.map": [
+   "A map! Is my hollow on it? No? Good. I like being a secret.",
+   "Would you show me on that {item} where the sun comes up? I've forgotten which way.",
+   "Maps of the deep are always wrong somewhere. The stone moves. Trust your ears as well."
+  ],
+  "hermit.held.ore": [
+   "Ore! I can tell what's in it by the heft. Twenty shifts on the pick will do that.",
+   "That {item} smells of fresh-broke stone. I'd know that smell in my sleep.",
+   "The stone gave you that {item}. It'll want something back one day. Be gracious about it."
+  ],
+  "hermit.held.pickaxe": [
+   "A pick! Oh, I know that weight. Mind the roof with that {item}.",
+   "Hold it low on the haft and let the stone do half the work. Tamsin taught me that.",
+   "That {item} will open a lot of stone. Be sure you want what's behind it."
+  ],
+  "hermit.held.potion": [
+   "A brew! Let me smell it. Hm. Not one of mine. Not bad, though.",
+   "Is that {item} night-sight? If it isn't, I can make you one. Bring me a carrot.",
+   "Brewing's half patience and half keeping your eyebrows. Whoever made that {item} has both."
+  ],
+  "hermit.held.shield": [
+   "A shield. Good. Things fall in caves. Rocks, mostly. Sometimes arrows.",
+   "I could use that {item} as a lid for my stew pot. Only teasing. Mostly.",
+   "Sensible, surface-walker. Sensible folk live long enough to get odd, like me."
+  ],
+  "hermit.held.sword": [
+   "Oh, put that away. There's nothing here to cut but mushrooms, and they've done nothing wrong.",
+   "That {item} looks sharp. Keep it pointed at the tunnels, not at the Bishop.",
+   "A blade in my hollow. Well. I suppose the world isn't all mushrooms."
+  ],
+  "hermit.held.tnt": [
+   "No, no, no! Not in here! You'll frighten the Bishop out of its cap!",
+   "Put that {item} down gently. Gently! Mind the roof. Please mind the roof.",
+   "Somebody always thinks a little powder will hurry the stone along. The stone doesn't like to be hurried."
+  ],
+  "hermit.held.torch": [
+   "Light behind you, light ahead! You remembered.",
+   "Don't hold that {item} too near the caps. The Bishop singes.",
+   "A torch! Look, the little ones are all leaning toward it. They don't need light, but they like a look."
+  ],
+  "hermit.joke": [
+   "Why are mushrooms never lonely? They grow in rings of friends. ...Fairy rings. Never mind. The Bishop laughed.",
+   "I asked the Bishop for advice once. It said nothing. Wisest thing anyone's ever told me.",
+   "Old Thatch and I have the same trouble: mostly stem, and thin on top.",
+   "A bat flew into my stew once. I ate around it. Then it ate around me.",
+   "How do you find a hermit in the deep? Follow the smell of mushroom tea and the sound of someone losing an argument to a mushroom.",
+   "The delvers call me mad. I call them in for soup. We both come out ahead.",
+   "I'd tell you a joke about the roof, but it might bring the house down.",
+   "Mudge lives better than any king. Swims, eats, sleeps, smiles. Never once paid a tax.",
+   "What's a mushroom's favourite room? Any room without windows. Ha! That's all of mine."
+  ],
+  "hermit.news": [
+   "News? The mushrooms say rain up top. They swell when the surface is wet. Bring a cloak.",
+   "The bats came home early last night, all at once. Something's stirring out in the tunnels.",
+   "The pond went cloudy two days back. The stone above is shifting. It'll settle.",
+   "A delver came by last month. Says the Guild's opened a new camp. Same old faces, new holes.",
+   "The Bishop dropped a cap yesterday. First time in years. I don't know what it means. Probably nothing. Probably.",
+   "The drip from the roof has gone quicker. Spring up top, I'd guess. Or the stone is weeping. One or the other.",
+   "I heard the Watch drilling, far off through the stone. Clang, clang, shout. Comforting, somehow."
+  ],
+  "hermit.night": [
+   "At night I sit by the pond and watch the berries glow in the water. Two of every light. Twice the company.",
+   "Nights are when the stone talks most. Cooling, I think. Or remembering.",
+   "I bar the crawl at night with a bit of plank. Not that it'd stop much. It stops me worrying.",
+   "Zombies wander the tunnels at night, even up here. They don't come in. The mushrooms disagree with them.",
+   "Sleep here if you like, {player}. There's moss enough for two, and the Bishop keeps the drips off.",
+   "Mudge sleeps under the big leaf. I sleep under the Bishop. Everyone has a roof here."
+  ],
+  "hermit.past": [
+   "I was Guild once. Twenty shifts on the pick, maybe more. Good hands. Bad luck.",
+   "Tamsin and I worked the same face for six shifts. Pick-partners. You don't get closer than that, down here.",
+   "The camp's called the Buried Seam now, they tell me. Back then we just called it home.",
+   "The shift was robbing the pillars. The ore in them was so pretty. Tamsin said the roof was singing wrong. Nobody listened.",
+   "The day the roof came down, I was up top fetching lamp oil. Tamsin was working my turn at the face. I've never forgiven the oil.",
+   "We dug for nine days. Then the Guild called it off and sealed the drift. I didn't go up with them.",
+   "Somebody ought to stay where they can hear them. So I stayed. That was the start of it.",
+   "I wandered a long while after. Months. Then I found this hollow, warm and green, and it didn't ask me to leave.",
+   "The first year I nearly starved. The second I learned mushrooms. The third I learned to talk to them.",
+   "Tamsin taught me to sound a roof. Tap, and listen, and tap again. I still sound this one every morning.",
+   "I stopped counting at a hundred shifts. Thirty years, I think. Maybe more.",
+   "Some nights I still hear picks, far off. Then I remember which way the Seam lies, and I put the kettle on.",
+   "My people up top will have stopped waiting long ago. That's all right. I'd want them to.",
+   "I went back to the Seam once. Lamps were moving in the rubble where no lamps should be. I've not been back.",
+   "Young Pell was on that shift. A first shift. So proud of that first lantern. Carried it like a newborn.",
+   "Is Old Hesk still alive? Hesk owes me six coppers and a story with an ending."
+  ],
+  "hermit.plata": [
+   "Near the top, the stone has silver in it that moves. Silverfish. Break the wrong block and out they pour.",
+   "I found a husk in the stone once, silver and empty, curled like a moth's case. Long as I am tall. I left it be.",
+   "A traveller came down my crawl one autumn. Asked how many lived here, where I slept, which way the door faced. Never blinked once.",
+   "The delvers say the silver folk shed their skins like silverfish and walk about in new ones. I'd believe nearly anything, down here.",
+   "If a stranger ever brings me a gift and won't eat my stew, I'll know. Nobody refuses my stew. Well. Nearly nobody."
+  ],
+  "hermit.player.diamond": [
+   "Diamond, head to toe! You glitter like the inside of a geode.",
+   "All that diamond. Somebody dug very deep for you. I hope they came back up.",
+   "Oh my. Don't stand by the pond in that, you'll dazzle poor Mudge."
+  ],
+  "hermit.player.hungry": [
+   "You look hollow. Hollow as my hollow! Have some stew. Mushroom. Of course it's mushroom.",
+   "Hungry? Pick some glow berries. They'll keep you going until you find proper food.",
+   "Surface-walker, you're swaying. Here. Eat. I insist."
+  ],
+  "hermit.player.hurt": [
+   "You're hurt! Sit, sit. I've a poultice of moss and something I won't name. It works.",
+   "Oh, look at you. Who did this? Spiders, I'd bet. Hold still.",
+   "Here. Drink this. Don't smell it first. Just drink it."
+  ],
+  "hermit.player.leather": [
+   "Leather! Good honest stuff. Mine wore through years ago. Now it's mostly moss.",
+   "Leather's soft on the knees, and knees matter in a crawl. You'll do.",
+   "Good leather keeps the damp off. The damp's the real enemy down here."
+  ],
+  "hermit.player.unarmored": [
+   "No armour at all? You're brave or foolish. Tamsin was the brave one. I was the other.",
+   "You'll want something on you before you go any deeper. The deep bites.",
+   "Bare as a peeled mushroom. At least let me get some stew in you before you go."
+  ],
+  "hermit.rumor": [
+   "The mushrooms all lean a little {rumor_dir}. There's {rumor_name} that way, {rumor_dist} off. They feel it, I think.",
+   "Tamsin and I found {rumor_name} once, out to the {rumor_dir}. We sat and ate our bread there and didn't say a word.",
+   "To the {rumor_dir}, {rumor_dist} through the stone, there's {rumor_name}. The water runs toward it. Follow the water.",
+   "A delver told me of {rumor_name} to the {rumor_dir}. I gave them a brew for the tale. Fair trade.",
+   "When I put my ear to the floor I hear {rumor_name}, away to the {rumor_dir}. Well. I hear something.",
+   "The bats fly {rumor_dir} at dusk, toward {rumor_name}. Bats know every hole in the hill.",
+   "I went wandering once, {rumor_dist} to the {rumor_dir}, and came on {rumor_name}. I came home quick and had a sit down.",
+   "There's {rumor_name} to the {rumor_dir}, if the old stories are right. The old stories usually are, I find.",
+   "Go {rumor_dir}, surface-walker, {rumor_dist} or so, and you'll find {rumor_name}. Bring me back a story.",
+   "The draught in my crawl blows from the {rumor_dir}. It smells of {rumor_name}. Don't ask how I know what that smells like.",
+   "In my Guild days we marked {rumor_name} on a map, {rumor_dist} to the {rumor_dir}. The map's long gone. The place won't be."
+  ],
+  "hermit.rumor.none": [
+   "The mushrooms aren't leaning any way at all. Nothing near, I'd say. Just stone.",
+   "I don't know of anything close by. I don't go far these days. My knees have opinions.",
+   "Nothing nearby, surface-walker. Just me, the Bishop, Old Thatch and Mudge. We're plenty.",
+   "The stone's quiet all round. That's either very good, or I'm going deaf."
+  ],
+  "hermit.work": [
+   "Mushrooms first thing. Turn the logs, mist the beds, pick what's ready. Say good morning to each one.",
+   "Night-sight brew: water, a pinch of the red wart, then a golden carrot. Gold I can dig. Carrots I have to beg.",
+   "I brew night-sight for anyone who passes. Delvers, mostly. Once a warden who'd dropped a torch in a flooded hall.",
+   "I had the red wart off a peddler, long ago, with a sack of its sour sand. It's never once stopped growing.",
+   "Every morning I sit by the pond with my palms flat on the floor and listen. The stone tells you if it means to move.",
+   "Gravel hisses before it slides. Stone creaks before it cracks. Water goes quiet before it breaks through. Listen for the quiet.",
+   "The pond wants tending. Pull the weed, feed Mudge, thin the lily pads so the light gets down.",
+   "A poppy in the stew and you'll see in the dark a while. A lily of the valley, and you'll wish you hadn't.",
+   "I keep the glow berries trimmed off the pond. They'd glow all the way to the bottom and keep Mudge awake.",
+   "Brewing is slow work. You watch the bubbles and you think. Mostly I think about mushrooms.",
+   "I mend my own boots, my own pots, my own roof. Everything down here I've mended at least once. Including me.",
+   "Bonemeal on a little mushroom and, if it likes you, up it goes, big as a hut. That's how the Bishop started.",
+   "The big ones need room. I dug the hollow wider, a shovelful a day, for two years, just for the Bishop.",
+   "I trade brews to the delvers for carrots and news. The carrots are usually better than the news.",
+   "Tap the roof before you trust it. Even a roof you've trusted thirty years. I tap mine every morning."
+  ],
+  "miner.adventure": [
+   "Going deeper? Take more torches than you think. Then take more than that.",
+   "Long tunnels mean rattlers. Skeletons, topsiders call them. Meet them round a corner, never down a straight.",
+   "If the stone goes black and the moss looks like it's breathing, you've found the Hush. Turn round. Quietly.",
+   "In the Hush, walk soft and say nothing. Something down there hunts by sound. We call it the Listener.",
+   "Cave spiders are small, blue, and quick. Never break a cobweb you can walk around.",
+   "Hissers, the green ones: if you hear the hiss, you've a heartbeat left. Spend it running.",
+   "Carry a bucket of water. Puts out fire, gets you down a cliff, and turns lava to stone.",
+   "Mark your way back. Torches on one side, always the same side. The dark all looks alike.",
+   "If you find Old Delver stonework, black tile and gold, go gently. They built things to last, and things to keep out.",
+   "Slimes bounce about in the low wet caves. Annoying, not deadly. Unless you're near a drop.",
+   "Eat before you go down, not when you're hungry. Hunger makes a fool of you in the dark.",
+   "The Deepwatch posts are friends to anyone honest. Show them you're no trouble and they'll share their fire."
+  ],
+  "miner.chat": [
+   "You know how you tell a good delver? Count their fingers, then count their years.",
+   "First rule down here: mind the roof. Second rule: see the first rule.",
+   "Tap the roof before you trust it. A hollow knock means walk away.",
+   "Every delver keeps their first lantern. Mine's got a dent from the day I learned to duck.",
+   "We leave a crust of bread on the first prop each shift. For luck. Or for the rats. Someone's happy either way.",
+   "Grumble's the old ore cart. Squeaks like a goat at every bend. We'd miss it if it stopped.",
+   "A shift's a season down here. You go down in green and come up in gold.",
+   "Deepslate's tough as an old boot. Your arms will tell you when you've reached it.",
+   "Copper goes green if you leave it. So do I, if you leave me down here long enough.",
+   "Lava down deep, water up high, and the diamonds always closest to the lava. The rock has a sense of humour.",
+   "Never dig the floor you're standing on. You'd be amazed how many folk learn that only once.",
+   "If a wall starts weeping, there's water behind it. Back off before it comes through to say hello.",
+   "Ever heard a geode? Purple crystal that chimes when you walk past. Prettiest thing under the sky.",
+   "{foreman} counts every cart. I once watched {foreman} count one twice, to be sure the first count was honest.",
+   "Glow berries! Found a patch in the lush caves. They taste of sunlight, near enough.",
+   "There are little pink fellows in the lush pools. Axolotls. Be kind to them and they'll fight beside you in the water.",
+   "The Old Delvers set gold into their floors. Gold! In floors! We use ours to pay the baker.",
+   "Stone gives, stone takes. Mostly it takes your knees.",
+   "Torches on your right going in. Coming back, keep them on your left and you're home.",
+   "The rock talks. Creaks, drips, pebbles falling. Learn to listen and you'll live long.",
+   "I like the camp quiet. Picks and kettles. Not the deep quiet, mind. That's a different thing.",
+   "Dripstone hangs from the roof like teeth. Don't stand under it when something shakes.",
+   "Lanterns over torches, if you can get them. They don't gutter, and the place looks lived in.",
+   "Folk think mining's about strength. It's about patience. And strength. Mostly patience.",
+   "Redstone glows when you strike it, like it's annoyed. I understand the feeling.",
+   "Lapis goes to the Guild's ink-makers and the chapel glass. Pretty stuff. Heavy as a bad conscience.",
+   "The forge corner's for mending picks, not warming boots. Tell {foreman} I said that. I'll deny it.",
+   "Mushrooms grow in the dim spots. Worse things grow in the dark ones. Keep it lit.",
+   "No weather down here. No rain, no snow, no sun in your eyes. I miss all of it terribly.",
+   "Half the time the best ore's in the wall you just walked past. That's mining.",
+   "Coal's honest. You always know where you stand with coal.",
+   "Lean on a prop, by all means. Just never kick one.",
+   "Gold's soft. Pretty, but soft. Like a merchant's handshake.",
+   "A tunnel two wide feels like a road. One wide feels like a coffin. We dig them two wide.",
+   "We name the drifts. There's Long Meg, the Elbow, and the one we don't talk about.",
+   "A good shift ends with everyone at supper and nothing to tell. The bad ones make better stories.",
+   "You've good hands for this. Rough enough, and all ten still on."
+  ],
+  "miner.chat.close": [
+   "You know, I'd trust you to hold the lantern. That's not a small thing for a delver to say.",
+   "When this shift's done, come up to the village with us. I'll buy the first round.",
+   "I don't say this much, {player}, but it's better down here with you around.",
+   "If I ever don't come up, tell the folk up top I went happy. Or at least well fed.",
+   "I'd give you my first lantern if you asked. Don't ask. But I would.",
+   "You're Guild now, whatever the Guildhall says. Down here, that's what counts.",
+   "I worry about you, out there alone in the dark. Light behind you, light ahead. Promise me."
+  ],
+  "miner.chat.new": [
+   "First long stretch underground? You'll get used to the dark. You'll never like it.",
+   "Here's a Guild saying to start you off: light behind you, light ahead.",
+   "We're the Delvers' Guild. We dig, we haul, we go home. In that order, if we're lucky.",
+   "You'll want the rules. Mind the roof. Never rob a pillar. Share your stew.",
+   "If you hear a hiss, don't look. Run. Look later.",
+   "Ask me anything. Except where the good seam is. Everybody asks that.",
+   "Folk up top think we live in the dark. We don't. We live in a very small piece of light."
+  ],
+  "miner.greet": [
+   "Light to you, {player}. Mind the roof on your way in.",
+   "Ho there. Boots off the rails, if you please.",
+   "{player}! Come in out of the dark.",
+   "Welcome to {place}. It's not much, but it's lit.",
+   "Ah, footsteps that don't hiss. Good. Come in.",
+   "Light behind you, light ahead, {player}.",
+   "Oh! I nearly swung a pick at the noise. Hello.",
+   "Mind the cart. Grumble doesn't stop for anyone.",
+   "Pull up a crate, {player}. The stew's mostly stew today.",
+   "{foreman}'s about somewhere. Probably counting something.",
+   "Dust in your hair, I see. You'll fit right in.",
+   "Stone gives, stone takes, and today it gave us company.",
+   "Quiet {time} down here. Well. Quiet for us.",
+   "Count your fingers, {player}. All there? Then it's a good day.",
+   "Ah, a face that isn't covered in coal dust. Oh, wait.",
+   "Light to you. Did you knock on the first prop? It's luck.",
+   "{player}. Sit, sit. I'll pretend I'm not glad of the break.",
+   "Careful, that board's loose. Has been since spring. Or autumn. Hard to tell down here.",
+   "Hello there. Anything chasing you? Just asking.",
+   "Wipe your feet, {player}. Not that it helps, down here.",
+   "Come into the light. That's what it's for.",
+   "Hm? Oh, hello. I was listening to the roof. It says it's fine."
+  ],
+  "miner.greet.evening": [
+   "Evening, {player}. Shift's nearly rung out.",
+   "Evening. Come warm your hands; the forge is still glowing.",
+   "Evening already? The day goes quick when you spend it hitting things.",
+   "Evening, friend. Supper's on, if you're not choosy.",
+   "Evening. That's when the rattlers get bold in the long tunnels. Glad you're in."
+  ],
+  "miner.greet.friend": [
+   "{player}! Light to you, friend. And the roof over you.",
+   "There's my favourite topsider. Well, you're hardly a topsider anymore.",
+   "Saved you the warm end of the bench, {player}.",
+   "Ha! I knew that tread. You walk like a delver now.",
+   "{player}, good. I've been saving a story for you.",
+   "Come in, come in. {foreman} nearly smiled when your name came up. Nearly.",
+   "Back from the drifts? Sit. Tell me everything you broke.",
+   "You're a welcome sight, {player}. Truly. The rock's poor company.",
+   "Back in one piece? Best news I'll hear all shift."
+  ],
+  "miner.greet.morning": [
+   "Morning, {player}. Not that the rock knows it.",
+   "Morning. First lantern's lit, first stew's burnt. A proper start.",
+   "Up early? Good. The best ore's dug before the yawning stops.",
+   "Morning to you. I can tell it's morning by how much I hated getting up.",
+   "Morning, {player}. Somewhere up there the sun's doing its job. We'll do ours."
+  ],
+  "miner.greet.night": [
+   "Shh. The others are sleeping. Mostly. Hear that snore?",
+   "Night, {player}. Keep your voice low and your lantern lower.",
+   "Still up? Me too. The rock creaks louder at night. Or I listen harder.",
+   "Late for visiting. Sit by the coals a while.",
+   "Night's the same as day down here, except we're allowed to be grumpy."
+  ],
+  "miner.greet.stranger": [
+   "Who's that? Step into the light where I can see you.",
+   "You came through the wall. Most folk use the drift. Still, I suppose that's a way in.",
+   "Easy, now. This is a Guild camp. What are you digging for?",
+   "A topsider, this deep? Are you lost, or just brave?",
+   "Hold there. Lower that pick and we'll talk.",
+   "You near brought the roof down, breaking in like that. Mind it next time.",
+   "Strangers this deep make me nervous. Strangers with torches, a little less.",
+   "Not many find {place}. Fewer get a warm word. Here's yours: careful.",
+   "Delvers' Guild, this is. We dig, we haul, we mind our own. And you are?"
+  ],
+  "miner.heart": [
+   "My mother sends a letter down every new moon. Same words each time: eat, sleep, come home. I manage two of three.",
+   "There's someone up top who waits for me at the end of every shift. That's who the lantern's really for.",
+   "I miss the smell of cut hay. Down here everything smells of stone and other people's socks.",
+   "My little brother wants to join the Guild. I want him to be a baker. We'll see who wins.",
+   "I keep a pressed flower in my helmet. From a meadow I've only seen twice.",
+   "Sometimes I'm afraid. Not of the dark. Of coming up and finding the village went on without me.",
+   "After a whole shift down, the first sunlight makes you weep. Everyone blames the brightness.",
+   "{foreman}'s gruff, but would walk into a rockfall for any of us. I know it.",
+   "I think of the Buried Seam more than I let on. Every delver does.",
+   "I've a friend up top who never writes back. I write anyway. One day they'll answer, or I'll go and knock."
+  ],
+  "miner.held.book": [
+   "Reading down here? Good for you. Lantern-light makes my eyes swim past a page.",
+   "Is that {item} about the Old Delvers? Read me a bit. My letters are rusty.",
+   "The only book I've read twice is the Ore Ledger. Mostly my own line."
+  ],
+  "miner.held.bucket": [
+   "Good, a bucket. Water from the walls, lava from the deep. Know which one you're scooping.",
+   "That {item} could save your life. Water on lava makes stone, and stone makes a floor.",
+   "A delver's best friend, that {item}. Keep water in it and you can climb down any cliff."
+  ],
+  "miner.held.diamond": [
+   "Is that {item} real? Let me look. Oh. Oh, it is.",
+   "Put that {item} away before the whole camp sees it. Delvers go strange around diamonds.",
+   "That {item} came from deep. You didn't go into the Hush for it, did you? Tell me you didn't.",
+   "Stone gives, stone takes. With that {item}, it gave. Go home before it changes its mind."
+  ],
+  "miner.held.emerald": [
+   "That {item}'s the colour of grass. I'd nearly forgotten grass.",
+   "Now we can talk business. Hold that {item} up where I can admire it.",
+   "That {item} would buy a lot of torches. A lot. Ask me how many."
+  ],
+  "miner.held.food": [
+   "Is that {item}? Smells better than our stew. Don't tell anyone I said that.",
+   "Eat that {item} before the long tunnels, not halfway down them.",
+   "You wouldn't be sharing that {item}, would you? No? Fair. I wouldn't either."
+  ],
+  "miner.held.gold": [
+   "That {item} catches the lantern light nicely. Soft, though. Don't make tools of it.",
+   "The Old Delvers put gold in their floors. You've got that {item} in your hand. I'd say you're ahead.",
+   "Careful with that {item}. Gold draws trouble, up top and down here."
+  ],
+  "miner.held.map": [
+   "A map! Let's see. Hm. The rock never quite agrees with maps, but it's a start.",
+   "Guard that {item}. Down here a map's worth more than gold. Gold doesn't get you home.",
+   "Where's that {item} taking you? Somewhere deep, by your face."
+  ],
+  "miner.held.ore": [
+   "Ore! Let me see. Mm, decent. That {item} would fill a corner of Grumble.",
+   "You've been digging. That {item}'s fresh from the wall; I can smell the stone on it.",
+   "Get that {item} to a furnace before you lose it. Ore has a way of wandering off."
+  ],
+  "miner.held.pickaxe": [
+   "That {item}'s seen some rock. Keep the edge up and it'll see more.",
+   "A fellow pick-swinger! Hold that {item} loose and let the weight do the work.",
+   "Nice heft on that {item}. Just don't swing it near the props.",
+   "When did that {item} last see a grindstone? Be honest."
+  ],
+  "miner.held.potion": [
+   "What's in that {item}? It's glowing. Things that glow are either ore or trouble.",
+   "A brew! There's a hermit below who makes those, they say. I've never dared try one.",
+   "Drink that {item} before you need it. You can't drink with a hisser in your face."
+  ],
+  "miner.held.sword": [
+   "Expecting trouble with that {item}? Fair enough, down here.",
+   "A sword's no good in a tunnel one wide. Remember that before you swing that {item}.",
+   "Keep that {item} handy in the long tunnels. Rattlers don't wait while you change tools."
+  ],
+  "miner.held.tnt": [
+   "Put that down. Gently. Then walk away from it. Then come back and explain yourself.",
+   "Is that {item}? In a camp? Under a propped roof? Have you met roofs?",
+   "We only blast far from camp, with everyone counted. Take that {item} somewhere else."
+  ],
+  "miner.held.torch": [
+   "A torch! Good. Light behind you, light ahead.",
+   "Set that {item} on your right going in. Thank me on the way out.",
+   "Never enough torches. Everyone says that, and then nobody carries enough."
+  ],
+  "miner.joke": [
+   "What did the hisser say to the delver? Nobody knows. Nobody ever hears the end of that conversation.",
+   "How many delvers does it take to light a lantern? Three. One to light it, two to argue whose turn it was.",
+   "I asked the rock how it was doing. Nothing. Stone-faced, as usual.",
+   "Why's the Deepwatch so serious? You'd be too, if your best friend was a wall.",
+   "What do you call a delver who digs straight down? A short story.",
+   "My pick and I have an understanding. I swing, it complains, and the wall pays.",
+   "I'm not saying the stew's thin, but I saw my reflection in it. And a pebble.",
+   "Copper's the only thing down here that ages worse than me.",
+   "A topsider asked if the dark bothers me. I said, what dark? I'd lit forty torches.",
+   "Zombies love delvers. Well. They love the taste.",
+   "You can always tell a delver's been at your table. The bread's gone and there's gravel in the butter.",
+   "I've been down so long my knees creak in the same key as the roof.",
+   "Grumble squeaks, the roof creaks, and {foreman} sighs. Together, it's nearly a song."
+  ],
+  "miner.news": [
+   "Grumble jumped the rails again. Took three of us and a lot of words to set it right.",
+   "Word from the Guildhall: dues are going up. Word from me: no they're not.",
+   "A Deepwatch runner came through. Said the cave roads are quiet. They always say that.",
+   "Somebody's been eating the glow berries out of the stores. I have my suspicions. They point at {foreman}.",
+   "We broke into a cave last week and a hisser was waiting. We're all fine. The cart's a bit shorter.",
+   "The new face is thick with redstone. The whole drift glows while we work it. Like digging inside an ember.",
+   "There's talk of the Guild opening another camp nearby. Talk's cheap. Timber isn't.",
+   "Ledger day's coming. {foreman} reads out everyone's tally and pretends not to have favourites.",
+   "Water broke through in the old drift. We walled it off. Lost a good pick to it, though.",
+   "Three nights back we heard a rumble from below. Not a fall. Something else. We're not talking about it.",
+   "Fresh bread came down the shaft yesterday. Fresh-ish. It's a long shaft."
+  ],
+  "miner.night": [
+   "Can't sleep. The rock's settling. It sounds like someone turning over in bed.",
+   "At night I think about the sky. All that air with nothing holding it up. Terrifying.",
+   "Only the coals for light now. I like them. They don't ask anything of you.",
+   "Some nights, far below, you can almost hear the Hush. A quiet that has a sound to it.",
+   "I dream of rain on a roof. A wooden roof. With sky on top of it.",
+   "The empty hook over the door. Every Guild camp has one. At night I look at it longer.",
+   "If you hear knocking in the walls at night, it's water. Probably. Go back to sleep."
+  ],
+  "miner.past": [
+   "My first shift, I was so scared I lit nine torches in a tunnel four paces long.",
+   "My grandmother dug copper before the Guild had a hall. Said she could smell a good seam.",
+   "I'm a farmer's child. Turned out I liked digging, just not waiting for rain.",
+   "Took my Guild oath with a lantern in one hand and a pick in the other. Then dropped both.",
+   "The Guildhall's long table has every member's mark cut into it. Mine's crooked. I was nervous.",
+   "I've worked more shifts than I can count on one hand. Two hands, if I'm honest. I'm not always honest.",
+   "Before the Guild I hauled stone for a mason. Same rock, less dark, worse pay.",
+   "My first foreman told me: the rock doesn't hate you. It doesn't love you either. Remember that.",
+   "I learned to sound a roof from an old delver who was half deaf. Felt it through the haft, they said.",
+   "I was cut off behind a fall once. Three days. Sang every song I knew, twice. The diggers asked me to stop.",
+   "I first came down to pay off a debt. Stayed because I liked it. Don't tell my creditor.",
+   "As an apprentice I carried the water bucket a whole shift. Taught me where water hides.",
+   "I met {foreman} on my second shift. Got shouted at for leaning on a prop. Haven't leaned since.",
+   "My first gold, I spent on a new lantern and a very bad hat."
+  ],
+  "miner.plata": [
+   "Near the surface we sometimes break into a silver husk in the stone. Empty. Shaped like a person. I don't like it.",
+   "Old Hesk tells of folk who shed their skins like silverfish. Silver folk. I laughed. Then I found a husk.",
+   "If a stranger on the road won't eat with you, won't shake your hand, and won't meet your eye, walk on. That's all.",
+   "Silverfish in the stone are bad enough. If the tales are true, some of them walk on two legs.",
+   "A traveller came down once, asking too many questions about our shaft. Left no footprints in the dust. I'm sure of it.",
+   "Smooth grey stone near the top that breaks too easy? Leave it. Something might be sleeping in it.",
+   "The silver folk? A tale for children. So why does every old delver tap a stone twice before breaking it?"
+  ],
+  "miner.player.damaged": [
+   "That tool's on its last legs. Get it to an anvil before it breaks mid-swing.",
+   "That thing's about to give up. Don't be deep in a tunnel when it does.",
+   "Worn tools snap at the worst time. Mend it now, {player}.",
+   "Hear that? That's your tool begging for rest. Mend it, or carry a spare."
+  ],
+  "miner.player.hungry": [
+   "I can hear your stomach from here. Eat something.",
+   "Have some stew. Hungry folk swing wild.",
+   "When did you last eat? Don't answer. Just eat.",
+   "There's bread in the stores. Take some. The rock will wait."
+  ],
+  "miner.player.hurt": [
+   "You're bleeding. Sit. Bread and a bandage first, then you can tell me who did it.",
+   "You look like the rock won. Rest a while, {player}.",
+   "Easy, easy. Hurt folk make mistakes down here. Sit by the fire.",
+   "Who did that to you? Rattler? Hisser? Your own pick? No judgement."
+  ],
+  "miner.player.unarmored": [
+   "No helmet? Down here? The roof's not your friend, {player}.",
+   "You're dressed for a picnic. Find some armour before the long tunnels.",
+   "Bare-headed in a mine. My mother would faint. I nearly have.",
+   "The rattlers will love you. All that soft. Get some iron on."
+  ],
+  "miner.rumor": [
+   "Old Hesk swore there's {rumor_name} out {rumor_dir}, {rumor_dist}. Take rope.",
+   "If you're wandering, try heading {rumor_dir}. They say there's {rumor_name} that way, {rumor_dist} off.",
+   "A runner told us of {rumor_name}, {rumor_dist} to the {rumor_dir}. Runners exaggerate, but never about distance.",
+   "Head {rumor_dir}, {rumor_dist} or so, and you'll find {rumor_name}. Or it'll find you.",
+   "{foreman} won't say it, but there's {rumor_name} {rumor_dir} of here. I'd guess {rumor_dist}.",
+   "We felt a draught from the {rumor_dir} last week. Hesk would say that's {rumor_name}, breathing.",
+   "Want something to do? There's {rumor_name} out {rumor_dir}. {foreman} has it noted in the Ledger's margin.",
+   "My cousin in the Guild swore by {rumor_name}, somewhere {rumor_dir}, {rumor_dist} through the rock.",
+   "They say there's {rumor_name} {rumor_dir} of {place}. No more than {rumor_dist}, by the sound of it. Bring a friend.",
+   "If you go {rumor_dir}, keep your eyes open for {rumor_name}. It's {rumor_dist} off, they reckon.",
+   "Sound carries in rock. Some nights we hear things from the {rumor_dir}. Hesk says that's {rumor_name}.",
+   "A Deepwatch runner marked {rumor_name} for us: {rumor_dir}, {rumor_dist}. Didn't say much else. They never do.",
+   "Folk who come through from the {rumor_dir} talk of {rumor_name}. Never mind what else they talk of.",
+   "Strip-mining {rumor_dir}? Keep at it and you'd hit {rumor_name}. Give it {rumor_dist}.",
+   "I once followed an old rail {rumor_dir} till I lost my nerve. Hesk says it runs on to {rumor_name}.",
+   "There's {rumor_name} {rumor_dir} of here, {rumor_dist}. I've not been. I'm not brave, just honest about it.",
+   "Mind the roof if you go looking for {rumor_name}, {rumor_dir} of here. Nobody's propped that rock."
+  ],
+  "miner.rumor.none": [
+   "No rumours lately. The rock's been keeping its secrets.",
+   "Nothing new. The last tale I heard was Old Hesk's, and that one had a dragon in it.",
+   "Quiet times. No runners, no tales, no trouble. I'm suspicious.",
+   "I've heard nothing worth repeating. And I repeat most things.",
+   "Nothing. Ask the Deepwatch, if you can get one of them to talk.",
+   "Not a whisper. Come back after the next runner passes through."
+  ],
+  "miner.work": [
+   "Today's face is iron with a copper streak. Good honest rock.",
+   "Prop every three paces. Four if the rock's sound. Five if you're a fool.",
+   "Never rob a pillar. The ore in it is holding up the ore above you.",
+   "Deepslate wears a pick twice as fast. Keep a spare, and keep both sharp.",
+   "We cut the seam, sort the ore, cart it out, and {foreman} writes it in the Ledger. Then we do it again.",
+   "A dull pick goes to the grindstone, not back to the wall. Dull tools make careless delvers.",
+   "Gravel in the roof? Get out from under it. Gravel doesn't wait to be asked.",
+   "Sand and gravel fall. Stone stays. Learn which is which before you need to.",
+   "Water seeping from the face means a buried lake close by. Plug it, mark it, move on.",
+   "When you break into a cave, stop. Listen. Then light it. Then step in.",
+   "If the wall's warm, there's lava behind it. Don't find out how much.",
+   "Raw iron in the bins, coal in the scuttle, copper in the cart. Gold goes to {foreman} and nobody else.",
+   "I've twelve carts to fill this week. I'm at nine and a half. Grumble lost the half on a bend.",
+   "Rails get checked every morning. A cart off the rails is a cart on your foot.",
+   "Lantern at the face, lantern at the turn, lantern at the shaft. Light behind you, light ahead.",
+   "Strip-mining's honest work, but dull. I sing to the rock. It hasn't sung back. Yet.",
+   "We dig in pairs. One swings, one watches the roof. Swap often, or you both stop seeing it.",
+   "Diamonds sit deep, near the lava, in the hard grey stone. Worth the trip. Not worth dying for.",
+   "Every cart that goes up, we ring the rail once. The whole camp hears it and knows we're working.",
+   "The ladder shaft's the way up we use. Never climb it with full arms. Ask me how I know."
+  ],
+  "warden.adventure": [
+   "Going down the road? Go as far as the last torch, then think hard.",
+   "If the stone turns black and soft and pulses under your feet, walk away. Slowly. Silently.",
+   "That's the Hush. Something lives there that hunts by sound. We call it the Listener. Don't let it hear you.",
+   "Diamonds lie deep, down in the deepslate. So does everything else that wants to eat you.",
+   "Take a water bucket for the lava, a pick for the walls, and twice the torches you think you'll need.",
+   "If you find a flooded hall, don't dive for treasure. Something down there is already swimming.",
+   "The purple caves that ring when you step? Geodes. Safe enough. Beautiful, too.",
+   "In the green caves with the hanging berries, the air is sweet and the pond-folk are friendly. Rest there.",
+   "Light behind you, light ahead. The Guild says it, and the Guild is right.",
+   "Mark your way with torches on one side only. Then you'll always know which way is back.",
+   "If you find anything carved with a lantern over crossed picks, that's the Old Delvers. Tread respectful."
+  ],
+  "warden.chat": [
+   "The road below us runs on for miles. We only hold this stretch of it. That's enough.",
+   "Every watch, somebody writes a line in the Log. Even if the line is \"nothing came\".",
+   "Most days, \"nothing came\" is the best line in the Log.",
+   "The banner's a white lantern on black. The only lantern down here that never goes out.",
+   "Guild carts come up the road once a season with flour and arrows. We cheer them like a fair day.",
+   "You learn to sleep with one ear open. Some of us sleep with both open.",
+   "Hissers are the worst of it. You don't hear them coming. Just that hiss, and then you're praying.",
+   "Rattlers I don't mind. A skeleton comes at you honest, clattering all the way.",
+   "Spiders climb the walls and come over the top. That's why the crenels are set so close.",
+   "Cave spiders are small and nasty and they come in threes. Always carry milk for the bite.",
+   "The dripstone over the road drips all night. You stop hearing it after a month. Then you hear it in your dreams.",
+   "Never stand under a pointed dripstone. They fall, and they don't miss.",
+   "The brazier is the heart of the post. If it goes out, somebody's in trouble.",
+   "{captain} says the walls were here before any of us. The stones say they're older still.",
+   "The Watch is older than the Guild. Older than the village charters, some say.",
+   "I miss rain. You don't know you love rain until you've gone a season without it.",
+   "Bread goes hard down here in two days. We dunk it in the stew and call it a feast.",
+   "We bake in the mess oven once a week. That smell is the closest thing to home in these caves.",
+   "Don't touch the lever by the Deepgate. Not for a dare, not for a bet. Not ever.",
+   "People ask what's behind the Deepgate. A stair. The Long Stair. That's all I know, and all I want to.",
+   "The miners are good folk. Loud, though. You can hear a Guild camp a mile off.",
+   "When a delver goes missing, we're the ones who go looking. We don't always find them.",
+   "Torches every ten paces along the road. Leave a dark patch and something crawls out of it.",
+   "The archers keep score on the targets. The knights pretend not to care. They care.",
+   "Our walls aren't high. They don't need to be. Down here, nothing comes from the sky.",
+   "The Hush, we call the black places where the sculk grows. Down there, sound is all that matters.",
+   "Lava light is pretty, until you remember what it is.",
+   "If you hear water where there was no water yesterday, back away. Aquifers break through without asking.",
+   "A flooded hall is a drowned hall. Something always lives in the deep water.",
+   "I've counted every stone in the gatehouse arch. Two hundred and twelve. Long watches.",
+   "We chalk the names of the lost on the barracks wall. It's a long wall.",
+   "I write home when the Guild carts come. They carry the letters up. Half of them get there.",
+   "There's a tally by the gate of every hisser we've stopped short of the wall. It's a big tally.",
+   "{captain} went down the Long Stair once, with the Long Patrol. Twelve went. Five came back. Don't ask about it.",
+   "Years back, the Watch went to see if the hermit in the green caves was a monster. They came back fed and carrying mushrooms.",
+   "See the lantern carved over the Deepgate arch? Our banner was copied from it. The Old Delvers cut it long before us."
+  ],
+  "warden.chat.close": [
+   "You know, {player}, I'd trust you on the wall beside me. I don't say that lightly.",
+   "If I fall on the road, tell my people up top that I held. Will you?",
+   "When my years on the watch are done, I'll walk up into the sun and never come down. Come and find me.",
+   "You're the only one who visits who isn't selling something or running from something.",
+   "I've told you things I haven't told the others. Keep them, will you? Below, we hold."
+  ],
+  "warden.chat.new": [
+   "New to the road? Keep close to the torches and you'll do fine.",
+   "Don't mind us. We're gruff with everyone at first. It's the dark.",
+   "First time at a Deepwatch post? We don't bite. The spiders do.",
+   "You'll learn our ways. Lamp lit, road watched, gate shut. That's most of it."
+  ],
+  "warden.greet": [
+   "{player}. The road's quiet. Let's keep it that way.",
+   "Lamp lit, road watched, gate shut. And now a visitor. Good.",
+   "Welcome to {place}. Wipe the cave muck off your boots.",
+   "Good {time}, {player}. Or so the watch-candle tells me.",
+   "Ah, {player}. Anything follow you up the road?",
+   "Stand easy, {player}. You're inside the walls now.",
+   "{name} of the Deepwatch, on watch. What do you need?",
+   "Mind the brazier, {player}. It bites.",
+   "Come sit a while, {player}. The stone won't miss you.",
+   "Below, we hold. And today you're below with us.",
+   "You've got that look. Long walk through dark places?",
+   "Easy, {player}. Nothing gets past this gate that we don't see first.",
+   "Ho, {player}. Bring any news down with you?",
+   "Quiet day at {place}. Too quiet, some would say. I'd say lucky.",
+   "If you're after {captain}, look by the Log. That's where {captain} lives.",
+   "Keep your torch up and your voice down, {player}, and you're welcome here.",
+   "A face that isn't one of ours. Nice change.",
+   "{player}. Good. I'd rather see you than another rattler.",
+   "Come through, come through. The road's no place to stand about.",
+   "I heard your boots a long way off. You walk loud, {player}.",
+   "Warm yourself at the fire, {player}. The deep road takes it out of you.",
+   "Hm? Oh. Sorry, I was listening to the road. What is it, {player}?",
+   "Light to you, {player}. That's how the miners say it. It's grown on us."
+  ],
+  "warden.greet.evening": [
+   "Evening, {player}. The lamp watch is just starting.",
+   "Good evening. Up top the sun's going down. Down here we just light another candle.",
+   "Evening. Come for supper or come for the company?"
+  ],
+  "warden.greet.friend": [
+   "{player}! Who walks the road? Ha. I know who. Come in.",
+   "There's a seat by the brazier with your name on it, {player}.",
+   "Below, we hold, {player}. And it's easier holding with you about.",
+   "You're back! The others owe me a copper. I said you'd live.",
+   "{player}, my friend. Sit. Tell me what the dark's been doing.",
+   "Ah, the one who means to walk back up. And you did. Welcome.",
+   "I saved you some of the stew. Don't tell {captain}.",
+   "Good to see you whole, {player}. Truly.",
+   "{player}! Let me look at you. Still all your fingers? Good.",
+   "Back again? The road must like you.",
+   "There you are. I was starting to count you among the lost."
+  ],
+  "warden.greet.morning": [
+   "Morning, {player}. Not that the stone knows it.",
+   "The watch-candle says morning. I'll take its word.",
+   "Morning. The grey watch is the coldest one. Come stand by the fire.",
+   "Up early, {player}? Or down late?"
+  ],
+  "warden.greet.night": [
+   "It's the dark watch, {player}. Speak soft, the others are sleeping.",
+   "Late to be on the road. What's chasing you?",
+   "Night, {player}. If you can't sleep, you can stand watch with me.",
+   "Quiet now. At night every sound carries up the road."
+  ],
+  "warden.greet.stranger": [
+   "Halt! Who walks the road? ...You don't know the answer. Then state your business, and plainly.",
+   "Hold there. This is {place}, a post of the Deepwatch. What brings you up the road?",
+   "Stop where you are and show me your hands. Empty? Good. Now, who are you?",
+   "Halt, stranger. Nobody comes this deep for the air. What's your business?",
+   "Easy. Lower that and we'll talk. You've walked into the Deepwatch.",
+   "You came out of the rock like a mole. Not many find us that way. Name yourself.",
+   "Halt and be known. If you're honest, you've nothing to fear from us.",
+   "Hold. You may pass along the road, but you don't pass the gate behind us. Understood?",
+   "Stranger on the road! ...No, stand down, it's only a traveller. You, step into the light.",
+   "You're not Guild and you're not Watch. So what are you, this far down?",
+   "Here's how it goes, stranger: your blade stays sheathed, and ours stay sheathed. Fair?",
+   "The answer to \"who walks the road\" is \"one who means to walk back up\". Learn it. Now, your name?"
+  ],
+  "warden.heart": [
+   "I'd give a month's pay to see a sunrise. Just one, from the top of a hill.",
+   "Some nights I think about walking up the road and never coming back. Then the candle burns down and I check the lamp.",
+   "My people up top don't really know what I do. They think I guard a door. I suppose I do.",
+   "The quiet isn't the hard part. It's what the quiet might be hiding.",
+   "We're not heroes. We're the reason nobody needs one.",
+   "{captain} carries more than the rest of us put together. I wish I could take some of it.",
+   "When I hear a miner laughing on the road, that's my pay. That's the whole of it.",
+   "I'm afraid of the Deepgate. There, I've said it. Everyone here is, and nobody says it.",
+   "I'm not afraid of the dark anymore. I'm afraid of whatever doesn't need light.",
+   "Below, we hold. Above, they sleep. I like knowing someone up there sleeps easy because of us."
+  ],
+  "warden.held.book": [
+   "Reading? The Log's the only book here, and it's grim going.",
+   "That {item} would pass a long watch. Lend it when you're done?",
+   "Stories, I hope. We've all heard each other's."
+  ],
+  "warden.held.bow": [
+   "That {item} would do well on our wall. Count your arrows, though.",
+   "Rattlers will outshoot you in the open. Use the corners.",
+   "A bow down here is worth two up top. Nothing climbs as fast as an arrow flies."
+  ],
+  "warden.held.diamond": [
+   "Put that {item} away before every delver from here to the camps smells it.",
+   "Diamonds. Deep ones. You've been somewhere you shouldn't, I'd wager.",
+   "Pretty. The deep gives those up rarely, and never for free."
+  ],
+  "warden.held.emerald": [
+   "An emerald. Save it for the miners; they trade fair.",
+   "That {item} would buy a lot of arrows off the Guild carts.",
+   "Green stone, good coin. Don't flash it on the road."
+  ],
+  "warden.held.flower": [
+   "A flower! I haven't seen one in a season. May I smell it?",
+   "That {item} doesn't belong down here. Neither do we, I suppose.",
+   "Put it by the Log. Things grow so rarely here."
+  ],
+  "warden.held.food": [
+   "Is that {item}? Real food? You're welcome back any time.",
+   "Eat while you can. The road doesn't wait for full bellies.",
+   "That smells better than anything our cook has made all season."
+  ],
+  "warden.held.gold": [
+   "Gold's worth less than bread down here. Still, it shines nicely by the brazier.",
+   "Mind who sees that {item}. Greed has a long arm.",
+   "The Old Delvers set gold into their stone. You'll see it in the old halls, inlaid in the black."
+  ],
+  "warden.held.map": [
+   "Let me see that {item}. Hm. Our road's not on it. Most aren't.",
+   "Maps are good. Maps of the deep are guesses with lines on.",
+   "Mark the post on it. Then if you're ever lost, you'll know where the light is."
+  ],
+  "warden.held.ore": [
+   "Fresh from the stone? The miners would buy that {item} off you.",
+   "Ore on the road. Watch for thieves. Not everyone down here is honest.",
+   "That {item} came out of the rock the hard way. Look after it."
+  ],
+  "warden.held.pickaxe": [
+   "That {item} will see you through stone. Mind what's on the other side.",
+   "A good pick and good sense. Bring both down the road.",
+   "Tap the roof before you trust it. And with that {item}, tap it twice."
+  ],
+  "warden.held.potion": [
+   "A brew? Night-sight, I hope. Good for the deep road.",
+   "Careful with unmarked bottles. I drank one once and saw colours for a day.",
+   "Keep a healing draught close down here. Ask anyone on the wall."
+  ],
+  "warden.held.shield": [
+   "Good. A shield stops a rattler's arrow and a hisser's spite both.",
+   "Keep that {item} up and your head down. That's half our drill.",
+   "Wise. Most who come up the road wish they'd brought one."
+  ],
+  "warden.held.sword": [
+   "Keep that {item} oiled. The damp eats steel down here.",
+   "A fair blade. Strike, step back, strike. Never chase.",
+   "Blade out inside the walls? Put it up, friend. You're safe here."
+  ],
+  "warden.held.tnt": [
+   "Put that away! Not inside the walls!",
+   "That {item} near the brazier? Do you want the roof down on all of us?",
+   "Mind the roof. Mind it twice with that thing in your hands."
+  ],
+  "warden.held.torch": [
+   "Light behind you, light ahead. Plant those as you go.",
+   "That {item} is worth more than gold in the deep.",
+   "Hold it high. A torch held low only lights your boots."
+  ],
+  "warden.joke": [
+   "How many wardens does it take to light a torch? One to light it, three to say it's crooked.",
+   "A hisser walks up to the gate. I call, \"Who walks the road?\" It says, \"Ssss.\" Worst answer we've had all year.",
+   "Why don't rattlers ever stand watch? No guts. I've told that one forty times. It still works.",
+   "The stew tonight is \"mystery stew\". The mystery is whether it was ever food.",
+   "Our archers can hit a spider at forty paces. Our cook can't hit the pot at two.",
+   "There's a slime down the road that comes up every few weeks. Same slime every time. We call it Old Wobble.",
+   "A zombie came up the road once in a delver's helmet. Best-dressed thing we'd seen all season.",
+   "What's the difference between a cave spider and a warden on the dark watch? The spider's awake.",
+   "Someone asked if it gets lonely down here. I said no, the bats visit. Constantly. They never leave.",
+   "I bet a miner my boots the roof wouldn't drip on me all night. Walked home barefoot."
+  ],
+  "warden.news": [
+   "A Guild cart came up the road last week. Flour, arrows, two letters and one very angry chicken.",
+   "The aquifer under the side drift is weeping again. We've scratched a mark on the wall to watch it rise.",
+   "Torches went out along the far bend two nights back. Not burned out. Knocked down.",
+   "The miners say the ore's running rich this season. More of them on the road means more of us on the wall.",
+   "One of the archers put an arrow through a rattler's bow at fifty paces yesterday. We're still not over it.",
+   "{captain} has been at the Log late every night this week. Nobody's asked why.",
+   "A hisser got as far as the second torch before we stopped it. The second torch. That's close.",
+   "We heard the Deepgate settle on its hinges last night. Just the stone moving. Probably.",
+   "The cook found a cave spider nest under the mess flagstones. We ate cold for two days while we burned it out.",
+   "Bats have been thick on the road this month. Means warm weather up top, the miners say.",
+   "A lost delver wandered in yesterday after three days in the dark. Ate everything we had. Kissed the brazier."
+  ],
+  "warden.night": [
+   "Night on the wall is the long watch. You count torches. You count breaths.",
+   "At night the road gets busy. Things smell the brazier's warmth from a long way off.",
+   "The dark watch is when the Deepgate is loudest. Hinges, settling. That's all. I tell myself that's all.",
+   "Keep your voice low once the candle passes midnight. Sound carries up the road, and down it.",
+   "{captain} walks the wall at night when sleep won't come. Which is most nights.",
+   "Night is when the drowned come up from the flooded halls, dripping. You smell them before you see them.",
+   "Funny, isn't it? It's always dark down here, but you still feel the night come on."
+  ],
+  "warden.past": [
+   "I joined the Watch at sixteen. Thought it'd be glory. It's mostly cold feet and counting.",
+   "My village had a mine. One shift, my father went down and didn't come up. So I came down to keep others coming up.",
+   "I trained at another post, further along the road. We lost it to a flood. The water just came.",
+   "Before the Watch I was a baker's apprentice. I still knead the bread here, when there's flour.",
+   "My first night on the wall, a hisser got close enough that I could hear it breathe. I didn't sleep for a week.",
+   "The oath is short. \"I keep the lamp. I hold the road. I do not go down.\" I've never broken a word of it.",
+   "When I came, there were nine of us here. Now it's five. Most went home. Not all.",
+   "{captain} took me in when no other post would. I'd been sent off for sleeping on watch. Never again.",
+   "The year the aquifer broke, we fought drowned in the road for three days. The water was up to our knees.",
+   "I grew up topside, in a village by a river. Down here I dream about fish.",
+   "My first patrol, we found a lost delver sitting in the dark with no torch, humming. Took three days to get a word out.",
+   "We held this gate for a whole night once, against everything the deep road could send. The braziers never went out."
+  ],
+  "warden.plata": [
+   "Delvers near the surface break stone and find silver husks inside. Empty, like a shed skin. We log every one.",
+   "The silver folk, the miners call them. Folk who shed their skins like silverfish. I thought it was a tale.",
+   "A stranger came down the road once, polite, asking too much about the gate. When we looked again, gone.",
+   "If someone on the road won't lower their hood by the brazier, keep your hand near your weapon.",
+   "The oath says \"I hold the road.\" Against the silver folk too, if they're real. I hope they're not.",
+   "A silverfish crawled out of the wall stone last spring. The old hands pulled the whole block and burned it. Didn't say why."
+  ],
+  "warden.player.diamond": [
+   "Diamond armour! You'd shame half the Watch, dressed like that.",
+   "That's a fortune on your back. Wear it well, and don't go swimming in it.",
+   "In plate like that, you could hold the gate on your own."
+  ],
+  "warden.player.hungry": [
+   "You look starved. There's stew in the pot. Don't ask what's in it.",
+   "When did you last eat? Here, bread. It's hard, but it's bread.",
+   "Hunger on the road makes you careless. Eat first, explore after."
+  ],
+  "warden.player.hurt": [
+   "You're bleeding. Sit. I've bandages and a heel of bread.",
+   "What did that to you? Spiders? Sit down before you fall down.",
+   "Easy, easy. You're inside the walls. Breathe."
+  ],
+  "warden.player.leather": [
+   "Leather's better than nothing. Not much better, this deep.",
+   "Good leather. Now find some iron to put over it.",
+   "Leather won't stop a rattler, but it might turn a cave spider's bite. Sometimes."
+  ],
+  "warden.player.unarmored": [
+   "No armour? On this road? Are you brave, or just in a hurry?",
+   "You want something between you and a rattler's arrow. Even leather.",
+   "Coming down here in your shirt. The spiders will be glad of you."
+  ],
+  "warden.rumor": [
+   "The last patrol came back past {rumor_name} to the {rumor_dir}. They didn't stay long.",
+   "There's {rumor_name} {rumor_dist} to the {rumor_dir}. It's in the Log, if you'd like to see.",
+   "The miners talk of {rumor_name} out to the {rumor_dir}, {rumor_dist} or so. I've not seen it myself.",
+   "Head {rumor_dir}, {rumor_dist} or thereabouts, and you'll come on {rumor_name}. Take light.",
+   "We marked {rumor_name} on the road-map, out to the {rumor_dir}. Only a few of us have been.",
+   "If you're bent on wandering, there's {rumor_name} to the {rumor_dir}. Better that than the Hush.",
+   "I followed a lost delver's tracks once to {rumor_name}, {rumor_dist} to the {rumor_dir}. Found them, too. Barely.",
+   "Somewhere to the {rumor_dir} lies {rumor_name}. The road doesn't go there. You'd have to dig.",
+   "An old Log entry speaks of {rumor_name}, {rumor_dist} off to the {rumor_dir}. The hand that wrote it was shaking.",
+   "A Guild cart-driver swore there was {rumor_name} to the {rumor_dir}. Cart-drivers swear a lot, but they rarely lie.",
+   "Our patrol map has {rumor_name} {rumor_dist} to the {rumor_dir}, with a little lantern drawn beside it.",
+   "Listen at the wall on a quiet watch and you'll hear something off to the {rumor_dir}. The Log says it's {rumor_name}.",
+   "{captain} once led a sweep out to {rumor_name}, to the {rumor_dir}, and came back with a sack nobody was allowed to open.",
+   "If you go {rumor_dir}, you'll find {rumor_name} {rumor_dist} along. Say the Watch sends greetings, if there's anyone to hear it."
+  ],
+  "warden.rumor.none": [
+   "Nothing in the Log for a long way round. Just stone, and more stone.",
+   "No other places I know of near here. The road's all we've got.",
+   "The patrols have found nothing worth the walk, not near here. Sorry.",
+   "Not a thing. If you find something, come and tell us, and we'll write it down."
+  ],
+  "warden.work": [
+   "Four watches a day by the candle. Two on the wall, one at the gate, one asleep. We turn it round.",
+   "Every watch starts the same: check the lamp, walk the road, try the Deepgate bar. Lamp lit, road watched, gate shut.",
+   "Drills at every change of watch. Step, strike, step back. Again until it's dull. Dull keeps you alive.",
+   "I walk the road out to the last torch and back. If a torch is out, I find out why.",
+   "Hissers we take at range. Archers first, and nobody goes near until it's quiet.",
+   "Rule of the gate: nobody passes the Deepgate without the captain's word. Not you, not me, not a lord with a letter.",
+   "We sweep the fallen dripstone off the road every morning. A pointed stone underfoot will lame a warden.",
+   "We don't chase anything into the dark. We hold the light and let it come to us.",
+   "A delver comes up the road hurt, we patch them up. A delver comes up the road scared, we listen.",
+   "Webs across the road get burned the moment we see them. Spiders are patient builders.",
+   "Arrows get counted every watch. An archer who loses arrows buys the next round.",
+   "Anything that comes up the road gets met here, before it reaches the miners' camps. That's the whole job.",
+   "I log every sound I can't name. Most turn out to be gravel. Some don't.",
+   "A bucket of water by every brazier, a bucket of milk by every bed. Fire and poison, the two quick deaths.",
+   "The training dummies take a beating every day and never once complain. Best recruits we have.",
+   "If something knocks on the Deepgate from the other side, the rule is simple. Log it. Don't answer.",
+   "Fresh torches go up along the road every third day, whether the old ones need it or not.",
+   "Change of watch, we say it face to face: \"Below, we hold.\" \"Above, they sleep.\" Then the old watch can rest.",
+   "Each season one of us runs word to the Guild camps. \"Cave roads quiet.\" The miners laugh. They're glad of it all the same."
+  ]
+ }
+}

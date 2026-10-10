@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/collapse",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/outfall",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

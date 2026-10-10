@@ -1,0 +1,50 @@
+{
+  "processors": [
+    {
+      "processor_type": "deepdelves:natural",
+      "blocks": [
+        "minecraft:amethyst_block",
+        "minecraft:andesite",
+        "minecraft:basalt",
+        "minecraft:blackstone",
+        "minecraft:budding_amethyst",
+        "minecraft:calcite",
+        "minecraft:clay",
+        "minecraft:coal_ore",
+        "minecraft:coarse_dirt",
+        "minecraft:copper_ore",
+        "minecraft:deepslate",
+        "minecraft:deepslate_coal_ore",
+        "minecraft:deepslate_copper_ore",
+        "minecraft:deepslate_diamond_ore",
+        "minecraft:deepslate_emerald_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:deepslate_iron_ore",
+        "minecraft:deepslate_lapis_ore",
+        "minecraft:deepslate_redstone_ore",
+        "minecraft:diamond_ore",
+        "minecraft:diorite",
+        "minecraft:dirt",
+        "minecraft:dripstone_block",
+        "minecraft:emerald_ore",
+        "minecraft:gold_ore",
+        "minecraft:granite",
+        "minecraft:gravel",
+        "minecraft:iron_ore",
+        "minecraft:lapis_ore",
+        "minecraft:magma_block",
+        "minecraft:moss_block",
+        "minecraft:mud",
+        "minecraft:obsidian",
+        "minecraft:raw_copper_block",
+        "minecraft:raw_gold_block",
+        "minecraft:raw_iron_block",
+        "minecraft:redstone_ore",
+        "minecraft:rooted_dirt",
+        "minecraft:smooth_basalt",
+        "minecraft:stone",
+        "minecraft:tuff"
+      ]
+    }
+  ]
+}

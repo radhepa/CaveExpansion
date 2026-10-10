@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "deepdelves:block/prospecting_table"
+    },
+    "facing=east": {
+      "model": "deepdelves:block/prospecting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "deepdelves:block/prospecting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "deepdelves:block/prospecting_table",
+      "y": 270
+    }
+  }
+}

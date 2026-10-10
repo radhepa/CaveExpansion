@@ -1,0 +1,50 @@
+{
+  "fallback": "deepdelves:cistern/ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/conduit",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/steps_up",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/steps_down",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/bend_left",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:cistern/bend_right",
+        "processors": "deepdelves:cistern",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

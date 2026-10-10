@@ -1,0 +1,59 @@
+{
+  "fallback": "deepdelves:forge/ends",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/passage",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/passage_slag",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/fork",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/stair",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/stores",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:forge/rubble",
+        "processors": "deepdelves:forge",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

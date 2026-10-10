@@ -1,0 +1,366 @@
+# The miners of a Delvers' Camp. Three of them share this file, so any line may come from any of them: no fixed
+# backstory, no gender, small personal details only. Guild delvers from the villages above, down for a "shift"
+# (a season). Warm, wry, practical, a little superstitious. The surface is "up top"; surface folk are "topsiders".
+# Greeting: "Light to you." Reply: "And the roof over you." Sayings: "Mind the roof", "Light behind you, light
+# ahead", "Stone gives, stone takes", "Tap the roof before you trust it", "Never rob a pillar" (the rule the Guild
+# wrote after the Buried Seam, whose shift cut the ore out of the very pillars that held their roof up).
+# Customs: every delver keeps their "first lantern" (given by their first foreman); a crust of bread on the first
+# prop each shift for luck; one ring on the rail for every cart sent up; every Guild camp leaves one lantern hook
+# empty, "the empty hook", for the Buried Seam's lost shift. The foreman keeps the Ore Ledger (every cart, plus a
+# column for close calls); "Ledger day" ends a shift. Grumble is the camp's squeaky old ore cart. Old Hesk is a
+# retired delver up top, teller of tall tales and rumours. Creepers are "hissers", skeletons "rattlers"; the Deep
+# Dark is "the Hush" and the thing that hunts there by sound is "the Listener". The Plata Clan are "the silver folk".
+# Never give the foreman a pronoun. Pools the foreman inherits (greet.morning/evening/night, chat.new, chat.close,
+# rumor.none, plata, held.*, player.*) never mention the foreman.
+
+## miner.greet
+Light to you, {player}. Mind the roof on your way in.
+Ho there. Boots off the rails, if you please.
+{player}! Come in out of the dark.
+Welcome to {place}. It's not much, but it's lit.
+Ah, footsteps that don't hiss. Good. Come in.
+Light behind you, light ahead, {player}.
+Oh! I nearly swung a pick at the noise. Hello.
+Mind the cart. Grumble doesn't stop for anyone.
+Pull up a crate, {player}. The stew's mostly stew today.
+{foreman}'s about somewhere. Probably counting something.
+Dust in your hair, I see. You'll fit right in.
+Stone gives, stone takes, and today it gave us company.
+Quiet {time} down here. Well. Quiet for us.
+Count your fingers, {player}. All there? Then it's a good day.
+Ah, a face that isn't covered in coal dust. Oh, wait.
+Light to you. Did you knock on the first prop? It's luck.
+{player}. Sit, sit. I'll pretend I'm not glad of the break.
+Careful, that board's loose. Has been since spring. Or autumn. Hard to tell down here.
+Hello there. Anything chasing you? Just asking.
+Wipe your feet, {player}. Not that it helps, down here.
+Come into the light. That's what it's for.
+Hm? Oh, hello. I was listening to the roof. It says it's fine.
+
+## miner.greet.stranger
+Who's that? Step into the light where I can see you.
+You came through the wall. Most folk use the drift. Still, I suppose that's a way in.
+Easy, now. This is a Guild camp. What are you digging for?
+A topsider, this deep? Are you lost, or just brave?
+Hold there. Lower that pick and we'll talk.
+You near brought the roof down, breaking in like that. Mind it next time.
+Strangers this deep make me nervous. Strangers with torches, a little less.
+Not many find {place}. Fewer get a warm word. Here's yours: careful.
+Delvers' Guild, this is. We dig, we haul, we mind our own. And you are?
+
+## miner.greet.friend
+{player}! Light to you, friend. And the roof over you.
+There's my favourite topsider. Well, you're hardly a topsider anymore.
+Saved you the warm end of the bench, {player}.
+Ha! I knew that tread. You walk like a delver now.
+{player}, good. I've been saving a story for you.
+Come in, come in. {foreman} nearly smiled when your name came up. Nearly.
+Back from the drifts? Sit. Tell me everything you broke.
+You're a welcome sight, {player}. Truly. The rock's poor company.
+Back in one piece? Best news I'll hear all shift.
+
+## miner.greet.morning
+Morning, {player}. Not that the rock knows it.
+Morning. First lantern's lit, first stew's burnt. A proper start.
+Up early? Good. The best ore's dug before the yawning stops.
+Morning to you. I can tell it's morning by how much I hated getting up.
+Morning, {player}. Somewhere up there the sun's doing its job. We'll do ours.
+
+## miner.greet.evening
+Evening, {player}. Shift's nearly rung out.
+Evening. Come warm your hands; the forge is still glowing.
+Evening already? The day goes quick when you spend it hitting things.
+Evening, friend. Supper's on, if you're not choosy.
+Evening. That's when the rattlers get bold in the long tunnels. Glad you're in.
+
+## miner.greet.night
+Shh. The others are sleeping. Mostly. Hear that snore?
+Night, {player}. Keep your voice low and your lantern lower.
+Still up? Me too. The rock creaks louder at night. Or I listen harder.
+Late for visiting. Sit by the coals a while.
+Night's the same as day down here, except we're allowed to be grumpy.
+
+## miner.chat
+You know how you tell a good delver? Count their fingers, then count their years.
+First rule down here: mind the roof. Second rule: see the first rule.
+Tap the roof before you trust it. A hollow knock means walk away.
+Every delver keeps their first lantern. Mine's got a dent from the day I learned to duck.
+We leave a crust of bread on the first prop each shift. For luck. Or for the rats. Someone's happy either way.
+Grumble's the old ore cart. Squeaks like a goat at every bend. We'd miss it if it stopped.
+A shift's a season down here. You go down in green and come up in gold.
+Deepslate's tough as an old boot. Your arms will tell you when you've reached it.
+Copper goes green if you leave it. So do I, if you leave me down here long enough.
+Lava down deep, water up high, and the diamonds always closest to the lava. The rock has a sense of humour.
+Never dig the floor you're standing on. You'd be amazed how many folk learn that only once.
+If a wall starts weeping, there's water behind it. Back off before it comes through to say hello.
+Ever heard a geode? Purple crystal that chimes when you walk past. Prettiest thing under the sky.
+{foreman} counts every cart. I once watched {foreman} count one twice, to be sure the first count was honest.
+Glow berries! Found a patch in the lush caves. They taste of sunlight, near enough.
+There are little pink fellows in the lush pools. Axolotls. Be kind to them and they'll fight beside you in the water.
+The Old Delvers set gold into their floors. Gold! In floors! We use ours to pay the baker.
+Stone gives, stone takes. Mostly it takes your knees.
+Torches on your right going in. Coming back, keep them on your left and you're home.
+The rock talks. Creaks, drips, pebbles falling. Learn to listen and you'll live long.
+I like the camp quiet. Picks and kettles. Not the deep quiet, mind. That's a different thing.
+Dripstone hangs from the roof like teeth. Don't stand under it when something shakes.
+Lanterns over torches, if you can get them. They don't gutter, and the place looks lived in.
+Folk think mining's about strength. It's about patience. And strength. Mostly patience.
+Redstone glows when you strike it, like it's annoyed. I understand the feeling.
+Lapis goes to the Guild's ink-makers and the chapel glass. Pretty stuff. Heavy as a bad conscience.
+The forge corner's for mending picks, not warming boots. Tell {foreman} I said that. I'll deny it.
+Mushrooms grow in the dim spots. Worse things grow in the dark ones. Keep it lit.
+No weather down here. No rain, no snow, no sun in your eyes. I miss all of it terribly.
+Half the time the best ore's in the wall you just walked past. That's mining.
+Coal's honest. You always know where you stand with coal.
+Lean on a prop, by all means. Just never kick one.
+Gold's soft. Pretty, but soft. Like a merchant's handshake.
+A tunnel two wide feels like a road. One wide feels like a coffin. We dig them two wide.
+We name the drifts. There's Long Meg, the Elbow, and the one we don't talk about.
+A good shift ends with everyone at supper and nothing to tell. The bad ones make better stories.
+You've good hands for this. Rough enough, and all ten still on.
+
+## miner.chat.new
+First long stretch underground? You'll get used to the dark. You'll never like it.
+Here's a Guild saying to start you off: light behind you, light ahead.
+We're the Delvers' Guild. We dig, we haul, we go home. In that order, if we're lucky.
+You'll want the rules. Mind the roof. Never rob a pillar. Share your stew.
+If you hear a hiss, don't look. Run. Look later.
+Ask me anything. Except where the good seam is. Everybody asks that.
+Folk up top think we live in the dark. We don't. We live in a very small piece of light.
+
+## miner.chat.close
+You know, I'd trust you to hold the lantern. That's not a small thing for a delver to say.
+When this shift's done, come up to the village with us. I'll buy the first round.
+I don't say this much, {player}, but it's better down here with you around.
+If I ever don't come up, tell the folk up top I went happy. Or at least well fed.
+I'd give you my first lantern if you asked. Don't ask. But I would.
+You're Guild now, whatever the Guildhall says. Down here, that's what counts.
+I worry about you, out there alone in the dark. Light behind you, light ahead. Promise me.
+
+## miner.past
+My first shift, I was so scared I lit nine torches in a tunnel four paces long.
+My grandmother dug copper before the Guild had a hall. Said she could smell a good seam.
+I'm a farmer's child. Turned out I liked digging, just not waiting for rain.
+Took my Guild oath with a lantern in one hand and a pick in the other. Then dropped both.
+The Guildhall's long table has every member's mark cut into it. Mine's crooked. I was nervous.
+I've worked more shifts than I can count on one hand. Two hands, if I'm honest. I'm not always honest.
+Before the Guild I hauled stone for a mason. Same rock, less dark, worse pay.
+My first foreman told me: the rock doesn't hate you. It doesn't love you either. Remember that.
+I learned to sound a roof from an old delver who was half deaf. Felt it through the haft, they said.
+I was cut off behind a fall once. Three days. Sang every song I knew, twice. The diggers asked me to stop.
+I first came down to pay off a debt. Stayed because I liked it. Don't tell my creditor.
+As an apprentice I carried the water bucket a whole shift. Taught me where water hides.
+I met {foreman} on my second shift. Got shouted at for leaning on a prop. Haven't leaned since.
+My first gold, I spent on a new lantern and a very bad hat.
+
+## miner.night
+Can't sleep. The rock's settling. It sounds like someone turning over in bed.
+At night I think about the sky. All that air with nothing holding it up. Terrifying.
+Only the coals for light now. I like them. They don't ask anything of you.
+Some nights, far below, you can almost hear the Hush. A quiet that has a sound to it.
+I dream of rain on a roof. A wooden roof. With sky on top of it.
+The empty hook over the door. Every Guild camp has one. At night I look at it longer.
+If you hear knocking in the walls at night, it's water. Probably. Go back to sleep.
+
+## miner.work
+Today's face is iron with a copper streak. Good honest rock.
+Prop every three paces. Four if the rock's sound. Five if you're a fool.
+Never rob a pillar. The ore in it is holding up the ore above you.
+Deepslate wears a pick twice as fast. Keep a spare, and keep both sharp.
+We cut the seam, sort the ore, cart it out, and {foreman} writes it in the Ledger. Then we do it again.
+A dull pick goes to the grindstone, not back to the wall. Dull tools make careless delvers.
+Gravel in the roof? Get out from under it. Gravel doesn't wait to be asked.
+Sand and gravel fall. Stone stays. Learn which is which before you need to.
+Water seeping from the face means a buried lake close by. Plug it, mark it, move on.
+When you break into a cave, stop. Listen. Then light it. Then step in.
+If the wall's warm, there's lava behind it. Don't find out how much.
+Raw iron in the bins, coal in the scuttle, copper in the cart. Gold goes to {foreman} and nobody else.
+I've twelve carts to fill this week. I'm at nine and a half. Grumble lost the half on a bend.
+Rails get checked every morning. A cart off the rails is a cart on your foot.
+Lantern at the face, lantern at the turn, lantern at the shaft. Light behind you, light ahead.
+Strip-mining's honest work, but dull. I sing to the rock. It hasn't sung back. Yet.
+We dig in pairs. One swings, one watches the roof. Swap often, or you both stop seeing it.
+Diamonds sit deep, near the lava, in the hard grey stone. Worth the trip. Not worth dying for.
+Every cart that goes up, we ring the rail once. The whole camp hears it and knows we're working.
+The ladder shaft's the way up we use. Never climb it with full arms. Ask me how I know.
+
+## miner.adventure
+Going deeper? Take more torches than you think. Then take more than that.
+Long tunnels mean rattlers. Skeletons, topsiders call them. Meet them round a corner, never down a straight.
+If the stone goes black and the moss looks like it's breathing, you've found the Hush. Turn round. Quietly.
+In the Hush, walk soft and say nothing. Something down there hunts by sound. We call it the Listener.
+Cave spiders are small, blue, and quick. Never break a cobweb you can walk around.
+Hissers, the green ones: if you hear the hiss, you've a heartbeat left. Spend it running.
+Carry a bucket of water. Puts out fire, gets you down a cliff, and turns lava to stone.
+Mark your way back. Torches on one side, always the same side. The dark all looks alike.
+If you find Old Delver stonework, black tile and gold, go gently. They built things to last, and things to keep out.
+Slimes bounce about in the low wet caves. Annoying, not deadly. Unless you're near a drop.
+Eat before you go down, not when you're hungry. Hunger makes a fool of you in the dark.
+The Deepwatch posts are friends to anyone honest. Show them you're no trouble and they'll share their fire.
+
+## miner.joke
+What did the hisser say to the delver? Nobody knows. Nobody ever hears the end of that conversation.
+How many delvers does it take to light a lantern? Three. One to light it, two to argue whose turn it was.
+I asked the rock how it was doing. Nothing. Stone-faced, as usual.
+Why's the Deepwatch so serious? You'd be too, if your best friend was a wall.
+What do you call a delver who digs straight down? A short story.
+My pick and I have an understanding. I swing, it complains, and the wall pays.
+I'm not saying the stew's thin, but I saw my reflection in it. And a pebble.
+Copper's the only thing down here that ages worse than me.
+A topsider asked if the dark bothers me. I said, what dark? I'd lit forty torches.
+Zombies love delvers. Well. They love the taste.
+You can always tell a delver's been at your table. The bread's gone and there's gravel in the butter.
+I've been down so long my knees creak in the same key as the roof.
+Grumble squeaks, the roof creaks, and {foreman} sighs. Together, it's nearly a song.
+
+## miner.news
+Grumble jumped the rails again. Took three of us and a lot of words to set it right.
+Word from the Guildhall: dues are going up. Word from me: no they're not.
+A Deepwatch runner came through. Said the cave roads are quiet. They always say that.
+Somebody's been eating the glow berries out of the stores. I have my suspicions. They point at {foreman}.
+We broke into a cave last week and a hisser was waiting. We're all fine. The cart's a bit shorter.
+The new face is thick with redstone. The whole drift glows while we work it. Like digging inside an ember.
+There's talk of the Guild opening another camp nearby. Talk's cheap. Timber isn't.
+Ledger day's coming. {foreman} reads out everyone's tally and pretends not to have favourites.
+Water broke through in the old drift. We walled it off. Lost a good pick to it, though.
+Three nights back we heard a rumble from below. Not a fall. Something else. We're not talking about it.
+Fresh bread came down the shaft yesterday. Fresh-ish. It's a long shaft.
+
+## miner.heart
+My mother sends a letter down every new moon. Same words each time: eat, sleep, come home. I manage two of three.
+There's someone up top who waits for me at the end of every shift. That's who the lantern's really for.
+I miss the smell of cut hay. Down here everything smells of stone and other people's socks.
+My little brother wants to join the Guild. I want him to be a baker. We'll see who wins.
+I keep a pressed flower in my helmet. From a meadow I've only seen twice.
+Sometimes I'm afraid. Not of the dark. Of coming up and finding the village went on without me.
+After a whole shift down, the first sunlight makes you weep. Everyone blames the brightness.
+{foreman}'s gruff, but would walk into a rockfall for any of us. I know it.
+I think of the Buried Seam more than I let on. Every delver does.
+I've a friend up top who never writes back. I write anyway. One day they'll answer, or I'll go and knock.
+
+## miner.rumor
+Old Hesk swore there's {rumor_name} out {rumor_dir}, {rumor_dist}. Take rope.
+If you're wandering, try heading {rumor_dir}. They say there's {rumor_name} that way, {rumor_dist} off.
+A runner told us of {rumor_name}, {rumor_dist} to the {rumor_dir}. Runners exaggerate, but never about distance.
+Head {rumor_dir}, {rumor_dist} or so, and you'll find {rumor_name}. Or it'll find you.
+{foreman} won't say it, but there's {rumor_name} {rumor_dir} of here. I'd guess {rumor_dist}.
+We felt a draught from the {rumor_dir} last week. Hesk would say that's {rumor_name}, breathing.
+Want something to do? There's {rumor_name} out {rumor_dir}. {foreman} has it noted in the Ledger's margin.
+My cousin in the Guild swore by {rumor_name}, somewhere {rumor_dir}, {rumor_dist} through the rock.
+They say there's {rumor_name} {rumor_dir} of {place}. No more than {rumor_dist}, by the sound of it. Bring a friend.
+If you go {rumor_dir}, keep your eyes open for {rumor_name}. It's {rumor_dist} off, they reckon.
+Sound carries in rock. Some nights we hear things from the {rumor_dir}. Hesk says that's {rumor_name}.
+A Deepwatch runner marked {rumor_name} for us: {rumor_dir}, {rumor_dist}. Didn't say much else. They never do.
+Folk who come through from the {rumor_dir} talk of {rumor_name}. Never mind what else they talk of.
+Strip-mining {rumor_dir}? Keep at it and you'd hit {rumor_name}. Give it {rumor_dist}.
+I once followed an old rail {rumor_dir} till I lost my nerve. Hesk says it runs on to {rumor_name}.
+There's {rumor_name} {rumor_dir} of here, {rumor_dist}. I've not been. I'm not brave, just honest about it.
+Mind the roof if you go looking for {rumor_name}, {rumor_dir} of here. Nobody's propped that rock.
+
+## miner.rumor.none
+No rumours lately. The rock's been keeping its secrets.
+Nothing new. The last tale I heard was Old Hesk's, and that one had a dragon in it.
+Quiet times. No runners, no tales, no trouble. I'm suspicious.
+I've heard nothing worth repeating. And I repeat most things.
+Nothing. Ask the Deepwatch, if you can get one of them to talk.
+Not a whisper. Come back after the next runner passes through.
+
+## miner.plata
+Near the surface we sometimes break into a silver husk in the stone. Empty. Shaped like a person. I don't like it.
+Old Hesk tells of folk who shed their skins like silverfish. Silver folk. I laughed. Then I found a husk.
+If a stranger on the road won't eat with you, won't shake your hand, and won't meet your eye, walk on. That's all.
+Silverfish in the stone are bad enough. If the tales are true, some of them walk on two legs.
+A traveller came down once, asking too many questions about our shaft. Left no footprints in the dust. I'm sure of it.
+Smooth grey stone near the top that breaks too easy? Leave it. Something might be sleeping in it.
+The silver folk? A tale for children. So why does every old delver tap a stone twice before breaking it?
+
+## miner.held.pickaxe
+That {item}'s seen some rock. Keep the edge up and it'll see more.
+A fellow pick-swinger! Hold that {item} loose and let the weight do the work.
+Nice heft on that {item}. Just don't swing it near the props.
+When did that {item} last see a grindstone? Be honest.
+
+## miner.held.sword
+Expecting trouble with that {item}? Fair enough, down here.
+A sword's no good in a tunnel one wide. Remember that before you swing that {item}.
+Keep that {item} handy in the long tunnels. Rattlers don't wait while you change tools.
+
+## miner.held.torch
+A torch! Good. Light behind you, light ahead.
+Set that {item} on your right going in. Thank me on the way out.
+Never enough torches. Everyone says that, and then nobody carries enough.
+
+## miner.held.ore
+Ore! Let me see. Mm, decent. That {item} would fill a corner of Grumble.
+You've been digging. That {item}'s fresh from the wall; I can smell the stone on it.
+Get that {item} to a furnace before you lose it. Ore has a way of wandering off.
+
+## miner.held.diamond
+Is that {item} real? Let me look. Oh. Oh, it is.
+Put that {item} away before the whole camp sees it. Delvers go strange around diamonds.
+That {item} came from deep. You didn't go into the Hush for it, did you? Tell me you didn't.
+Stone gives, stone takes. With that {item}, it gave. Go home before it changes its mind.
+
+## miner.held.gold
+That {item} catches the lantern light nicely. Soft, though. Don't make tools of it.
+The Old Delvers put gold in their floors. You've got that {item} in your hand. I'd say you're ahead.
+Careful with that {item}. Gold draws trouble, up top and down here.
+
+## miner.held.emerald
+That {item}'s the colour of grass. I'd nearly forgotten grass.
+Now we can talk business. Hold that {item} up where I can admire it.
+That {item} would buy a lot of torches. A lot. Ask me how many.
+
+## miner.held.food
+Is that {item}? Smells better than our stew. Don't tell anyone I said that.
+Eat that {item} before the long tunnels, not halfway down them.
+You wouldn't be sharing that {item}, would you? No? Fair. I wouldn't either.
+
+## miner.held.map
+A map! Let's see. Hm. The rock never quite agrees with maps, but it's a start.
+Guard that {item}. Down here a map's worth more than gold. Gold doesn't get you home.
+Where's that {item} taking you? Somewhere deep, by your face.
+
+## miner.held.tnt
+Put that down. Gently. Then walk away from it. Then come back and explain yourself.
+Is that {item}? In a camp? Under a propped roof? Have you met roofs?
+We only blast far from camp, with everyone counted. Take that {item} somewhere else.
+
+## miner.held.bucket
+Good, a bucket. Water from the walls, lava from the deep. Know which one you're scooping.
+That {item} could save your life. Water on lava makes stone, and stone makes a floor.
+A delver's best friend, that {item}. Keep water in it and you can climb down any cliff.
+
+## miner.held.book
+Reading down here? Good for you. Lantern-light makes my eyes swim past a page.
+Is that {item} about the Old Delvers? Read me a bit. My letters are rusty.
+The only book I've read twice is the Ore Ledger. Mostly my own line.
+
+## miner.held.potion
+What's in that {item}? It's glowing. Things that glow are either ore or trouble.
+A brew! There's a hermit below who makes those, they say. I've never dared try one.
+Drink that {item} before you need it. You can't drink with a hisser in your face.
+
+## miner.player.hurt
+You're bleeding. Sit. Bread and a bandage first, then you can tell me who did it.
+You look like the rock won. Rest a while, {player}.
+Easy, easy. Hurt folk make mistakes down here. Sit by the fire.
+Who did that to you? Rattler? Hisser? Your own pick? No judgement.
+
+## miner.player.hungry
+I can hear your stomach from here. Eat something.
+Have some stew. Hungry folk swing wild.
+When did you last eat? Don't answer. Just eat.
+There's bread in the stores. Take some. The rock will wait.
+
+## miner.player.unarmored
+No helmet? Down here? The roof's not your friend, {player}.
+You're dressed for a picnic. Find some armour before the long tunnels.
+Bare-headed in a mine. My mother would faint. I nearly have.
+The rattlers will love you. All that soft. Get some iron on.
+
+## miner.player.damaged
+That tool's on its last legs. Get it to an anvil before it breaks mid-swing.
+That thing's about to give up. Don't be deep in a tunnel when it does.
+Worn tools snap at the worst time. Mend it now, {player}.
+Hear that? That's your tool begging for rest. Mend it, or carry a spare.

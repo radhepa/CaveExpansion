@@ -1,0 +1,117 @@
+# The captain of a Deepwatch Post ({place}). Older, steady, few words, carries the weight of the Deepgate. Gender-neutral.
+# Falls back to warden.txt for every pool not here (greet.morning/evening/night, chat.new, chat.close, joke, rumor.none,
+# plata, held.*, player.*), so those warden pools never mention the captain. Don't use {captain} here; it's {name}.
+# Canon (see warden.txt): "Below, we hold." / "Above, they sleep."; "Lamp lit, road watched, gate shut."; the oath "I keep
+# the lamp. I hold the road. I do not go down." The captain keeps the Deepwatch Log, whose first pages are in a hand nobody
+# can read, and carries the key to the locked Deepgate lever on a chain. The old captain handed it over with one word: "Don't."
+# The Long Patrol: years ago twelve went down the Long Stair, under orders, to learn how deep it goes; five came back up after
+# the post had kept every brazier burning for them. The captain was the youngest of the twelve, broke the oath's last line that
+# once, and wrote the patrol's whole Log entry: "The stair goes on." Never says what is down there ("the Deep below the deep").
+# The captain sends a runner to the Guild camps each season ("cave roads quiet") and refuses every Guild request to dig near.
+
+## captain.greet
+{player}. Welcome to {place}. Lamp lit, road watched, gate shut.
+Ah, {player}. Come in. I'll put the Log aside.
+Captain {name}, of the Deepwatch. You're welcome here while you keep the peace.
+Below, we hold. Good to see you, {player}.
+Good {time}. My wardens tell me you came up the road quietly. That speaks well of you.
+{player}. Sit, if you like. The chair is hard, but it's dry.
+Welcome. Forgive me, I was miles away. The Log does that.
+Sit by the fire, {player}. The road is cold this deep.
+Ah. I wondered whose step that was.
+
+## captain.greet.stranger
+I'm {name}, captain of this post. Answer my wardens' questions, and then you're our guest.
+A stranger. Stand in the light where I can see you. Thank you. Now, what's your road?
+You may rest here, eat, warm yourself. You may not go past the Deepgate. Those are the terms.
+My wardens challenged you? Good. They're meant to. Don't take it to heart.
+Who walks the road? You don't know the answer. Then you're new. Welcome, and mind yourself.
+Not many who find this post aren't lost. Which are you?
+
+## captain.greet.friend
+{player}. Good. I was hoping it would be you.
+Come in, friend. I'll pour you something. The Log can wait.
+You're always welcome at my fire, {player}. Always.
+Ah, {player}. My wardens brighten when you come. So do I.
+{player}. Still walking back up, every time. Keep doing that.
+You're back on the road, {player}. I'm glad. I'll write it down.
+
+## captain.chat
+I've kept the Deepwatch Log longer than any of my wardens have been on the watch.
+The Log is older than the post. The first pages are in a hand nobody can read anymore.
+My wardens are young. They should be. The road wears you out.
+I don't ask for brave wardens. I ask for careful ones. Brave ones go down stairs.
+The Deepgate was here before the walls. We only built the post to keep it company.
+The lantern on our banner was carved over the Deepgate long before the Watch came. We borrowed it.
+People think the hard part of a captaincy is giving orders. It's writing names on the barracks wall.
+I read the old entries some nights. Same monsters, same road, same fear. It comforts me, oddly.
+The Guild sends its thanks down the road in barrels of flour. I've never had kinder letters.
+Lamp lit, road watched, gate shut. Three things. Do them every watch and the world above stays whole.
+I don't mind the dark. It's honest about itself.
+My wardens grumble about the stew. A post that grumbles is a post that's alive.
+Sit with me a while. Most days nobody speaks to me except to report.
+The lever beside the Deepgate has a lock on it. I carry the key. I'd rather carry anything else.
+Every captain of this post has stood where I stand and looked at that door. Every one of us wondered.
+
+## captain.past
+Twelve of us went down the Long Stair, years ago. Five came back up. I was the youngest.
+We were sent down to learn how deep it goes. We never learned. It goes on.
+Our Log entry for that patrol is four words long. "The stair goes on." I wrote them.
+I won't tell you what's down there. Not because it's secret. Because I'd have to remember it properly.
+I was a quarry hand up top, before the Watch. I liked the sky. I still think about it.
+The captain before me was one of the five as well. Gone now. That leaves me.
+I swore the oath young. "I do not go down." I broke that line once, on orders. Never again, orders or no.
+The night we came back up, the post had kept every brazier burning for us. They weren't sure we were still us.
+I've buried more wardens than I've trained. No. That's not true. It only feels true.
+When I took the captaincy, the old captain gave me the key and said one word: "Don't." That was all.
+
+## captain.work
+I read every line my wardens write in the Log. Every one. Then I add my own.
+Each watch I try the Deepgate bar myself. My wardens check it too. I check their checking.
+The rule is mine to keep: no one passes the Deepgate. Not lords, not Guild masters, not friends.
+Drills, patrols, supplies, letters. Captaincy is mostly counting, {player}. Counting and listening.
+I send a patrol down the road every third day. Out to the last torch, a little past, then home.
+The key to the gate-lever hangs on a chain round my neck. It's lighter than it looks. Heavier than it feels.
+When the Guild asks to dig near the post, I say no. When they ask why, I point at the Deepgate.
+I teach my wardens to fear the right things. The dark you can't see into, and the bravery you can't take back.
+Each season I send a runner to the Guild camps. "Cave roads quiet," the message says. I make sure it's true first.
+
+## captain.news
+The Log has had three quiet watches in a row. I've learned not to trust that.
+The supply cart's due within the month. We're down to our last barrel of arrows and our last good joke.
+One of my archers saw torchlight on the far road where no camp should be. I've sent word to the Guild.
+The Deepgate's hinges were cold to the touch this morning. Colder than the stone. I've written it down.
+Word from the other posts: all quiet along the ways down. For now.
+My wardens turned back a band of rattlers at the bend last night. No one hurt. That's the news I like.
+
+## captain.heart
+I count the five of us who came back. Then I count the seven who didn't. Every night.
+Sometimes I think the Deepgate is waiting for me. Not angry. Patient.
+If I fall, the key goes to whichever warden is steadiest. I've already chosen. I haven't told them.
+I want my wardens to grow old above ground. That's all. That's the whole of my ambition.
+You walk in and out of the dark as if it were nothing, {player}. I envy that.
+Some days the weight of this post is nothing. Some days it's the whole mountain.
+When my watch is truly over, I want to sit by a river and listen to water that isn't dripping.
+
+## captain.rumor
+The Log names {rumor_name}, {rumor_dist} to the {rumor_dir}. I've read that entry many times.
+My patrols have walked as far as {rumor_name}, to the {rumor_dir}. No further, on my orders.
+There's {rumor_name} to the {rumor_dir}. If you go, tell me what you find. The Log wants it.
+An old captain marked {rumor_name} on the post's map, {rumor_dist} to the {rumor_dir}. A steady hand, that one.
+If you must wander, go {rumor_dir}, toward {rumor_name}. At least it isn't down.
+I sent two wardens toward {rumor_name}, out to the {rumor_dir}, last season. They still argue over what they saw.
+The Guild carts pass {rumor_name} {rumor_dist} to the {rumor_dir}. The drivers never fail to mention it.
+
+## captain.adventure
+Explore if you must. Go sideways, not down. Down is where the stair is, and you've no business there.
+If you find the Hush, the black sculk places, turn back. I know what hunts there. I've no wish to meet it.
+Take a friend if you can. Twelve of us went down together, and still it wasn't enough. One alone is less.
+The Old Delvers left halls all through this rock. Read their carvings. They knew things we've forgotten.
+Come back by the road when you're done. I like to write "returned" in the Log.
+Mark your route, carry milk for the cave spiders, and never trust the silence in a big cave.
+
+## captain.night
+I don't sleep much. The Log is good company at night, and it doesn't snore.
+At night I walk the wall and lay my hand on the Deepgate. Cold iron. Still shut. Good.
+The dark watch was always mine, even as a young warden. I hear things better at night.
+Go and sleep, {player}. The Watch is awake. That's what we're for.

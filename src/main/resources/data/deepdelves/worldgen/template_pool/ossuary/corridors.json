@@ -1,0 +1,59 @@
+{
+  "fallback": "deepdelves:ossuary/ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/gallery",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/gallery_fallen",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/junction",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/steps",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/tomb",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:ossuary/collapse",
+        "processors": "deepdelves:ossuary",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "block.deepdelves.prospecting_table": "Prospecting Table",
+  "block.deepdelves.haunt": "Haunt Mark",
+  "entity.deepdelves.villager.miner": "Miner",
+  "entity.minecraft.villager.deepdelves.miner": "Miner",
+  "entity.deepdelves.restless_miner": "Restless Miner",
+  "entity.deepdelves.crypt_keeper": "Keeper of the Ossuary",
+  "haunt.deepdelves.restless_miner": "The buried shift stirs in the dark...",
+  "haunt.deepdelves.drowned": "Something moves under the black water...",
+  "haunt.deepdelves.crypt_keeper": "The Keeper of the Ossuary wakes.",
+  "haunt.deepdelves.cinder": "The old forge's embers stir...",
+  "item.deepdelves.survey_map": "Delver's Survey Map",
+  "structure.deepdelves.camp": "Delvers' Camp",
+  "structure.deepdelves.seam": "The Buried Seam",
+  "structure.deepdelves.post": "Deepwatch Post",
+  "structure.deepdelves.cistern": "The Drowned Cistern",
+  "structure.deepdelves.hermit": "Hermit's Hollow",
+  "structure.deepdelves.grotto": "The Glimmering",
+  "structure.deepdelves.ossuary": "The Ossuary",
+  "structure.deepdelves.forge": "The Sunken Forge"
+}

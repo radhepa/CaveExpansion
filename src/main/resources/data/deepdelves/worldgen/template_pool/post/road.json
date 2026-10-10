@@ -1,0 +1,59 @@
+{
+  "fallback": "deepdelves:post/road_ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/road",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/road_left",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/road_right",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/road_rise",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/road_fall",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:post/waypost",
+        "processors": "deepdelves:post",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

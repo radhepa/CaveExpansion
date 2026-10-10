@@ -1,0 +1,23 @@
+{
+  "fallback": "deepdelves:hermit/crawl_ends",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:hermit/crawl",
+        "processors": "deepdelves:hermit",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:hermit/crawl_bend",
+        "processors": "deepdelves:hermit",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

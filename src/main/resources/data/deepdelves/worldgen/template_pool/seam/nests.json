@@ -1,0 +1,14 @@
+{
+  "fallback": "deepdelves:seam/caps",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "deepdelves:seam/nest",
+        "processors": "deepdelves:seam",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

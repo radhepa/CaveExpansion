@@ -1,0 +1,309 @@
+# The hermit of {place} (e.g. "Old Moss Hollow"), a mossy mushroom-grove cave. Old, gentle, odd, wise, a little lonely; talks
+# to the mushrooms; calls the visitor "surface-walker" (now and then "topsider"). Gender-neutral: no pronouns for the hermit,
+# Tamsin or Pell. Once a Guild delver, a better one than most, pick-partner of Tamsin (who taught everyone to sound a roof) at
+# the camp now called the Buried Seam. The shift robbed the pillars for their ore; Tamsin said the roof was "singing wrong" and
+# nobody listened. The day it fell the hermit was up top fetching lamp oil, and Tamsin was working the hermit's turn at the face.
+# Nine days of digging, then the Guild sealed the drift; the hermit stayed below ("somebody ought to stay where they can hear
+# them") and stopped counting at a hundred shifts (about thirty years). Went back to the Seam once, saw lamps moving in the
+# rubble, never again; brought back a small lantern, maybe young Pell's lost first lantern. Knew Old Hesk (owes six coppers).
+# The giant red mushroom is "the Bishop", the brown one "Old Thatch"; small ones are named for the lost shift (Tamsin, Pell,
+# Bramble, Wick). Mudge is the axolotl in the pond. Brews night-sight: "Gold I can dig. Carrots I have to beg." Own saying:
+# "Slow is a kind of light." Uses the Guild greeting "Light to you" / "And the roof over you" and the Guild sayings.
+# The Watch once came to see if the hermit was a monster and left with soup. The Deep Dark is "the Hush", its hunter "the Listener".
+
+## hermit.greet
+Oh! A visitor. Mind the mushrooms, they're shy.
+Hello, surface-walker. Come in, come in. Wipe your feet on the moss.
+{player}! The Bishop said you'd come. Well. It leaned that way.
+Welcome to {place}. It isn't much, but it's warm and it glows.
+Good {time}, I think. I lost track of the sun a long while ago.
+Sit by the pond, {player}. Mudge likes company.
+Hello, hello. Don't step on Old Thatch's roots.
+Ah, footsteps. The stone told me someone was walking. It tells me most things.
+{player}. Come in out of the dark. Well. Out of the darker dark.
+A face! I'd nearly forgotten how they look. Mine's in the pond, but it's always the same one.
+Hush now, little ones, it's only {player}. Go on, say hello.
+Surface-walker! Have you brought any weather down with you? I miss weather.
+Welcome, welcome. Mind the roof. Habit. The roof here is very well behaved.
+Oh, good. I was arguing with the mushrooms, and they were winning.
+I'm {name}, if anyone ever asks. Nobody down here says it, so I say it myself now and then.
+Come in, {player}. The kettle's on. It's always on.
+Stone gives, stone takes, and today it gave me you. Hello.
+Don't mind the bats. They live here too. They pay their rent in droppings.
+Light to you, {player}. Go on, say it back: "And the roof over you." There. Like old times.
+Hello, {player}. Light behind you, light ahead. You remembered both, I see.
+
+## hermit.greet.stranger
+Oh! Oh my. You came through the crawl? Nobody comes through the crawl.
+A surface-walker, in my hollow. Well. Don't be frightened, I'm only old.
+Who are you, then? You've sun on your face. I can tell. It's in the eyes.
+Careful! You nearly trod on Bramble. Bramble's a mushroom. You'll meet everyone.
+Hello, stranger. Lost, or looking? Both kinds are welcome here.
+You're not the Watch, and you're not Guild. Are you a story? I've not had a new story in years.
+Easy, easy. I've no weapon but a ladle. Sit, and tell me your name.
+Light to you, stranger. You're meant to say "and the roof over you". No? Ah. A topsider.
+
+## hermit.greet.friend
+{player}! My favourite surface-walker. Well, my only one. Still my favourite.
+You came back! The mushrooms said you would. I didn't believe them. Sorry, mushrooms.
+Come here, come here. I saved you the good berries.
+Oh, I'm so glad. The hollow's been too quiet without your boots in it.
+{player}. Sit in your spot. Yes, it's your spot now. The moss has your shape.
+There's my friend. Tell me everything. The sky first.
+Ah, there you are. I've been talking to Old Thatch about you. Old Thatch is tired of it.
+
+## hermit.greet.morning
+Morning? Is it? The berries glow the same either way.
+Good morning, surface-walker. Up top the birds are singing. I'll take your word for it.
+Morning, then. The Bishop spreads its gills a little in the morning. I swear it does.
+
+## hermit.greet.evening
+Evening already? I've only just finished my morning tea.
+Good evening. The bats are going out. They'll be back by dawn with stories they won't tell.
+Evening, {player}. Supper's mushroom. Breakfast was mushroom too. You see the pattern.
+
+## hermit.greet.night
+You're up late, surface-walker. Or early. Down here it's all one.
+Night, is it? Then whisper. The little ones are sleeping.
+In, quick, it's the dark hours. Things walk the tunnels at night, even up this high.
+
+## hermit.chat
+Mushrooms like the dark and a bit of damp, and they don't like being rushed. Very like me.
+That's the Bishop, the big red one. Old Thatch is the brown. They've been arguing for twenty years.
+The little mushrooms each have a name. Bramble, Wick, Tamsin, Pell... I named them for the shift.
+Glow berries! Pick one if you like. They taste of a little sun, gone a bit sleepy.
+The pond's fed by a drip from the roof. One drop at a time, since long before me. That's patience.
+Mudge lives in the pond. Pink, frilly, smiling all the time. I've never seen anything so content.
+I talk to the mushrooms. They don't talk back, exactly. But they listen better than most folk ever did.
+Moss grows on anything that sits still long enough. I've had to shake it off my own boots.
+Slow is a kind of light. You'll see more by going slow than any torch will show you.
+Those roots hanging down come from a tree up top. An azalea, I think. It's been reaching for me for years.
+Bats are good company. They come and go and they never ask how you are.
+I don't miss much from up top. Bread. I miss bread. And people laughing in another room.
+A cave is never truly silent. Water ticks, stone creaks, gravel whispers. You learn the words.
+The Guild taught me to mind the roof. The hollow taught me to mind the rest.
+I keep a lamp lit in the crawl, in case anyone ever needs to find their way in. And now someone has.
+Spiders don't come in here. I think the mushrooms frighten them. Or the smell of my stew.
+Mushroom stew, mushroom bread, mushroom tea. I am at least half mushroom by now, I think.
+Never eat a mushroom you haven't been introduced to.
+Clay from the pond bank makes good pots. Lopsided ones. Those are the ones I make.
+Up top they think caves are empty. Caves are full! You only have to sit still long enough to see it.
+I had a cat once, up top. Grey as slate. I wonder sometimes what became of it.
+The stone's warmer here than anywhere else I found in the deep. Maybe that's why I stayed.
+The Watch came by once, years ago, to see if I was a monster. I gave them soup. They decided no.
+I hum the old Guild songs to the mushrooms. They grow better. Don't laugh. It works.
+The glowing lumps up in the caps? Shroomlight. Warm as a hearth and twice as quiet.
+Everything down here eats something else. Except the moss. The moss eats patience.
+My hands still remember the pick. They itch when I hear stone crack.
+I counted days by notches. Then I counted shifts. Then I stopped counting and started living.
+That big leaf by the pond tips you off if you stand on it. Don't. It's Mudge's.
+A good cave smells of wet stone and green things. A bad one smells of nothing at all. Leave the bad ones.
+I sweep the hollow every morning. Mostly I move the dust from one side to the other. It's a kind of order.
+Have you seen the purple caves, deep down, that ring like bells? I went once. Sat a whole day just listening.
+Light behind you, light ahead. I say it every time I fetch water, even if it's ten steps.
+Funny thing, being alone. You become very good company for yourself. Not always polite company.
+
+## hermit.chat.new
+Don't be shy. I'm the strangest thing in this cave, and I'm quite harmless.
+First time in a hollow? Touch whatever you like. Except the red one. The Bishop's ticklish.
+You'll get used to the glow. And the smell. And me. Mostly in that order.
+
+## hermit.chat.close
+You know, {player}, you're the first friend I've made since the roof came down. I'd forgotten how.
+When I'm gone, somebody ought to look after the mushrooms. I'd like it to be you.
+I've told you more than I've told anyone in thirty years. The mushrooms are jealous.
+If you ever pass a Guild camp, look for the empty lantern hook. Hang nothing on it. Just nod to it, for me.
+
+## hermit.past
+I was Guild once. Twenty shifts on the pick, maybe more. Good hands. Bad luck.
+Tamsin and I worked the same face for six shifts. Pick-partners. You don't get closer than that, down here.
+The camp's called the Buried Seam now, they tell me. Back then we just called it home.
+The shift was robbing the pillars. The ore in them was so pretty. Tamsin said the roof was singing wrong. Nobody listened.
+The day the roof came down, I was up top fetching lamp oil. Tamsin was working my turn at the face. I've never forgiven the oil.
+We dug for nine days. Then the Guild called it off and sealed the drift. I didn't go up with them.
+Somebody ought to stay where they can hear them. So I stayed. That was the start of it.
+I wandered a long while after. Months. Then I found this hollow, warm and green, and it didn't ask me to leave.
+The first year I nearly starved. The second I learned mushrooms. The third I learned to talk to them.
+Tamsin taught me to sound a roof. Tap, and listen, and tap again. I still sound this one every morning.
+I stopped counting at a hundred shifts. Thirty years, I think. Maybe more.
+Some nights I still hear picks, far off. Then I remember which way the Seam lies, and I put the kettle on.
+My people up top will have stopped waiting long ago. That's all right. I'd want them to.
+I went back to the Seam once. Lamps were moving in the rubble where no lamps should be. I've not been back.
+Young Pell was on that shift. A first shift. So proud of that first lantern. Carried it like a newborn.
+Is Old Hesk still alive? Hesk owes me six coppers and a story with an ending.
+
+## hermit.work
+Mushrooms first thing. Turn the logs, mist the beds, pick what's ready. Say good morning to each one.
+Night-sight brew: water, a pinch of the red wart, then a golden carrot. Gold I can dig. Carrots I have to beg.
+I brew night-sight for anyone who passes. Delvers, mostly. Once a warden who'd dropped a torch in a flooded hall.
+I had the red wart off a peddler, long ago, with a sack of its sour sand. It's never once stopped growing.
+Every morning I sit by the pond with my palms flat on the floor and listen. The stone tells you if it means to move.
+Gravel hisses before it slides. Stone creaks before it cracks. Water goes quiet before it breaks through. Listen for the quiet.
+The pond wants tending. Pull the weed, feed Mudge, thin the lily pads so the light gets down.
+A poppy in the stew and you'll see in the dark a while. A lily of the valley, and you'll wish you hadn't.
+I keep the glow berries trimmed off the pond. They'd glow all the way to the bottom and keep Mudge awake.
+Brewing is slow work. You watch the bubbles and you think. Mostly I think about mushrooms.
+I mend my own boots, my own pots, my own roof. Everything down here I've mended at least once. Including me.
+Bonemeal on a little mushroom and, if it likes you, up it goes, big as a hut. That's how the Bishop started.
+The big ones need room. I dug the hollow wider, a shovelful a day, for two years, just for the Bishop.
+I trade brews to the delvers for carrots and news. The carrots are usually better than the news.
+Tap the roof before you trust it. Even a roof you've trusted thirty years. I tap mine every morning.
+
+## hermit.adventure
+Going exploring? Take more torches than you think, and twice as many as that.
+If the stone underfoot turns black and soft and full of little lights, stop. That's the Hush. Turn round and tiptoe.
+Something lives in the Hush that sees with its ears. Don't sneeze. Don't run. Don't even think loudly.
+A night-sight brew is worth more than a lantern in a flooded cave. Take one of mine.
+If you find the Buried Seam, don't go poking in the rubble. Let them sleep. Please.
+Mind the roof. I mean it. Look up before you dig, every time.
+The green caves, with the roots and berries? Safe as anything. Sit and eat a berry for me.
+Follow water downhill and you'll find the deep. Follow it uphill and you'll find the way home.
+The Old Delvers built down there, in black stone and gold. Lovely work. Lonely, now.
+
+## hermit.joke
+Why are mushrooms never lonely? They grow in rings of friends. ...Fairy rings. Never mind. The Bishop laughed.
+I asked the Bishop for advice once. It said nothing. Wisest thing anyone's ever told me.
+Old Thatch and I have the same trouble: mostly stem, and thin on top.
+A bat flew into my stew once. I ate around it. Then it ate around me.
+How do you find a hermit in the deep? Follow the smell of mushroom tea and the sound of someone losing an argument to a mushroom.
+The delvers call me mad. I call them in for soup. We both come out ahead.
+I'd tell you a joke about the roof, but it might bring the house down.
+Mudge lives better than any king. Swims, eats, sleeps, smiles. Never once paid a tax.
+What's a mushroom's favourite room? Any room without windows. Ha! That's all of mine.
+
+## hermit.news
+News? The mushrooms say rain up top. They swell when the surface is wet. Bring a cloak.
+The bats came home early last night, all at once. Something's stirring out in the tunnels.
+The pond went cloudy two days back. The stone above is shifting. It'll settle.
+A delver came by last month. Says the Guild's opened a new camp. Same old faces, new holes.
+The Bishop dropped a cap yesterday. First time in years. I don't know what it means. Probably nothing. Probably.
+The drip from the roof has gone quicker. Spring up top, I'd guess. Or the stone is weeping. One or the other.
+I heard the Watch drilling, far off through the stone. Clang, clang, shout. Comforting, somehow.
+
+## hermit.heart
+Do you know why I talk to the mushrooms? So I don't forget how words go. Silly, I know.
+I don't regret staying. I regret the oil. I'll always regret the oil.
+If Tamsin could see me now, there'd be laughing first. Then sitting down to stay a while.
+Sometimes I put out two cups without thinking. Then I drink both. Waste not.
+I'm not lonely. Well. A little. Visitors help. You help.
+The quiet down here is gentle. Up top, the quiet was always waiting for something.
+I'd like to see the stars once more. Just once. Then I'd come back down and tell the mushrooms all about them.
+Stone gives, stone takes. It took a great deal from me. Then it gave me this hollow. I think we're square now.
+There's a little lantern on my shelf that isn't mine. I brought it back from the Seam. I think it was young Pell's.
+When my time comes, I'd like to lie under the Bishop. Good shade. Good company.
+
+## hermit.rumor
+The mushrooms all lean a little {rumor_dir}. There's {rumor_name} that way, {rumor_dist} off. They feel it, I think.
+Tamsin and I found {rumor_name} once, out to the {rumor_dir}. We sat and ate our bread there and didn't say a word.
+To the {rumor_dir}, {rumor_dist} through the stone, there's {rumor_name}. The water runs toward it. Follow the water.
+A delver told me of {rumor_name} to the {rumor_dir}. I gave them a brew for the tale. Fair trade.
+When I put my ear to the floor I hear {rumor_name}, away to the {rumor_dir}. Well. I hear something.
+The bats fly {rumor_dir} at dusk, toward {rumor_name}. Bats know every hole in the hill.
+I went wandering once, {rumor_dist} to the {rumor_dir}, and came on {rumor_name}. I came home quick and had a sit down.
+There's {rumor_name} to the {rumor_dir}, if the old stories are right. The old stories usually are, I find.
+Go {rumor_dir}, surface-walker, {rumor_dist} or so, and you'll find {rumor_name}. Bring me back a story.
+The draught in my crawl blows from the {rumor_dir}. It smells of {rumor_name}. Don't ask how I know what that smells like.
+In my Guild days we marked {rumor_name} on a map, {rumor_dist} to the {rumor_dir}. The map's long gone. The place won't be.
+
+## hermit.rumor.none
+The mushrooms aren't leaning any way at all. Nothing near, I'd say. Just stone.
+I don't know of anything close by. I don't go far these days. My knees have opinions.
+Nothing nearby, surface-walker. Just me, the Bishop, Old Thatch and Mudge. We're plenty.
+The stone's quiet all round. That's either very good, or I'm going deaf.
+
+## hermit.plata
+Near the top, the stone has silver in it that moves. Silverfish. Break the wrong block and out they pour.
+I found a husk in the stone once, silver and empty, curled like a moth's case. Long as I am tall. I left it be.
+A traveller came down my crawl one autumn. Asked how many lived here, where I slept, which way the door faced. Never blinked once.
+The delvers say the silver folk shed their skins like silverfish and walk about in new ones. I'd believe nearly anything, down here.
+If a stranger ever brings me a gift and won't eat my stew, I'll know. Nobody refuses my stew. Well. Nearly nobody.
+
+## hermit.night
+At night I sit by the pond and watch the berries glow in the water. Two of every light. Twice the company.
+Nights are when the stone talks most. Cooling, I think. Or remembering.
+I bar the crawl at night with a bit of plank. Not that it'd stop much. It stops me worrying.
+Zombies wander the tunnels at night, even up here. They don't come in. The mushrooms disagree with them.
+Sleep here if you like, {player}. There's moss enough for two, and the Bishop keeps the drips off.
+Mudge sleeps under the big leaf. I sleep under the Bishop. Everyone has a roof here.
+
+## hermit.held.pickaxe
+A pick! Oh, I know that weight. Mind the roof with that {item}.
+Hold it low on the haft and let the stone do half the work. Tamsin taught me that.
+That {item} will open a lot of stone. Be sure you want what's behind it.
+## hermit.held.sword
+Oh, put that away. There's nothing here to cut but mushrooms, and they've done nothing wrong.
+That {item} looks sharp. Keep it pointed at the tunnels, not at the Bishop.
+A blade in my hollow. Well. I suppose the world isn't all mushrooms.
+## hermit.held.bow
+A bow? Mind the bats. They're friends, not targets.
+That {item} would be grand for the spiders out in the tunnels. Not in here, though.
+I never could shoot. I'd close both eyes. Very sporting of me, the spiders thought.
+## hermit.held.shield
+A shield. Good. Things fall in caves. Rocks, mostly. Sometimes arrows.
+I could use that {item} as a lid for my stew pot. Only teasing. Mostly.
+Sensible, surface-walker. Sensible folk live long enough to get odd, like me.
+## hermit.held.torch
+Light behind you, light ahead! You remembered.
+Don't hold that {item} too near the caps. The Bishop singes.
+A torch! Look, the little ones are all leaning toward it. They don't need light, but they like a look.
+## hermit.held.ore
+Ore! I can tell what's in it by the heft. Twenty shifts on the pick will do that.
+That {item} smells of fresh-broke stone. I'd know that smell in my sleep.
+The stone gave you that {item}. It'll want something back one day. Be gracious about it.
+## hermit.held.diamond
+Diamonds. The Seam had those, in the pillars. That's what brought the roof down. Put it away, would you?
+Oh, that's a deep one. You've been low, surface-walker. Lower than I'd go.
+Pretty thing. Can't eat that {item}, though. Can't brew with it either.
+## hermit.held.gold
+Gold! I could use a nugget or two for a golden carrot. No? Fair enough.
+That {item} would make a dozen night-sight brews, if I had the carrots.
+Gold's pretty in the berry-light. Still heavier than it's worth, down here.
+## hermit.held.emerald
+An emerald! The delvers would trade you a fortune in carrots for that.
+Green as moss and twice as hard. I've no use for it, but it's lovely.
+Keep that {item} safe. Up top it's coin. Down here it's just a nice stone.
+## hermit.held.food
+Is that {item}? Oh, that smells of the surface. Of a kitchen with windows.
+Real food! I don't suppose... no, you keep it. Well. Perhaps just a corner.
+Is that from up top? It smells of sunshine. I've had nothing but mushrooms for a month.
+## hermit.held.map
+A map! Is my hollow on it? No? Good. I like being a secret.
+Would you show me on that {item} where the sun comes up? I've forgotten which way.
+Maps of the deep are always wrong somewhere. The stone moves. Trust your ears as well.
+## hermit.held.tnt
+No, no, no! Not in here! You'll frighten the Bishop out of its cap!
+Put that {item} down gently. Gently! Mind the roof. Please mind the roof.
+Somebody always thinks a little powder will hurry the stone along. The stone doesn't like to be hurried.
+## hermit.held.potion
+A brew! Let me smell it. Hm. Not one of mine. Not bad, though.
+Is that {item} night-sight? If it isn't, I can make you one. Bring me a carrot.
+Brewing's half patience and half keeping your eyebrows. Whoever made that {item} has both.
+## hermit.held.flower
+A flower! From up top! Oh, may I hold it? Just a moment. It smells of sky.
+Put that {item} in a stew and see what happens. Something always does.
+I'll stand it in water by the pond. The mushrooms will be scandalised.
+## hermit.held.book
+A book! I've only my own notes. Notes on the Deep. I've read them a hundred times.
+What's in that {item}? Read me a page. Any page. I'm starved for words.
+I write down what the stone says. Somebody should. Is that a book of stone things?
+
+## hermit.player.hurt
+You're hurt! Sit, sit. I've a poultice of moss and something I won't name. It works.
+Oh, look at you. Who did this? Spiders, I'd bet. Hold still.
+Here. Drink this. Don't smell it first. Just drink it.
+## hermit.player.hungry
+You look hollow. Hollow as my hollow! Have some stew. Mushroom. Of course it's mushroom.
+Hungry? Pick some glow berries. They'll keep you going until you find proper food.
+Surface-walker, you're swaying. Here. Eat. I insist.
+## hermit.player.unarmored
+No armour at all? You're brave or foolish. Tamsin was the brave one. I was the other.
+You'll want something on you before you go any deeper. The deep bites.
+Bare as a peeled mushroom. At least let me get some stew in you before you go.
+## hermit.player.diamond
+Diamond, head to toe! You glitter like the inside of a geode.
+All that diamond. Somebody dug very deep for you. I hope they came back up.
+Oh my. Don't stand by the pond in that, you'll dazzle poor Mudge.
+## hermit.player.leather
+Leather! Good honest stuff. Mine wore through years ago. Now it's mostly moss.
+Leather's soft on the knees, and knees matter in a crawl. You'll do.
+Good leather keeps the damp off. The damp's the real enemy down here.

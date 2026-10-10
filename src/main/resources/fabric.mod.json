@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "deepdelves",
+	"version": "${version}",
+	"name": "Deep Delves",
+	"description": "A Village Friends add-on that revamps the underground: eight rare places to break into while caving or mining. A Delvers' Camp of working miners, a Deepwatch Post holding the cave road, a hermit's mushroom hollow, and the lost works of the Old Delvers: a buried mine, a drowned cistern, a crystal grotto, an ossuary and a sunken forge.",
+	"authors": ["minal"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/deepdelves/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.deepdelves.DeepDelves"],
+		"client": ["dev.deepdelves.client.DeepDelvesClient"]
+	},
+	"mixins": [
+		"deepdelves.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"villagefriends": ">=2.28.0"
+	},
+	"suggests": {
+		"plataclan": "*",
+		"nsvmobs": "*",
+		"villagefriends_rpg": "*"
+	}
+}

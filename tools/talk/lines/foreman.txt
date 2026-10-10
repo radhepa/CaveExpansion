@@ -1,0 +1,137 @@
+# The foreman of a Delvers' Camp: older, gruff-kind, responsible for three delvers and the roof over them, and
+# worries about both. Keeps the Ore Ledger (every cart, and a column for close calls). Short, plain sentences; shows
+# care by checking things. Calls the miners "my lot" or "the crew". Uses {name} for itself, never {foreman}.
+# The Buried Seam: the shift cut the ore out of the pillars holding up their roof, and it came down on all of them.
+# The foreman was meant to be on that shift; a fever the week before kept the foreman up top. Knew people in it:
+# Tamsin, who taught the foreman to sound a roof, and young Pell, on a first shift, whose first lantern was never
+# found. Afterwards the foreman stood on the Guildhall's long table until the Guild wrote the pillar rule.
+# Old Hesk was the foreman's own first foreman and later made {name} a foreman. Eleven shifts as foreman, never
+# lost a delver. The hermit below was a Guild delver once, a better one; the foreman doesn't blame the choice.
+# Inherited from miner.txt: greet.morning/evening/night, chat.new, chat.close, rumor.none, plata, held.*, player.*.
+
+## foreman.greet
+{player}. Wipe your boots. Then we'll talk.
+Light to you. Came in by the drift, I hope, and not through my wall.
+Ah. You. Good. One less thing to worry about.
+Welcome to {place}. Mind the roof, mind the rails, mind me.
+Sit, {player}. You look like you've been arguing with granite.
+{player}. I was doing the Ledger. Any excuse to stop is welcome.
+Light behind you, light ahead. Good to see you whole.
+Hm. Still breathing, I see. I'll mark that down.
+Come in. Don't touch the props. Don't touch the Ledger. Touch the stew, if you must.
+Quiet {time}. I don't trust it, but I'll take it.
+
+## foreman.greet.stranger
+You broke into my camp. That wall was holding things up, you know.
+Stop there. I'm {name}, foreman of {place}. And you are?
+A stranger, this deep. Either you know what you're doing or you're about to learn.
+Keep your hands where I can see them and your pick off my props.
+Guild camp. Guild rules. First one: mind the roof. Second one: mind me.
+If you're after ore, there's easier rock to rob. If you're lost, sit down and eat something.
+
+## foreman.greet.friend
+{player}. Good. The crew's been asking after you. So have I, a bit.
+There's a seat by the forge for you. Don't let it go to your head.
+Light to you, friend. And the roof over you.
+I'd half started to worry. Then I remembered how stubborn you are.
+{player}! Come in. You're the only one here who never asks me for more pay.
+
+## foreman.chat
+Every cart goes in the Ore Ledger. Every one. Ore that isn't written down didn't happen.
+I've three delvers and one roof. I count all four every morning.
+My lot are good. Loud, hungry, and good.
+Folk think a foreman just shouts. I also worry. Quietly. Mostly at night.
+The empty hook over the door? That's for the Buried Seam. Every Guild camp keeps one.
+You judge a camp by its props, not its ore.
+I don't like rich seams. Rich seams make folk greedy, and greedy folk rob pillars.
+The Guild pays by the cart. I'd pay by the years kept, if I could.
+The Ledger's got a column for ore and a column for close calls. The second one keeps me up.
+I sound every roof myself. Tap, listen. Tap, listen. The crew tease me. The crew are alive.
+Don't tell the others, but I like this camp. Best rock I've worked in years.
+Torches are cheap. Delvers aren't. Spend torches.
+Old Hesk was my foreman once. Told stories so tall you could prop a roof with them.
+I keep the spare picks under my bunk. Picks go missing otherwise. So do pies.
+Stay as long as you like. Pull your weight and keep your voice down after dark.
+When I was young I wanted to find gold. Now I just want to find all of us at supper.
+Grumble's older than two of my crew. Squeaks worse than all three.
+
+## foreman.past
+I started as a cart-hauler. Pushed Grumble's grandmother up and down a drift for three shifts.
+Tamsin taught me to sound a roof. Tap, listen, trust nothing. Tamsin went down with the Buried Seam.
+The Buried Seam was rich. Too rich. They cut the ore out of the pillars, and the roof came down on all of them.
+I was meant to be on that shift. Took a fever the week before. I've never forgiven that fever. Or thanked it enough.
+Young Pell was on the Seam too. First shift. Pell's first lantern was never found. I think of it at the empty hook.
+Eleven shifts as foreman. Never lost a delver. I mean to keep it so.
+I shored up a Deepwatch post once. Stiff folk. Decent. Don't wait for them to laugh; you'll be waiting a while.
+Hesk made me foreman. Said I worried enough for two. Turns out you need to worry enough for four.
+Before this camp I worked a copper hole so wet we bailed more than we dug.
+After the Seam I went to the Guildhall and stood on the long table till they wrote the pillar rule.
+The hermit below was Guild once. A better delver than me. Stayed down one shift and never came up. Can't say I blame the choice.
+
+## foreman.work
+Props every three paces. I check them. Then I check them again. Then you can dig.
+Never rob a pillar. I don't care if it's solid gold. Especially if it's solid gold.
+If you hear the roof talk, you leave. You don't finish the swing. You leave.
+The Ledger says we're ahead this shift. That means someone's cutting corners. I'll find out who.
+Gravel overhead, water in the walls, warmth in the stone. Any one of those, you call me.
+Rails at morning, lanterns at noon, heads at supper. That's the day.
+Deepslate's slow work. Slow is fine. Slow comes home.
+Nobody works the deep drifts alone. Not since the Seam. Not ever.
+Ore in the bins, gold in my chest, close calls in the Ledger. I want to know about all three.
+The ladder shaft's our way up. Keep it clear. If this camp ever has to run, it runs there.
+A good shift is one where nothing interesting happens.
+
+## foreman.news
+Ledger's looking good. Don't tell the crew; they'll want more stew.
+The Guildhall wants more iron this shift. The Guildhall can come down and dig it.
+A Deepwatch runner passed through. Says the cave roads are quiet. I've heard that before.
+One of mine nearly lost a hand to a hisser at the face. Nearly. The Ledger says nearly.
+We found Old Delver tile behind the new drift. I've walled it up. Some doors aren't ours to open.
+Grumble's wheel is cracking. I've sent up for a new one. It'll come next shift. Or the one after.
+The roof in the far drift groaned last night. I've doubled the props. Nobody works there till I say.
+
+## foreman.heart
+I hang the empty hook myself, in every new camp. Then I stand under it a while.
+I've a sister up top who keeps my room ready. Every shift she airs it out. Just in case.
+My crew are my family down here. Don't tell them. They'll get ideas.
+I miss Tamsin. Still. Tamsin would have liked you.
+Some nights I count the crew sleeping. Three lots of breathing. Then I can sleep too.
+If anything happens to my lot, it's on me. That's what foreman means.
+I'd like to see the sea one day. Never have. Rock all my life, and the sky between shifts.
+
+## foreman.rumor
+I've a note in the Ledger: {rumor_name}, {rumor_dir}, {rumor_dist}. Wasn't written for you. But there it is.
+There's {rumor_name} out {rumor_dir}. Go if you must. Come back and tell me about it.
+Hesk always talked of {rumor_name} to the {rumor_dir}. Hesk talked a lot. That one I believe.
+The survey puts {rumor_name} {rumor_dir} of here, {rumor_dist} through rock. If you dig, prop as you go.
+If you're set on wandering, wander {rumor_dir}. There's {rumor_name} that way. Light behind you, light ahead.
+A runner left word of {rumor_name}, {rumor_dir}, maybe {rumor_dist}. I wrote it down. I write everything down.
+Don't tell my lot, they'll all want to go: there's {rumor_name} {rumor_dir} of {place}.
+I'll say it once: {rumor_name}, {rumor_dir}, about {rumor_dist}. Now you know. Mind the roof.
+You've the look of someone who wants to go somewhere. Try heading {rumor_dir}. They say there's {rumor_name}.
+I've marked {rumor_name} on the camp chart, {rumor_dir} of us. Never been. Never needed to.
+
+## foreman.adventure
+Going down? Tell someone. Tell me. I'll write it in the Ledger and come looking if you don't come back.
+A cracked roof that drips isn't your roof. Go round it.
+Stay out of the Hush. Black stone, breathing moss, a quiet that hurts your ears. Something listens there. Give it nothing to hear.
+Take water, take food, and take more torches than your pride says you need.
+The Deepwatch are slow to trust, but they hold the deep roads. Be honest with them and they'll be fair.
+The Old Delvers' halls are fine to look at. What they sealed, leave sealed.
+Never dig straight down. I've carried up folk who did.
+
+## foreman.joke
+What's the difference between a foreman and a roof? The roof only comes down on you once.
+My crew say I've a face like a rockfall. I say at least it holds together.
+Grumble squeaks, the crew grumble, and somehow I'm the one they call Grumble behind my back.
+How do you get three delvers out of bed? Say "stew". How do you get them to work? Say "stew later".
+I told the Guildhall our camp was rich in stone. They didn't laugh either.
+Hesk once sold a topsider a "genuine diamond". It was a glow berry. They ate it.
+I keep the Ledger so tidy the ore's started lining up on its own.
+
+## foreman.night
+Go to sleep, {player}. One of us should.
+I walk the drifts last thing and tap a few props. Silly, maybe. It helps.
+At night I hear the Seam. Not really. But I hear it.
+Ledger's done. Crew's asleep. Roof's holding. That's a good night.
+Lantern's low. I'll trim it. Light behind you, light ahead, even if you're only going to bed.

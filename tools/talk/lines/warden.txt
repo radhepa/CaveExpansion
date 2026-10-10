@@ -1,0 +1,339 @@
+# Deepwatch wardens (two knights, two archers) of a Deepwatch Post, {place} (e.g. "Ironreach Post"), across a cave road.
+# Speaker-neutral and gender-neutral: any of the four may say any line. The captain is {captain} or "the captain", never a pronoun.
+# Pools the captain inherits from this file (greet.morning/evening/night, chat.new, chat.close, joke, rumor.none, plata,
+# held.*, player.*) never mention the captain.
+# Canon: motto "Below, we hold." (answer: "Above, they sleep."). Watch report: "Lamp lit, road watched, gate shut."
+# Road challenge: "Who walks the road?" Answer: "One who means to walk back up." Oath: "I keep the lamp. I hold the road. I do not go down."
+# The Deepgate: an Old Delver arch carved with their lantern mark (the Watch's white lantern banner was copied from it), shut with
+# the Watch's iron door; its lever is locked and the captain carries the key. Behind it the Long Stair goes down further than any
+# map, to "the Deep below the deep". Nobody passes without the captain's word. A knock from below: log it, never answer.
+# The Long Patrol: years ago twelve wardens went down the Long Stair and five came back; the captain was the youngest of them and
+# never says what is down there. Their whole Log entry: "The stair goes on." Time is kept by the watch-candle; the watches are
+# the grey watch (morning), the lamp watch (evening), the dark watch (night). The Deep Dark is "the Hush", its hunter "the Listener".
+# Shared with the miners: creepers are "hissers", skeletons "rattlers", surface folk "topsiders", the Plata Clan "the silver folk".
+
+## warden.greet
+{player}. The road's quiet. Let's keep it that way.
+Lamp lit, road watched, gate shut. And now a visitor. Good.
+Welcome to {place}. Wipe the cave muck off your boots.
+Good {time}, {player}. Or so the watch-candle tells me.
+Ah, {player}. Anything follow you up the road?
+Stand easy, {player}. You're inside the walls now.
+{name} of the Deepwatch, on watch. What do you need?
+Mind the brazier, {player}. It bites.
+Come sit a while, {player}. The stone won't miss you.
+Below, we hold. And today you're below with us.
+You've got that look. Long walk through dark places?
+Easy, {player}. Nothing gets past this gate that we don't see first.
+Ho, {player}. Bring any news down with you?
+Quiet day at {place}. Too quiet, some would say. I'd say lucky.
+If you're after {captain}, look by the Log. That's where {captain} lives.
+Keep your torch up and your voice down, {player}, and you're welcome here.
+A face that isn't one of ours. Nice change.
+{player}. Good. I'd rather see you than another rattler.
+Come through, come through. The road's no place to stand about.
+I heard your boots a long way off. You walk loud, {player}.
+Warm yourself at the fire, {player}. The deep road takes it out of you.
+Hm? Oh. Sorry, I was listening to the road. What is it, {player}?
+Light to you, {player}. That's how the miners say it. It's grown on us.
+
+## warden.greet.stranger
+Halt! Who walks the road? ...You don't know the answer. Then state your business, and plainly.
+Hold there. This is {place}, a post of the Deepwatch. What brings you up the road?
+Stop where you are and show me your hands. Empty? Good. Now, who are you?
+Halt, stranger. Nobody comes this deep for the air. What's your business?
+Easy. Lower that and we'll talk. You've walked into the Deepwatch.
+You came out of the rock like a mole. Not many find us that way. Name yourself.
+Halt and be known. If you're honest, you've nothing to fear from us.
+Hold. You may pass along the road, but you don't pass the gate behind us. Understood?
+Stranger on the road! ...No, stand down, it's only a traveller. You, step into the light.
+You're not Guild and you're not Watch. So what are you, this far down?
+Here's how it goes, stranger: your blade stays sheathed, and ours stay sheathed. Fair?
+The answer to "who walks the road" is "one who means to walk back up". Learn it. Now, your name?
+
+## warden.greet.friend
+{player}! Who walks the road? Ha. I know who. Come in.
+There's a seat by the brazier with your name on it, {player}.
+Below, we hold, {player}. And it's easier holding with you about.
+You're back! The others owe me a copper. I said you'd live.
+{player}, my friend. Sit. Tell me what the dark's been doing.
+Ah, the one who means to walk back up. And you did. Welcome.
+I saved you some of the stew. Don't tell {captain}.
+Good to see you whole, {player}. Truly.
+{player}! Let me look at you. Still all your fingers? Good.
+Back again? The road must like you.
+There you are. I was starting to count you among the lost.
+
+## warden.greet.morning
+Morning, {player}. Not that the stone knows it.
+The watch-candle says morning. I'll take its word.
+Morning. The grey watch is the coldest one. Come stand by the fire.
+Up early, {player}? Or down late?
+
+## warden.greet.evening
+Evening, {player}. The lamp watch is just starting.
+Good evening. Up top the sun's going down. Down here we just light another candle.
+Evening. Come for supper or come for the company?
+
+## warden.greet.night
+It's the dark watch, {player}. Speak soft, the others are sleeping.
+Late to be on the road. What's chasing you?
+Night, {player}. If you can't sleep, you can stand watch with me.
+Quiet now. At night every sound carries up the road.
+
+## warden.chat
+The road below us runs on for miles. We only hold this stretch of it. That's enough.
+Every watch, somebody writes a line in the Log. Even if the line is "nothing came".
+Most days, "nothing came" is the best line in the Log.
+The banner's a white lantern on black. The only lantern down here that never goes out.
+Guild carts come up the road once a season with flour and arrows. We cheer them like a fair day.
+You learn to sleep with one ear open. Some of us sleep with both open.
+Hissers are the worst of it. You don't hear them coming. Just that hiss, and then you're praying.
+Rattlers I don't mind. A skeleton comes at you honest, clattering all the way.
+Spiders climb the walls and come over the top. That's why the crenels are set so close.
+Cave spiders are small and nasty and they come in threes. Always carry milk for the bite.
+The dripstone over the road drips all night. You stop hearing it after a month. Then you hear it in your dreams.
+Never stand under a pointed dripstone. They fall, and they don't miss.
+The brazier is the heart of the post. If it goes out, somebody's in trouble.
+{captain} says the walls were here before any of us. The stones say they're older still.
+The Watch is older than the Guild. Older than the village charters, some say.
+I miss rain. You don't know you love rain until you've gone a season without it.
+Bread goes hard down here in two days. We dunk it in the stew and call it a feast.
+We bake in the mess oven once a week. That smell is the closest thing to home in these caves.
+Don't touch the lever by the Deepgate. Not for a dare, not for a bet. Not ever.
+People ask what's behind the Deepgate. A stair. The Long Stair. That's all I know, and all I want to.
+The miners are good folk. Loud, though. You can hear a Guild camp a mile off.
+When a delver goes missing, we're the ones who go looking. We don't always find them.
+Torches every ten paces along the road. Leave a dark patch and something crawls out of it.
+The archers keep score on the targets. The knights pretend not to care. They care.
+Our walls aren't high. They don't need to be. Down here, nothing comes from the sky.
+The Hush, we call the black places where the sculk grows. Down there, sound is all that matters.
+Lava light is pretty, until you remember what it is.
+If you hear water where there was no water yesterday, back away. Aquifers break through without asking.
+A flooded hall is a drowned hall. Something always lives in the deep water.
+I've counted every stone in the gatehouse arch. Two hundred and twelve. Long watches.
+We chalk the names of the lost on the barracks wall. It's a long wall.
+I write home when the Guild carts come. They carry the letters up. Half of them get there.
+There's a tally by the gate of every hisser we've stopped short of the wall. It's a big tally.
+{captain} went down the Long Stair once, with the Long Patrol. Twelve went. Five came back. Don't ask about it.
+Years back, the Watch went to see if the hermit in the green caves was a monster. They came back fed and carrying mushrooms.
+See the lantern carved over the Deepgate arch? Our banner was copied from it. The Old Delvers cut it long before us.
+
+## warden.chat.new
+New to the road? Keep close to the torches and you'll do fine.
+Don't mind us. We're gruff with everyone at first. It's the dark.
+First time at a Deepwatch post? We don't bite. The spiders do.
+You'll learn our ways. Lamp lit, road watched, gate shut. That's most of it.
+
+## warden.chat.close
+You know, {player}, I'd trust you on the wall beside me. I don't say that lightly.
+If I fall on the road, tell my people up top that I held. Will you?
+When my years on the watch are done, I'll walk up into the sun and never come down. Come and find me.
+You're the only one who visits who isn't selling something or running from something.
+I've told you things I haven't told the others. Keep them, will you? Below, we hold.
+
+## warden.past
+I joined the Watch at sixteen. Thought it'd be glory. It's mostly cold feet and counting.
+My village had a mine. One shift, my father went down and didn't come up. So I came down to keep others coming up.
+I trained at another post, further along the road. We lost it to a flood. The water just came.
+Before the Watch I was a baker's apprentice. I still knead the bread here, when there's flour.
+My first night on the wall, a hisser got close enough that I could hear it breathe. I didn't sleep for a week.
+The oath is short. "I keep the lamp. I hold the road. I do not go down." I've never broken a word of it.
+When I came, there were nine of us here. Now it's five. Most went home. Not all.
+{captain} took me in when no other post would. I'd been sent off for sleeping on watch. Never again.
+The year the aquifer broke, we fought drowned in the road for three days. The water was up to our knees.
+I grew up topside, in a village by a river. Down here I dream about fish.
+My first patrol, we found a lost delver sitting in the dark with no torch, humming. Took three days to get a word out.
+We held this gate for a whole night once, against everything the deep road could send. The braziers never went out.
+
+## warden.work
+Four watches a day by the candle. Two on the wall, one at the gate, one asleep. We turn it round.
+Every watch starts the same: check the lamp, walk the road, try the Deepgate bar. Lamp lit, road watched, gate shut.
+Drills at every change of watch. Step, strike, step back. Again until it's dull. Dull keeps you alive.
+I walk the road out to the last torch and back. If a torch is out, I find out why.
+Hissers we take at range. Archers first, and nobody goes near until it's quiet.
+Rule of the gate: nobody passes the Deepgate without the captain's word. Not you, not me, not a lord with a letter.
+We sweep the fallen dripstone off the road every morning. A pointed stone underfoot will lame a warden.
+We don't chase anything into the dark. We hold the light and let it come to us.
+A delver comes up the road hurt, we patch them up. A delver comes up the road scared, we listen.
+Webs across the road get burned the moment we see them. Spiders are patient builders.
+Arrows get counted every watch. An archer who loses arrows buys the next round.
+Anything that comes up the road gets met here, before it reaches the miners' camps. That's the whole job.
+I log every sound I can't name. Most turn out to be gravel. Some don't.
+A bucket of water by every brazier, a bucket of milk by every bed. Fire and poison, the two quick deaths.
+The training dummies take a beating every day and never once complain. Best recruits we have.
+If something knocks on the Deepgate from the other side, the rule is simple. Log it. Don't answer.
+Fresh torches go up along the road every third day, whether the old ones need it or not.
+Change of watch, we say it face to face: "Below, we hold." "Above, they sleep." Then the old watch can rest.
+Each season one of us runs word to the Guild camps. "Cave roads quiet." The miners laugh. They're glad of it all the same.
+
+## warden.adventure
+Going down the road? Go as far as the last torch, then think hard.
+If the stone turns black and soft and pulses under your feet, walk away. Slowly. Silently.
+That's the Hush. Something lives there that hunts by sound. We call it the Listener. Don't let it hear you.
+Diamonds lie deep, down in the deepslate. So does everything else that wants to eat you.
+Take a water bucket for the lava, a pick for the walls, and twice the torches you think you'll need.
+If you find a flooded hall, don't dive for treasure. Something down there is already swimming.
+The purple caves that ring when you step? Geodes. Safe enough. Beautiful, too.
+In the green caves with the hanging berries, the air is sweet and the pond-folk are friendly. Rest there.
+Light behind you, light ahead. The Guild says it, and the Guild is right.
+Mark your way with torches on one side only. Then you'll always know which way is back.
+If you find anything carved with a lantern over crossed picks, that's the Old Delvers. Tread respectful.
+
+## warden.joke
+How many wardens does it take to light a torch? One to light it, three to say it's crooked.
+A hisser walks up to the gate. I call, "Who walks the road?" It says, "Ssss." Worst answer we've had all year.
+Why don't rattlers ever stand watch? No guts. I've told that one forty times. It still works.
+The stew tonight is "mystery stew". The mystery is whether it was ever food.
+Our archers can hit a spider at forty paces. Our cook can't hit the pot at two.
+There's a slime down the road that comes up every few weeks. Same slime every time. We call it Old Wobble.
+A zombie came up the road once in a delver's helmet. Best-dressed thing we'd seen all season.
+What's the difference between a cave spider and a warden on the dark watch? The spider's awake.
+Someone asked if it gets lonely down here. I said no, the bats visit. Constantly. They never leave.
+I bet a miner my boots the roof wouldn't drip on me all night. Walked home barefoot.
+
+## warden.news
+A Guild cart came up the road last week. Flour, arrows, two letters and one very angry chicken.
+The aquifer under the side drift is weeping again. We've scratched a mark on the wall to watch it rise.
+Torches went out along the far bend two nights back. Not burned out. Knocked down.
+The miners say the ore's running rich this season. More of them on the road means more of us on the wall.
+One of the archers put an arrow through a rattler's bow at fifty paces yesterday. We're still not over it.
+{captain} has been at the Log late every night this week. Nobody's asked why.
+A hisser got as far as the second torch before we stopped it. The second torch. That's close.
+We heard the Deepgate settle on its hinges last night. Just the stone moving. Probably.
+The cook found a cave spider nest under the mess flagstones. We ate cold for two days while we burned it out.
+Bats have been thick on the road this month. Means warm weather up top, the miners say.
+A lost delver wandered in yesterday after three days in the dark. Ate everything we had. Kissed the brazier.
+
+## warden.heart
+I'd give a month's pay to see a sunrise. Just one, from the top of a hill.
+Some nights I think about walking up the road and never coming back. Then the candle burns down and I check the lamp.
+My people up top don't really know what I do. They think I guard a door. I suppose I do.
+The quiet isn't the hard part. It's what the quiet might be hiding.
+We're not heroes. We're the reason nobody needs one.
+{captain} carries more than the rest of us put together. I wish I could take some of it.
+When I hear a miner laughing on the road, that's my pay. That's the whole of it.
+I'm afraid of the Deepgate. There, I've said it. Everyone here is, and nobody says it.
+I'm not afraid of the dark anymore. I'm afraid of whatever doesn't need light.
+Below, we hold. Above, they sleep. I like knowing someone up there sleeps easy because of us.
+
+## warden.rumor
+The last patrol came back past {rumor_name} to the {rumor_dir}. They didn't stay long.
+There's {rumor_name} {rumor_dist} to the {rumor_dir}. It's in the Log, if you'd like to see.
+The miners talk of {rumor_name} out to the {rumor_dir}, {rumor_dist} or so. I've not seen it myself.
+Head {rumor_dir}, {rumor_dist} or thereabouts, and you'll come on {rumor_name}. Take light.
+We marked {rumor_name} on the road-map, out to the {rumor_dir}. Only a few of us have been.
+If you're bent on wandering, there's {rumor_name} to the {rumor_dir}. Better that than the Hush.
+I followed a lost delver's tracks once to {rumor_name}, {rumor_dist} to the {rumor_dir}. Found them, too. Barely.
+Somewhere to the {rumor_dir} lies {rumor_name}. The road doesn't go there. You'd have to dig.
+An old Log entry speaks of {rumor_name}, {rumor_dist} off to the {rumor_dir}. The hand that wrote it was shaking.
+A Guild cart-driver swore there was {rumor_name} to the {rumor_dir}. Cart-drivers swear a lot, but they rarely lie.
+Our patrol map has {rumor_name} {rumor_dist} to the {rumor_dir}, with a little lantern drawn beside it.
+Listen at the wall on a quiet watch and you'll hear something off to the {rumor_dir}. The Log says it's {rumor_name}.
+{captain} once led a sweep out to {rumor_name}, to the {rumor_dir}, and came back with a sack nobody was allowed to open.
+If you go {rumor_dir}, you'll find {rumor_name} {rumor_dist} along. Say the Watch sends greetings, if there's anyone to hear it.
+
+## warden.rumor.none
+Nothing in the Log for a long way round. Just stone, and more stone.
+No other places I know of near here. The road's all we've got.
+The patrols have found nothing worth the walk, not near here. Sorry.
+Not a thing. If you find something, come and tell us, and we'll write it down.
+
+## warden.plata
+Delvers near the surface break stone and find silver husks inside. Empty, like a shed skin. We log every one.
+The silver folk, the miners call them. Folk who shed their skins like silverfish. I thought it was a tale.
+A stranger came down the road once, polite, asking too much about the gate. When we looked again, gone.
+If someone on the road won't lower their hood by the brazier, keep your hand near your weapon.
+The oath says "I hold the road." Against the silver folk too, if they're real. I hope they're not.
+A silverfish crawled out of the wall stone last spring. The old hands pulled the whole block and burned it. Didn't say why.
+
+## warden.night
+Night on the wall is the long watch. You count torches. You count breaths.
+At night the road gets busy. Things smell the brazier's warmth from a long way off.
+The dark watch is when the Deepgate is loudest. Hinges, settling. That's all. I tell myself that's all.
+Keep your voice low once the candle passes midnight. Sound carries up the road, and down it.
+{captain} walks the wall at night when sleep won't come. Which is most nights.
+Night is when the drowned come up from the flooded halls, dripping. You smell them before you see them.
+Funny, isn't it? It's always dark down here, but you still feel the night come on.
+
+## warden.held.pickaxe
+That {item} will see you through stone. Mind what's on the other side.
+A good pick and good sense. Bring both down the road.
+Tap the roof before you trust it. And with that {item}, tap it twice.
+## warden.held.sword
+Keep that {item} oiled. The damp eats steel down here.
+A fair blade. Strike, step back, strike. Never chase.
+Blade out inside the walls? Put it up, friend. You're safe here.
+## warden.held.bow
+That {item} would do well on our wall. Count your arrows, though.
+Rattlers will outshoot you in the open. Use the corners.
+A bow down here is worth two up top. Nothing climbs as fast as an arrow flies.
+## warden.held.shield
+Good. A shield stops a rattler's arrow and a hisser's spite both.
+Keep that {item} up and your head down. That's half our drill.
+Wise. Most who come up the road wish they'd brought one.
+## warden.held.torch
+Light behind you, light ahead. Plant those as you go.
+That {item} is worth more than gold in the deep.
+Hold it high. A torch held low only lights your boots.
+## warden.held.ore
+Fresh from the stone? The miners would buy that {item} off you.
+Ore on the road. Watch for thieves. Not everyone down here is honest.
+That {item} came out of the rock the hard way. Look after it.
+## warden.held.diamond
+Put that {item} away before every delver from here to the camps smells it.
+Diamonds. Deep ones. You've been somewhere you shouldn't, I'd wager.
+Pretty. The deep gives those up rarely, and never for free.
+## warden.held.gold
+Gold's worth less than bread down here. Still, it shines nicely by the brazier.
+Mind who sees that {item}. Greed has a long arm.
+The Old Delvers set gold into their stone. You'll see it in the old halls, inlaid in the black.
+## warden.held.emerald
+An emerald. Save it for the miners; they trade fair.
+That {item} would buy a lot of arrows off the Guild carts.
+Green stone, good coin. Don't flash it on the road.
+## warden.held.food
+Is that {item}? Real food? You're welcome back any time.
+Eat while you can. The road doesn't wait for full bellies.
+That smells better than anything our cook has made all season.
+## warden.held.map
+Let me see that {item}. Hm. Our road's not on it. Most aren't.
+Maps are good. Maps of the deep are guesses with lines on.
+Mark the post on it. Then if you're ever lost, you'll know where the light is.
+## warden.held.tnt
+Put that away! Not inside the walls!
+That {item} near the brazier? Do you want the roof down on all of us?
+Mind the roof. Mind it twice with that thing in your hands.
+## warden.held.potion
+A brew? Night-sight, I hope. Good for the deep road.
+Careful with unmarked bottles. I drank one once and saw colours for a day.
+Keep a healing draught close down here. Ask anyone on the wall.
+## warden.held.flower
+A flower! I haven't seen one in a season. May I smell it?
+That {item} doesn't belong down here. Neither do we, I suppose.
+Put it by the Log. Things grow so rarely here.
+## warden.held.book
+Reading? The Log's the only book here, and it's grim going.
+That {item} would pass a long watch. Lend it when you're done?
+Stories, I hope. We've all heard each other's.
+
+## warden.player.hurt
+You're bleeding. Sit. I've bandages and a heel of bread.
+What did that to you? Spiders? Sit down before you fall down.
+Easy, easy. You're inside the walls. Breathe.
+## warden.player.hungry
+You look starved. There's stew in the pot. Don't ask what's in it.
+When did you last eat? Here, bread. It's hard, but it's bread.
+Hunger on the road makes you careless. Eat first, explore after.
+## warden.player.unarmored
+No armour? On this road? Are you brave, or just in a hurry?
+You want something between you and a rattler's arrow. Even leather.
+Coming down here in your shirt. The spiders will be glad of you.
+## warden.player.diamond
+Diamond armour! You'd shame half the Watch, dressed like that.
+That's a fortune on your back. Wear it well, and don't go swimming in it.
+In plate like that, you could hold the gate on your own.
+## warden.player.leather
+Leather's better than nothing. Not much better, this deep.
+Good leather. Now find some iron to put over it.
+Leather won't stop a rattler, but it might turn a cave spider's bite. Sometimes.
