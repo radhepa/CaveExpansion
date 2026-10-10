@@ -15,8 +15,9 @@ rarely, there are places: you break into them while strip-mining or stumble on t
 | 🔥 | **The Sunken Forge** | y -50 to -28 | An ancient forge-hall over a lava lake, and across the lava, the masterwork vault. |
 
 ## Rare on purpose
-About one delve in every 480 x 480 blocks (one structure per 30 x 30 chunk cell), and which of the eight it is
-is weighted: camps and buried seams are the commonest, the Sunken Forge the rarest. A delve always touches a
+The game offers one spot per 30 x 30 chunk cell (480 blocks square), and a delve only takes it where it fits: in the
+test world 47 of 81 cells grew one, about **one delve per 630 x 630 blocks**. Which of the eight it is is weighted;
+the Sunken Forge is the rarest (3 of those 47; the others 6 or 7 each). A delve always touches a
 cave somewhere, so cavers find them, and sits mostly in solid rock, so strip-miners break into them.
 
 Want them rarer or commoner? `config/deepdelves.json`:

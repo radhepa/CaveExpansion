@@ -27,6 +27,7 @@ FEATURES = [
 STRUCTURE = {
     'start_pool': 'forge/start', 'size': 4, 'horizontal': 60, 'vertical': 20,
     'min_y': -50, 'max_y': -28, 'cover': 12, 'inhabited': False, 'weight': 1, 'clearance': 14,
+    'chance': 0.45,   # the rarest delve: it takes under half the spots the set offers it
 }
 POOLS = {
     'forge/start': {'elements': [('forge/hall', 1)]},
@@ -122,7 +123,7 @@ def hall_shell(t):
         for y in range(base, 16):
             b = pbb(r, 0.08)
             if y == base or y == 13: b = 'chiseled_polished_blackstone'
-            if y == 12: b = 'gold_block'
+            if y == 12: b = 'gold_block' if px >= LAKE_X else 'gilded_blackstone'   # gold only out in the lava
             t.set(px, y, pz, b)
         if px < LAKE_X: t.set(px, 3, pz, 'polished_blackstone')
     for pz in (6, 16):
@@ -230,14 +231,14 @@ def hall_works(t):
     t.lectern(6, 4, 11, 'west', "The Smith's Rule", 'Torven of the Forge', RULE)
     # the stores in the two corners by the doors
     t.chest(1, 4, 2, 'east', 'forge/supplies')
-    t.barrel(1, 4, 1, 'up', 'forge/supplies')
+    t.set(1, 4, 1, 'barrel[facing=up,open=false]')
     t.set(2, 4, 1, 'barrel[facing=up,open=false]'); t.set(1, 5, 1, 'barrel[facing=east,open=false]')
     t.set(1, 4, 3, 'raw_iron_block'); t.set(3, 4, 1, 'smithing_table')
     t.chest(1, 4, 20, 'east', 'forge/supplies')
-    t.barrel(1, 4, 21, 'up', 'forge/supplies')
+    t.set(1, 4, 21, 'barrel[facing=up,open=false]')
     t.set(2, 4, 21, 'barrel[facing=up,open=false]'); t.set(1, 4, 19, 'raw_gold_block')
     t.set(3, 4, 21, 'cauldron')
-    t.barrel(17, 4, 20, 'up', 'forge/supplies')
+    t.set(17, 4, 20, 'barrel[facing=up,open=false]')
     for x, z, ax in ((8, 15, 'x'), (4, 7, 'z'), (16, 18, 'x')):          # chains dropped on the floor
         t.set(x, 4, z, chain(ax))
 
@@ -410,8 +411,8 @@ def stores():
     t.carve((0, 1, 3), (0, 3, 5))
     t.fill((1, 0, 1), (7, 0, 7), lambda x, y, z: tiles(r, 0.2))
     t.fill((1, 5, 1), (7, 5, 7), lambda x, y, z: 'polished_blackstone_bricks' if x == 4 else tiles(r, 0.1))
-    t.barrel(7, 1, 1, 'up', 'forge/supplies')
-    t.barrel(7, 1, 7, 'up', 'forge/supplies')
+    t.set(7, 1, 1, 'barrel[facing=up,open=false]')
+    t.set(7, 1, 7, 'barrel[facing=up,open=false]')
     t.chest(7, 1, 4, 'west', 'forge/supplies')
     for x, y, z in ((6, 1, 1), (7, 2, 1), (6, 1, 7), (7, 1, 6), (7, 1, 2)):
         t.set(x, y, z, f'barrel[facing={r.choice(("up", "north", "east"))},open=false]')

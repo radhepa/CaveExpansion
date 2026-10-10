@@ -16,5 +16,6 @@
   },
   "cover": 12,
   "seek_caves": true,
-  "clearance": 14
+  "clearance": 14,
+  "chance": 0.45
 }

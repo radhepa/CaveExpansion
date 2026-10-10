@@ -58,7 +58,8 @@ public final class DelveStructure extends Structure {
             Codec.intRange(0, 64).optionalFieldOf("cover", 10).forGetter(s -> s.cover),
             Codec.BOOL.optionalFieldOf("seek_caves", true).forGetter(s -> s.seekCaves),
             Codec.intRange(2, 32).optionalFieldOf("clearance", 10).forGetter(s -> s.clearance),
-            Identifier.CODEC.optionalFieldOf("require").forGetter(s -> s.require)
+            Identifier.CODEC.optionalFieldOf("require").forGetter(s -> s.require),
+            Codec.floatRange(0F, 1F).optionalFieldOf("chance", 1F).forGetter(s -> s.chance)
     ).apply(i, DelveStructure::new));
     public static final StructureType<DelveStructure> TYPE = () -> CODEC;
 
@@ -76,9 +77,14 @@ public final class DelveStructure extends Structure {
     private final boolean seekCaves;
     private final int clearance;
     private final Optional<Identifier> require;
+    /**
+     * How often this delve takes a spot the structure set offers it. The set falls through to another delve when one
+     * can't stand somewhere, which evens the kinds out; a chance below 1 keeps the rarest kinds rare.
+     */
+    private final float chance;
 
     public DelveStructure(StructureSettings settings, Holder<StructureTemplatePool> startPool, int size, JigsawStructure.MaxDistance maxDistance,
-                          Depth depth, int cover, boolean seekCaves, int clearance, Optional<Identifier> require) {
+                          Depth depth, int cover, boolean seekCaves, int clearance, Optional<Identifier> require, float chance) {
         super(settings);
         this.startPool = startPool;
         this.size = size;
@@ -88,6 +94,7 @@ public final class DelveStructure extends Structure {
         this.seekCaves = seekCaves;
         this.clearance = clearance;
         this.require = require;
+        this.chance = chance;
     }
 
     @Override public StructureType<?> type() { return TYPE; }
@@ -109,6 +116,7 @@ public final class DelveStructure extends Structure {
 
     @Override
     protected Optional<GenerationStub> findGenerationPoint(GenerationContext context) {
+        if (this.chance < 1F && context.random().nextFloat() >= this.chance) return Optional.empty();
         int cx = context.chunkPos().getMiddleBlockX(), cz = context.chunkPos().getMiddleBlockZ();
         int ground = Integer.MAX_VALUE;
         for (int[] s : SAMPLES) ground = Math.min(ground, ground(context, cx + s[0], cz + s[1]));

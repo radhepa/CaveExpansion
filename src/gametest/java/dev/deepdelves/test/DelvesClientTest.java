@@ -97,7 +97,7 @@ public class DelvesClientTest implements FabricClientGameTest {
 
     @Override
     public void runTest(ClientGameTestContext ctx) {
-        if (Delves.KEYS.stream().noneMatch(DelvesClientTest::wanted)) return;
+        if (Delves.KEYS.stream().noneMatch(DelvesClientTest::wanted) && !wanted("census")) return;
         JsonObject catalog = catalog();
         ctx.getInput().resizeWindow(1280, 800);
         ctx.runOnClient(client -> {
@@ -129,6 +129,7 @@ public class DelvesClientTest implements FabricClientGameTest {
                 if (!wanted(key)) continue;
                 visit(ctx, w, key, catalog.getAsJsonObject(key), n++);
             }
+            if (wanted("census")) census(w);
         } finally {
             try {
                 Files.createDirectories(OUT);
@@ -290,14 +291,22 @@ public class DelvesClientTest implements FabricClientGameTest {
         boolean gone = onServer(w, level -> !level.getBlockState(mark).is(DelveBlocks.HAUNT));
         facts.put("haunt", kind + " at " + mark.toShortString() + ": " + risen + " risen");
         check(gone && risen >= 1, "the " + kind + " guardians rise when a player comes near (" + risen + ")");
-        Vec3 at = Vec3.atCenterOf(mark);
-        look(ctx, w, onServer(w, level -> roomView(level, site.core(), at)), at, 10);
-        shoot(ctx, "delve-" + site.key() + "-guardians");
+        Vec3 at = onServer(w, level -> {
+            var up = level.getEntitiesOfClass(Mob.class, new AABB(mark).inflate(10), m -> m instanceof Enemy && m.isAlive());
+            Vec3 sum = Vec3.ZERO;
+            for (Mob m : up) sum = sum.add(m.getEyePosition());
+            return up.isEmpty() ? Vec3.atCenterOf(mark) : sum.scale(1.0 / up.size());
+        });
         w.getServer().runCommand("gamemode creative @a");
+        fly(w);
+        w.getServer().runOnServer(s -> {    // hold them still for the picture
+            for (Mob m : s.overworld().getEntitiesOfClass(Mob.class, new AABB(mark).inflate(12), m -> m instanceof Enemy)) m.setNoAi(true);
+        });
+        look(ctx, w, onServer(w, level -> nearView(level, at)), at, 10);
+        shoot(ctx, "delve-" + site.key() + "-guardians");
         w.getServer().runOnServer(s -> {
             for (Mob m : s.overworld().getEntitiesOfClass(Mob.class, new AABB(mark).inflate(24), m -> m instanceof Enemy)) m.discard();
         });
-        fly(w);
     }
 
     /** How far the delve stands from the Plata Clan's hideouts (and from villages). */
@@ -311,7 +320,57 @@ public class DelvesClientTest implements FabricClientGameTest {
         check(chunks >= 3, site.key() + " keeps clear of the Plata Clan: hideout " + chunks + " chunks away");
     }
 
+    // -- how rare they are ---------------------------------------------------------------------------------
+
+    /**
+     * Every placement cell of the delves' structure set in a 9 x 9 block of cells round the origin (about 4,300
+     * blocks square): how many cells grew a delve, and of which kind.
+     */
+    void census(TestSingleplayerContext w) {
+        Map<String, Object> out = onServer(w, level -> {
+            var set = level.registryAccess().lookupOrThrow(Registries.STRUCTURE_SET)
+                    .getOrThrow(net.minecraft.resources.ResourceKey.create(Registries.STRUCTURE_SET, DeepDelves.id("delves"))).value();
+            var placement = (dev.deepdelves.worldgen.DelvePlacement) set.placement();
+            int spacing = placement.spacing(), cells = 0, found = 0;
+            Map<String, Integer> kinds = new LinkedHashMap<>();
+            for (int gx = -4; gx <= 4; gx++) for (int gz = -4; gz <= 4; gz++) {
+                cells++;
+                var chunk = placement.getPotentialStructureChunk(level.getSeed(), gx * spacing, gz * spacing);
+                ChunkAccess c = level.getChunk(chunk.x(), chunk.z(), ChunkStatus.STRUCTURE_STARTS, true);
+                for (var e : c.getAllStarts().entrySet()) {
+                    var id = level.registryAccess().lookupOrThrow(Registries.STRUCTURE).getKey(e.getKey());
+                    if (id == null || !id.getNamespace().equals(DeepDelves.MOD_ID) || !e.getValue().isValid()) continue;
+                    found++;
+                    kinds.merge(id.getPath(), 1, Integer::sum);
+                }
+            }
+            Map<String, Object> m = new LinkedHashMap<>();
+            m.put("cells", cells);
+            m.put("cell_blocks", spacing * 16);
+            m.put("delves", found);
+            m.put("kinds", kinds);
+            m.put("blocks_per_delve", found == 0 ? -1 : (int) Math.round(Math.sqrt((double) cells * spacing * 16 * spacing * 16 / found)));
+            return m;
+        });
+        report.put("census", out);
+        DeepDelves.LOG.info("[delves test] census {}", out);
+        check((int) out.get("delves") > 0, "delves generate: " + out);
+    }
+
     // -- looking ----------------------------------------------------------------------------------------
+
+    /** A spot a few blocks from `at` with a clear view of it. */
+    static Vec3 nearView(ServerLevel level, Vec3 at) {
+        for (double d : new double[]{4.5, 3.5, 6, 2.5}) for (double h : new double[]{1.2, .4, 2.2}) for (int a = 0; a < 360; a += 30) {
+            double r = Math.toRadians(a);
+            Vec3 eye = at.add(Math.cos(r) * d, h, Math.sin(r) * d);
+            BlockPos cell = BlockPos.containing(eye);
+            if (!level.getBlockState(cell).getCollisionShape(level, cell).isEmpty() || !level.getFluidState(cell).isEmpty()) continue;
+            var hit = level.clip(new ClipContext(eye, at, ClipContext.Block.VISUAL, ClipContext.Fluid.NONE, CollisionContext.empty()));
+            if (hit.getType() == HitResult.Type.MISS || hit.getLocation().distanceTo(at) < 1.2) return eye;
+        }
+        return at.add(3, 1, 3);
+    }
 
     static void look(ClientGameTestContext ctx, TestSingleplayerContext w, Vec3 eye, Vec3 at, int ticks) {
         double dx = at.x - eye.x, dy = at.y - eye.y, dz = at.z - eye.z;

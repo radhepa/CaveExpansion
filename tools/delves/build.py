@@ -112,6 +112,7 @@ def structures(mods):
             'depth': {'min_y': s['min_y'], 'max_y': s['max_y']}, 'cover': s.get('cover', 10),
             'seek_caves': s.get('seek_caves', True), 'clearance': s.get('clearance', 10)}
         if s.get('require'): structure['require'] = f'{NS}:{s["require"]}'
+        if s.get('chance', 1) < 1: structure['chance'] = s['chance']
         write_json(f'data/{NS}/worldgen/structure/{mod.KEY}.json', structure)
     write_json(f'data/{NS}/worldgen/structure_set/delves.json', {
         'structures': [{'structure': f'{NS}:{m.KEY}', 'weight': m.STRUCTURE.get('weight', 1)} for m in mods],

@@ -26,7 +26,8 @@ import net.minecraft.world.level.block.Blocks;
 
 /**
  * The guardians of the abandoned delves. A delve's template marks where they wait with an invisible haunt
- * block; the first time a player comes within {@link #RANGE} blocks the mark is gone and they rise:
+ * block; the first time a survival (or adventure) player comes within {@link #RANGE} blocks the mark is gone and
+ * they rise:
  * <ul>
  *   <li>{@code restless_miner}: two of the buried shift. Not-So-Vanilla Mobs' Lost Miners when that mod is
  *       installed, else zombies in miners' copper helmets with picks.</li>
@@ -44,7 +45,8 @@ public final class Haunts {
 
     public static void tick(ServerLevel level, BlockPos pos, Kind kind) {
         if (Math.floorMod(level.getGameTime() + pos.asLong(), 10) != 0) return;
-        Player p = level.getNearestPlayer(pos.getX() + .5, pos.getY() + .5, pos.getZ() + .5, RANGE, e -> !e.isSpectator());
+        Player p = level.getNearestPlayer(pos.getX() + .5, pos.getY() + .5, pos.getZ() + .5, RANGE,
+                e -> !e.isSpectator() && !(e instanceof Player pl && pl.isCreative()));
         if (p == null) return;
         level.setBlock(pos, Blocks.AIR.defaultBlockState(), 3);
         rise(level, pos, kind);

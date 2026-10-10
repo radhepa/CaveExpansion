@@ -93,6 +93,7 @@ STRUCTURE = {
     'require': None,                  # optional 'camp/xyz': a piece the delve can't exist without
     'clearance': 10,                  # height above the floor checked for water/lava at the core
     'processors': [],                 # optional extra vanilla processors (e.g. minecraft:block_rot on planks)
+    'chance': 1.0,                    # optional: share of offered spots it takes (the forge uses 0.45 to stay rarest)
 }
 POOLS = {                             # pool -> elements [(piece, weight)], optional fallback pool
     'camp/start': {'elements': [('camp/hall', 1)]},
